@@ -18,100 +18,104 @@
   },
   "signos": {
     "aries": {
-      "amor": "O debate de ontem ainda ecoa na casa, e Saturno retrógrado no seu signo pede que você reveja o jeito de discutir. Se o clima pesou, peça desculpa primeiro, mesmo sem culpa.",
+      "amor": "Saturno retrógrado no seu signo pede que você reveja o jeito de discutir em casa. Converse com o jovem da família sobre a escola: pra aluno de escola pública de família do Bolsa Família, terminar o ensino médio agora vem com uma poupança.",
       "trabalho": "Marte, seu regente, em Leão, signo do seu elemento, dá vontade de liderar. Lidere escutando.",
       "dinheiro": "Vênus retrógrada avisa: compra por impulso na terça vira arrependimento na quinta. Deixe no carrinho.",
-      "saude": "Você cuida de si na marra, mas quem é mais velho em casa depende de remédio todo mês. Pergunte se está garantido.",
-      "proposta": "farmacia-popular",
-      "recomendacao": "Pergunte à sua mãe se ela já sabe que todos os remédios da farmácia popular agora saem de graça."
+      "saude": "Você cuida de si na marra. Hoje, cuide com calma: alongue antes de sair.",
+      "proposta": "pe-de-meia",
+      "recomendacao": "Pergunte ao seu enteado do primeiro ano se ele sabe que, sendo de família do Bolsa Família e estudando em escola pública, indo à escola recebe um dinheirinho por mês e um extra quando passa de ano."
     },
     "touro": {
       "amor": "Vênus, sua regente, está retrógrada no seu signo oposto. A rotina a dois cansou? Mude uma coisa pequena hoje: o caminho, o prato, o assunto.",
       "trabalho": "Lua em Aquário deixa o ambiente frio e o reconhecimento lento. Paciência de Touro, que é o que você tem de sobra.",
-      "dinheiro": "Você sabe o que é fazer o mínimo render até o dia trinta. Quando o piso sobe mais que o preço das coisas, o fim do mês chega mais leve.",
-      "saude": "Pescoço duro de tanta tela. Vire devagar pros lados.",
-      "proposta": "salario-minimo",
-      "recomendacao": "Pergunte à sua sogra se a aposentadoria dela está acompanhando o preço do mercado."
+      "dinheiro": "Você sabe fazer o pouco render. Hoje, adie a compra grande pra sexta.",
+      "saude": "Pescoço duro de tanta tela e de tanto olhar pra trás na rua. Andar tranquilo é saúde, e combater facção com as polícias juntas é parte disso.",
+      "proposta": "pec-seguranca-susp",
+      "recomendacao": "Pergunte à sua sogra se ela sente o bairro mais seguro e o que acha de facção ter punição mais dura."
     },
     "gemeos": {
-      "amor": "Lua em Aquário, signo do seu elemento, dá vontade de repassar o debate inteiro. Antes, pergunte o que o par achou e fique quieto um minuto.",
+      "amor": "Lua em Aquário, signo do seu elemento, deixa você generoso. Pense em quem cria filho pequeno: o benefício conta mais por criança, e vale saber disso direitinho.",
       "trabalho": "Mercúrio, seu regente, em Escorpião pede menos ideias e mais profundidade. Escolha duas e vá até o fundo.",
-      "dinheiro": "Você conhece alguém que vive devendo e escondendo. Renegociar com desconto é saída real, e vale lembrar isso em voz alta.",
+      "dinheiro": "Você gasta conversando. Hoje, gaste menos e ouça mais.",
       "saude": "A mente acelera e o corpo cansa. Ande dez minutos sem celular.",
-      "proposta": "desenrola",
-      "recomendacao": "Mande mensagem pra aquela amiga que não consegue parcelar nada e pergunte se ela já viu que dá pra limpar o nome com desconto."
+      "proposta": "bolsa-familia-adicional-crianca",
+      "recomendacao": "Mande mensagem pra sua colega que acabou de ter bebê e pergunte se ela já colocou a criança no cadastro do benefício."
     },
     "cancer": {
       "amor": "Lua crescente pede casa cheia. Convide alguém pro jantar de terça.",
       "trabalho": "Lua em Aquário deixa todo mundo meio distante no serviço. Você cuida de todos; hoje, cuide de você primeiro.",
-      "dinheiro": "Vênus retrógrada em signo de água, como o seu, pede olhar as contas da casa de novo. Posto, escola, farmácia: promessa de cortar gasto sem dizer onde deixa tudo isso na dúvida.",
+      "dinheiro": "Vênus retrógrada em signo de água, como o seu, faz pensar no lar. Sair do aluguel ficou ao alcance de mais famílias, até de quem ganha um salário médio.",
       "saude": "A emoção vai pro estômago. Comida caseira e descanso.",
-      "proposta": "tesouraco",
-      "recomendacao": "Pergunte à sua tia que usa o posto de saúde: se cortam gasto sem dizer onde, ela acha que chega lá?"
+      "proposta": "minha-casa-minha-vida-faixas",
+      "recomendacao": "Pergunte ao seu irmão que mora de aluguel com a esposa se eles já fizeram a simulação da casa própria."
     },
     "leao": {
       "amor": "Lua no seu signo oposto, Aquário: você quer aplauso, o par quer colo. Dê colo e veja o que acontece.",
-      "trabalho": "Marte e Júpiter no seu signo dão energia pra dar tudo de si. Mas você conhece quem dá tudo seis dias por semana e descansa um só. Isso não é brilho, é exaustão.",
+      "trabalho": "Marte e Júpiter no seu signo dão energia pra dar tudo de si. O desemprego está no menor nível da série do IBGE, e direito escrito na lei dá mais segurança que acordo direto com o patrão.",
       "dinheiro": "Orgulho não paga boleto. Peça ajuda se precisar.",
       "saude": "Marte no seu signo acelera o coração. Menos café, mais água, ritmo mais calmo.",
-      "proposta": "escala-6x1",
-      "recomendacao": "Pergunte ao seu vizinho que trabalha de segurança quantos dias seguidos ele fica sem folga."
+      "proposta": "desemprego-recorde",
+      "recomendacao": "Pergunte ao seu vizinho que trabalha de segurança se os colegas dele estão achando emprego mais fácil hoje.",
+      "contraste": "flavio-negociado-sobre-legislado"
     },
     "virgem": {
       "amor": "Mercúrio, seu regente, em Escorpião enxerga cada defeito. Deixe de corrigir e comece a agradecer: Virgem apaixonada é generosa.",
       "trabalho": "A terça pede método, e você tem. Saturno retrógrado só avisa: não exija o mesmo dos outros.",
-      "dinheiro": "Você conhece alguém travado por uma dívida pequena que virou grande. Tem jeito de renegociar com desconto, e você pode ser quem lembra isso.",
-      "saude": "Ansiedade no estômago. Mastigue devagar.",
-      "proposta": "desenrola",
-      "recomendacao": "Pergunte ao seu colega do serviço se ele já conseguiu resolver aquela dívida do cartão que travou o nome dele."
+      "dinheiro": "Terça pede conta feita no papel. Anote antes de gastar.",
+      "saude": "Ansiedade no estômago. Mastigue devagar e, se a dor é antiga, peça o encaminhamento: o SUS operou muita gente este ano pelo Agora Tem Especialistas.",
+      "proposta": "agora-tem-especialistas",
+      "recomendacao": "Pergunte ao seu colega do serviço se a mãe dele já conseguiu marcar a consulta com o especialista."
     },
     "libra": {
       "amor": "Sol no seu signo e Vênus, sua regente, retrógrada: a balança pende pro outro hoje. Deixe o par decidir o jantar.",
       "trabalho": "Saturno retrógrado no seu signo oposto cobra uma escolha difícil. Decida com o coração e com a conta.",
-      "dinheiro": "Olhe o holerite com calma. Pra quem ganha pouco mais que o piso, o imposto sumiu e o salário chega inteiro.",
+      "dinheiro": "Olhe as contas da casa com calma: pra família de baixa renda no cadastro, o botijão agora sai de graça. E quem fala em mudar o reajuste da aposentadoria precisa explicar pra quem.",
       "saude": "Tensão nos ombros. Alongue antes do banho.",
-      "proposta": "ir-zero-5mil",
-      "recomendacao": "Pergunte à sua irmã se ela reparou que o salário dela chega sem desconto de Imposto de Renda."
+      "proposta": "gas-do-povo",
+      "recomendacao": "Pergunte à sua irmã que cozinha pra casa cheia se ela já sabe se tem direito ao botijão de graça.",
+      "contraste": "flavio-aposentadoria-bpc-correcao"
     },
     "escorpiao": {
       "amor": "Vênus retrógrada no seu signo: a intensidade de ontem assustou. Hoje, acalme a casa com um gesto simples.",
-      "trabalho": "Mercúrio no seu signo enxerga a jogada antes de todo mundo. Use pra ajudar o colega novo.",
+      "trabalho": "Mercúrio no seu signo enxerga a jogada antes de todo mundo. Repare no colega que vive exausto: seis dias de serviço com uma folga só esgota qualquer um, e isso pode mudar.",
       "dinheiro": "Vênus retrógrada no seu signo pede extrato na mão. Olhe linha por linha o gasto escondido.",
-      "saude": "Você guarda tudo e esquece de perguntar se quem você ama está com remédio em casa. Pergunte hoje.",
-      "proposta": "farmacia-popular",
-      "recomendacao": "Pergunte ao seu avô se o remédio dele ainda pesa no bolso ou se ele já pega de graça."
+      "saude": "Você guarda tudo. Hoje, solte: conte a alguém o que está pesando.",
+      "proposta": "fim-escala-6x1-camara",
+      "recomendacao": "Pergunte ao seu colega que pega turno no sábado e no domingo se ele já ouviu falar da proposta de dois dias de folga por semana."
     },
     "sagitario": {
       "amor": "Lua em Aquário solta sua língua. Sua sinceridade na terça pode machucar: diga a verdade com um sorriso.",
-      "trabalho": "Júpiter, seu regente, em Leão, signo do seu elemento, abre portas. Você lembra de quando emprego era sorte. Hoje tem mais gente trabalhando do que em muito tempo, e vale reparar em quem conseguiu.",
-      "dinheiro": "A viagem pode esperar. O boleto não.",
+      "trabalho": "Júpiter, seu regente, em Leão, signo do seu elemento, abre portas. Antes de fechar qualquer acordo, peça tudo por escrito e leia com calma.",
+      "dinheiro": "A viagem pode esperar. Mas quem vive do mínimo já sentiu: ele subiu mais que os preços, e o boleto assusta menos.",
       "saude": "Marte em signo de fogo pede sol na cara no almoço. Sagitário precisa de céu aberto.",
-      "proposta": "desemprego",
-      "recomendacao": "Mande mensagem pro seu amigo que vivia de currículo em currículo e pergunte como está o serviço novo."
+      "proposta": "salario-minimo-valorizacao",
+      "recomendacao": "Pergunte ao seu amigo que ganha o mínimo se este ano sobrou um pouco no fim do mês.",
+      "contraste": "flavio-negociado-sobre-legislado"
     },
     "capricornio": {
       "amor": "Saturno, seu regente, retrógrado: trabalho e cansaço escondem o carinho. Hoje, diga o que sente antes de dormir.",
       "trabalho": "Saturno retrógrado pede rever responsabilidades. Você sobe devagar e com firmeza; não esqueça de olhar pra trás.",
-      "dinheiro": "Você planeja o futuro, mas conhece quem vive do piso e só planeja o mês. Quando o mínimo sobe de verdade, essa pessoa respira.",
+      "dinheiro": "Você planeja o futuro, então comece pelo holerite: pra muita gente o Imposto de Renda sumiu do desconto. E desconfie de pacote gigante de cortes que ninguém mostra o texto.",
       "saude": "Os joelhos pedem alongamento antes de subir a escada.",
-      "proposta": "salario-minimo",
-      "recomendacao": "Pergunte ao seu tio aposentado se a renda dele deu pra acompanhar o preço do remédio e do gás este ano."
+      "proposta": "isencao-ir-5-mil",
+      "recomendacao": "Pergunte ao seu tio que trabalha de motorista se ele está na faixa de isenção e notou que o salário chega sem o desconto do imposto.",
+      "contraste": "flavio-super-pec-200-bilhoes"
     },
     "aquario": {
       "amor": "Lua no seu signo: você quer discutir ideias e o par quer discutir o jantar. Faça os dois.",
-      "trabalho": "Lua no seu signo e Marte no signo oposto dão força à sua ideia diferente. Mas você conhece quem não tem tempo nem de pensar, porque trabalha seis dias por semana. Lembre dela.",
+      "trabalho": "Lua no seu signo e Marte no signo oposto dão força à sua ideia diferente. Apresente com calma e deixe o resto reagir.",
       "dinheiro": "Pense no coletivo: o que é bom pro bairro é bom pra sua casa.",
-      "saude": "Lua no seu signo acelera a cabeça. Desconecte uma hora.",
-      "proposta": "escala-6x1",
-      "recomendacao": "Pergunte à sua prima que trabalha em call center quando foi a última vez que ela teve dois dias seguidos em casa."
+      "saude": "Lua no seu signo acelera a cabeça. Desconecte uma hora e confira se o remédio contínuo da casa está em dia: se estiver na lista da farmácia popular, ele sai de graça.",
+      "proposta": "farmacia-popular-gratis",
+      "recomendacao": "Pergunte ao seu vizinho diabético se a insulina dele está na lista gratuita da farmácia popular."
     },
     "peixes": {
       "amor": "Vênus retrógrada em signo de água, como o seu: você sente tudo em dobro depois do debate. Proteja-se, mas não feche a porta.",
       "trabalho": "Mercúrio em Escorpião afina sua intuição. Confie nela na terça.",
-      "dinheiro": "Você se preocupa com todo mundo. Por isso desconfie de promessa de cortar gasto sem dizer onde: alguém vai perder, e costuma ser quem já tem pouco.",
+      "dinheiro": "Você se preocupa com todo mundo e esquece da própria casa. Aquela obra adiada pode sair com crédito de juro baixo e prazo longo.",
       "saude": "Água, sono e um pouco de silêncio. O resto se ajeita.",
-      "proposta": "tesouraco",
-      "recomendacao": "Pergunte à sua amiga que depende do SUS: corte de gasto sem dizer onde, ela acha que chega no posto dela?"
+      "proposta": "reforma-casa-brasil",
+      "recomendacao": "Pergunte à sua irmã que mora na casa com infiltração se ela já viu o crédito barato pra reforma."
     }
   }
 }

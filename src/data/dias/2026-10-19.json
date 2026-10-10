@@ -19,99 +19,103 @@
   "signos": {
     "aries": {
       "amor": "Marte em Leão, do seu elemento, acelera a segunda e o carinho fica na porta. Volte e dê um beijo antes de sair.",
-      "trabalho": "Lua em Aquário sopra ideias novas e energia sobra. Só não atropele quem ainda está acordando.",
-      "dinheiro": "Olhe o contracheque com atenção hoje. Tem desconto que sumiu pra muita gente e ninguém comentou.",
+      "trabalho": "Lua em Aquário sopra ideias novas. Uma delas é antiga e justa: trabalhar cinco dias e folgar dois, sem perder salário.",
+      "dinheiro": "A segunda pede atenção ao bolso. Leve marmita e guarde a diferença.",
       "saude": "O corpo acelera junto com a mente. Café com moderação.",
-      "proposta": "ir-zero-5mil",
-      "recomendacao": "Pergunte ao seu colega da obra se ele reparou que o salário dele chega inteiro, sem imposto descontado."
+      "proposta": "fim-escala-6x1-camara",
+      "recomendacao": "Pergunte ao seu colega da obra quantos sábados ele trabalhou este mês e se folgou algum fim de semana inteiro."
     },
     "touro": {
       "amor": "Vênus retrógrada no seu signo oposto deixa a segunda pesada, e o par sente. Um bilhete na geladeira resolve.",
       "trabalho": "Lua em Aquário tira Touro da rotina. Você faz o serviço sem reclamar; hoje, reclame um pouco. Faz bem.",
-      "dinheiro": "A dívida antiga pesa no humor da segunda. Limpar o nome com desconto é possível, e esconder só piora.",
-      "saude": "A garganta coça de tanto engolir sapo. Mel, gengibre e desabafo.",
-      "proposta": "desenrola",
-      "recomendacao": "Mande mensagem pra sua irmã e pergunte se aquela dívida da loja ainda está travando o nome dela."
+      "dinheiro": "Começo de semana pede atenção a promessa bonita de economia. Se mexer no dinheiro da saúde, mexe no posto e na farmácia que você usa.",
+      "saude": "A garganta coça de tanto engolir sapo. Mel, gengibre e, se alguém da casa usa remédio todo mês, veja se está na lista da farmácia popular: o que está lá saiu de graça.",
+      "proposta": "farmacia-popular-gratis",
+      "recomendacao": "Mande mensagem pra sua irmã e pergunte se a bombinha de asma do filho está na lista gratuita da farmácia popular.",
+      "contraste": "flavio-pisos-saude-educacao"
     },
     "gemeos": {
       "amor": "Lua em Aquário, do seu elemento, retoma a conversa de ontem. Volte nela com mais escuta e menos tese.",
       "trabalho": "Mercúrio em Escorpião foca fundo. A semana começa com mil tarefas: faça uma de cada vez.",
-      "dinheiro": "Você sabe de alguém que vive do piso e se vira. Quando o mínimo sobe mais que o preço do pão, essa pessoa sente no prato.",
+      "dinheiro": "Nome sujo trava a vida, mas muita gente já limpou dívida velha com desconto grande no Desenrola. E fique de olho na conversa de mudar o reajuste da aposentadoria: é dinheiro de quem já ganha pouco.",
       "saude": "A mente dispara na segunda. Caminhe até o ponto em vez de pegar carona.",
-      "proposta": "salario-minimo",
-      "recomendacao": "Pergunte à sua diarista se o dinheiro dela está rendendo mais ou menos do que no ano passado."
+      "proposta": "desenrola-brasil",
+      "recomendacao": "Pergunte à sua diarista se ela já conseguiu limpar o nome daquela dívida antiga com desconto.",
+      "contraste": "flavio-aposentadoria-bpc-correcao"
     },
     "cancer": {
-      "amor": "A saudade de domingo vem forte. Mande uma foto do almoço pra quem não pôde ir.",
-      "trabalho": "Lua em Aquário afasta um pouco a emoção e ajuda a ver com clareza. Você lembra do medo de ficar sem emprego, de quando era mais comum na família; hoje tem menos gente nessa aflição.",
+      "amor": "A saudade de domingo vem forte. Ligue pra quem cria criança pequena sozinha: o valor a mais por filho no benefício alivia, mas companhia também.",
+      "trabalho": "Lua em Aquário afasta um pouco a emoção e ajuda a ver com clareza. Resolva primeiro o que trava o resto.",
       "dinheiro": "Vênus retrógrada em signo de água pede calma no dia de pagar contas. Faça com cuidado e sem pânico.",
       "saude": "O estômago reclama da ansiedade de segunda. Comida leve.",
-      "proposta": "desemprego",
-      "recomendacao": "Pergunte ao seu filho mais velho se os amigos dele estão conseguindo trabalho mais fácil do que antes."
+      "proposta": "bolsa-familia-adicional-crianca",
+      "recomendacao": "Pergunte à sua amiga que cria o bebê sozinha se ela já atualizou o cadastro pra receber o adicional por criança."
     },
     "leao": {
       "amor": "Lua no seu signo oposto, Aquário: você quer brilhar na segunda, mas o par só quer um café junto. Dê o café.",
       "trabalho": "Marte e Júpiter no seu signo fazem sua liderança aparecer. Use pra proteger quem está cansado.",
-      "dinheiro": "Promessa de aperto geral que não explica de onde tira o dinheiro merece pergunta direta. Quem corta sem dizer onde, corta de quem não reclama.",
+      "dinheiro": "Segunda de contas: o botijão pesa menos pra quem tem direito, porque família de baixa renda do cadastro agora pode pegar de graça na revenda.",
       "saude": "O peito aperta com a cobrança. Respire fundo três vezes antes de entrar.",
-      "proposta": "tesouraco",
-      "recomendacao": "Pergunte ao seu chefe ou colega: se cortam gasto sem dizer onde, o que você acha que some primeiro?"
+      "proposta": "gas-do-povo",
+      "recomendacao": "Pergunte à sua tia que mora com os netos se ela já foi ver se tem direito ao gás de graça."
     },
     "virgem": {
       "amor": "Vênus retrógrada: você critica por amor, mas o outro só ouve a crítica. Mude o tom.",
       "trabalho": "Mercúrio, seu regente, em Escorpião ajuda a separar o essencial. A lista de segunda assusta: risque três itens que podem esperar.",
-      "dinheiro": "A conta da farmácia pesava no orçamento de muita gente. Agora pesa menos. Vale conferir se quem você ama já sabe disso.",
-      "saude": "A dor de cabeça vem da tensão. Alongue o pescoço.",
-      "proposta": "farmacia-popular",
-      "recomendacao": "Pergunte ao seu pai se ele já foi na farmácia conveniada buscar o remédio de pressão de graça."
+      "dinheiro": "Segunda de boletos. Pague o que vence primeiro e respire.",
+      "saude": "A dor de cabeça vem da tensão. Se não passar, vá ao posto: hoje tem mais médico atendendo nos postos do que antes.",
+      "proposta": "mais-medicos",
+      "recomendacao": "Pergunte à sua avó se ela tem conseguido consulta no posto sem precisar ir pra outra cidade."
     },
     "libra": {
       "amor": "Sol no seu signo quer paz na segunda. Mas paz não é silêncio: converse.",
-      "trabalho": "Lua em Aquário, do seu elemento, faz Libra pensar no coletivo. Segunda de serviço depois de domingo de serviço: se o seu descanso cabe num dia só, algo está errado, e não é com você.",
-      "dinheiro": "O cartão pede trégua. Deixe em casa hoje.",
+      "trabalho": "Lua em Aquário, do seu elemento, faz Libra pensar no coletivo. Puxe a equipe pra resolver junto o que trava a semana.",
+      "dinheiro": "O cartão pede trégua. Se o plano é arrumar a casa, procure o crédito de reforma com juro baixo em vez de parcelar no cartão.",
       "saude": "Os ombros carregam a semana que ainda nem começou. Solte.",
-      "proposta": "escala-6x1",
-      "recomendacao": "Pergunte à sua amiga do caixa quantos dias seguidos ela trabalhou este mês."
+      "proposta": "reforma-casa-brasil",
+      "recomendacao": "Pergunte ao seu vizinho que quer aumentar a casa se ele já viu o crédito barato pra reforma."
     },
     "escorpiao": {
       "amor": "Vênus retrógrada no seu signo mantém a desconfiança de ontem rondando. Pergunte em vez de supor.",
       "trabalho": "Mercúrio no seu signo vê o que os outros escondem. Hoje, use isso pra proteger um colega.",
-      "dinheiro": "Você conhece alguém que esconde o nome sujo por orgulho. Renegociar com desconto é saída, não vergonha.",
+      "dinheiro": "Você pensa no futuro, e o futuro tem cara de jovem. Pra família do Bolsa Família, o estudante do ensino médio público agora junta uma poupança enquanto estuda.",
       "saude": "O maxilar aperta com o estresse. Observe e relaxe.",
-      "proposta": "desenrola",
-      "recomendacao": "Fale com o seu primo que parou de usar cartão por causa de uma dívida antiga e pergunte se ele já tentou renegociar."
+      "proposta": "pe-de-meia",
+      "recomendacao": "Pergunte à sua vizinha se o filho dela, que pensa em largar a escola, sabe que, pra família do Bolsa Família, terminar o ensino médio público vem com uma poupança."
     },
     "sagitario": {
       "amor": "Lua em Aquário solta a língua e sua franqueza assusta na segunda. Adoce as palavras.",
       "trabalho": "Júpiter, seu regente, em Leão quer viajar, mas a semana pede foco. Olhe pelo menos o mapa.",
-      "dinheiro": "Dia de olhar o holerite. Pra muita gente, o imposto sumiu e o salário chegou inteiro. Confira o seu.",
+      "dinheiro": "Dia de olhar o futuro com pé no chão: sair do aluguel ficou possível pra mais gente, inclusive quem ganha bem acima do mínimo.",
       "saude": "O corpo pede ar livre. Almoce fora do prédio.",
-      "proposta": "ir-zero-5mil",
-      "recomendacao": "Pergunte ao seu sobrinho que começou a trabalhar este ano se ele sabe que não paga imposto no salário."
+      "proposta": "minha-casa-minha-vida-faixas",
+      "recomendacao": "Pergunte ao seu sobrinho recém-casado se ele já simulou a casa própria pelo programa de moradia."
     },
     "capricornio": {
       "amor": "Saturno, seu regente, retrógrado: você trabalha até tarde e chega em casa sem palavra. Hoje, guarde uma.",
-      "trabalho": "Lua em Aquário tira o foco do seu umbigo. Você carrega o setor, mas conhece gente que carrega seis dias por semana sem fim de semana inteiro. Lembre dessa pessoa hoje.",
-      "dinheiro": "A planilha está em dia. Agora olhe o preço do gás e ajuste.",
+      "trabalho": "Lua em Aquário tira o foco do seu umbigo. O desemprego está no menor nível da série do IBGE, e agora a briga é pra que esse emprego também deixe dois dias de folga.",
+      "dinheiro": "A planilha está em dia. Agora reserve uma linha pra um prazer pequeno.",
       "saude": "A coluna pede cadeira boa e pausa a cada hora.",
-      "proposta": "escala-6x1",
-      "recomendacao": "Pergunte ao seu amigo que trabalha em padaria quando foi o último fim de semana inteiro de folga dele."
+      "proposta": "desemprego-recorde",
+      "recomendacao": "Pergunte ao seu amigo que trabalha em padaria se ficou mais fácil achar serviço este ano do que antes.",
+      "contraste": "flavio-escala-6x1"
     },
     "aquario": {
       "amor": "Lua no seu signo: você quer liberdade, mas o par quer presença. Combine os dois.",
-      "trabalho": "Marte no seu signo oposto cobra ação, e você responde com olhar. Conhece quem passou anos entregando currículo e hoje acorda cedo pra trabalhar? Reparar nisso é ver o que mudou.",
+      "trabalho": "Marte no seu signo oposto cobra ação, e você responde com olhar. Tudo bem: comece pela tarefa que ninguém quer.",
       "dinheiro": "Pense no coletivo: o que faz bem pro bairro faz bem pra sua casa.",
-      "saude": "Lua crescente no seu signo não deixa a cabeça parar. Dez minutos de silêncio antes de entrar.",
-      "proposta": "desemprego",
-      "recomendacao": "Mande mensagem pro seu amigo que vivia de bico e pergunte como está agora com carteira assinada."
+      "saude": "Lua crescente no seu signo não deixa a cabeça parar. E aquela consulta com especialista que você empurrou? Marque: muita gente foi operada pelo SUS este ano.",
+      "proposta": "agora-tem-especialistas",
+      "recomendacao": "Pergunte à sua mãe se a cirurgia do joelho que ela esperava já tem data."
     },
     "peixes": {
       "amor": "Vênus retrógrada em Escorpião, do seu elemento, faz o peso da segunda chegar antes de levantar. Um abraço demorado ajuda.",
       "trabalho": "Mercúrio em Escorpião afia a intuição de Peixes. Confie nela na reunião.",
-      "dinheiro": "Você conhece alguém que vive de aposentadoria pequena. Quando o piso sobe de verdade, a vida dela respira um pouco.",
-      "saude": "A sensibilidade à flor da pele. Proteja-se de gente que suga energia.",
-      "proposta": "salario-minimo",
-      "recomendacao": "Pergunte à sua avó se a aposentadoria dela dá pra comprar o mesmo que no ano passado."
+      "dinheiro": "Você conhece alguém que apaga a luz cedo pra economizar. Pra família de baixa renda no cadastro, a conta pode vir zerada: conte isso a ela.",
+      "saude": "A sensibilidade está à flor da pele. Proteja-se de gente que suga energia, e de promessa de corte geral que não diz até onde vai.",
+      "proposta": "luz-do-povo",
+      "recomendacao": "Pergunte à vizinha que mora sozinha com as crianças se ela já está no cadastro que zera a conta de luz.",
+      "contraste": "flavio-tesouraco"
     }
   }
 }

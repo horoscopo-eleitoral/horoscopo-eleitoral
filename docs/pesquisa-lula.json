@@ -1,0 +1,158 @@
+{
+  "itens": [
+    {
+      "id": "isencao-ir-5-mil",
+      "tema": "dinheiro",
+      "titulo": "Isenção do IR para quem ganha até R$ 5 mil",
+      "fato": "Lula sancionou a lei que isenta do Imposto de Renda quem ganha até R$ 5 mil por mês, valendo desde 1º de janeiro de 2026. Quem ganha até R$ 7.350 tem isenção parcial. A medida beneficia 25 milhões de brasileiros.",
+      "fonte": {"nome": "CNN Brasil, 26/11/2025", "url": "https://www.cnnbrasil.com.br/politica/lula-sanciona-isencao-do-ir-para-quem-ganha-ate-r-5-mil/"},
+      "pergunta": "Quanto a mais sobra no seu salário agora que o leão não morde até R$ 5 mil?",
+      "trecho_da_fonte": "A nova faixa de isenção entra em vigor em 1º de janeiro de 2026 e beneficiará 25 milhões de brasileiros."
+    },
+    {
+      "id": "fim-escala-6x1-camara",
+      "tema": "trabalho",
+      "titulo": "Câmara aprova fim da escala 6x1 e jornada de 40 horas",
+      "fato": "Em 27/05/2026, a Câmara aprovou a PEC que acaba com a escala 6x1: jornada de 40 horas semanais em cinco dias, com dois de folga, sem redução de salário. Placar: 472 a 22 no 1º turno e 461 a 19 no 2º.",
+      "fonte": {"nome": "Agência Câmara de Notícias, 27/05/2026", "url": "https://www.camara.leg.br/noticias/1277141-camara-aprova-em-dois-turnos-fim-da-escala-6x1-com-jornada-maxima-de-40-horas-semanais"},
+      "pergunta": "O que você faria com dois dias de folga toda semana?",
+      "trecho_da_fonte": "jornada de trabalho de 40 horas semanais em cinco dias com dois de descanso... sem qualquer redução salarial"
+    },
+    {
+      "id": "fim-escala-6x1-senado",
+      "tema": "trabalho",
+      "titulo": "Fim da 6x1 chega ao plenário do Senado",
+      "fato": "Davi Alcolumbre marcou o 1º turno da PEC do fim da 6x1 no Senado para 14/10. O governo quer concluir a votação antes do 2º turno; a oposição, aliada de Flávio Bolsonaro, quer evitar a votação antes da eleição.",
+      "fonte": {"nome": "Metrópoles, 09/10/2026", "url": "https://www.metropoles.com/brasil/alcolumbre-pauta-1o-turno-de-votacao-do-fim-da-6x1-para-quarta-14-10"},
+      "pergunta": "Quem na sua casa trabalha seis dias e descansa só um?",
+      "trecho_da_fonte": "A oposição pretende evitar que a proposta seja votada antes do segundo turno das eleições."
+    },
+    {
+      "id": "pec-seguranca-susp",
+      "tema": "seguranca",
+      "titulo": "PEC da Segurança põe o SUSP na Constituição",
+      "fato": "A PEC da Segurança Pública, aprovada pela Câmara em 4 de março, passou na CCJ do Senado em 2/09/2026. Ela dá status constitucional ao SUSP, endurece a punição a membros de facções e permite que prefeituras criem polícias municipais.",
+      "fonte": {"nome": "CNN Brasil, 02/09/2026", "url": "https://www.cnnbrasil.com.br/politica/comissao-do-senado-aprova-pec-da-seguranca-texto-segue-para-o-plenario/"},
+      "pergunta": "O que faria você se sentir mais seguro no caminho de volta pra casa?",
+      "trecho_da_fonte": "dá status constitucional ao SUSP e constitucionaliza o Fundo Nacional de Segurança Pública e o Fundo Nacional Penitenciário"
+    },
+    {
+      "id": "desenrola-brasil",
+      "tema": "dinheiro",
+      "titulo": "Desenrola Brasil limpou o nome de milhões",
+      "fato": "O Desenrola Brasil terminou em maio de 2024 com dívidas renegociadas de 15,5 milhões de pessoas. Quem ganhava até 2 salários mínimos teve desconto médio de 90% à vista.",
+      "fonte": {"nome": "Poder360, 21/05/2024", "url": "https://www.poder360.com.br/economia/desenrola-brasil-renegociou-dividas-de-155-milhoes-de-brasileiros/"},
+      "pergunta": "Lembra do alívio de quitar uma dívida que tirava seu sono?",
+      "trecho_da_fonte": "Desenrola Brasil renegociou dívidas de 15,5 milhões de brasileiros"
+    },
+    {
+      "id": "farmacia-popular-gratis",
+      "tema": "saude",
+      "titulo": "Farmácia Popular 100% gratuita",
+      "fato": "Todos os 41 itens do Farmácia Popular passaram a ser distribuídos de graça nas farmácias credenciadas, incluindo remédio para diabetes e fraldas geriátricas. Em 2024, mais de 24 milhões de pessoas foram beneficiadas.",
+      "fonte": {"nome": "CNN Brasil, 14/02/2025", "url": "https://www.cnnbrasil.com.br/politica/saude-anuncia-100-de-gratuidade-nos-41-remedios-da-farmacia-popular/"},
+      "pergunta": "Quem na sua família pega remédio de graça hoje?",
+      "trecho_da_fonte": "todos os 41 itens do Programa Farmácia Popular serão distribuídos gratuitamente nas farmácias credenciadas"
+    },
+    {
+      "id": "pe-de-meia",
+      "tema": "educacao",
+      "titulo": "Pé-de-Meia: poupança pra terminar o ensino médio",
+      "fato": "O Pé-de-Meia paga R$ 200 por mês ao estudante do ensino médio público de família do Bolsa Família, mais R$ 1.000 por ano concluído. Somando tudo, chega a R$ 9.200 por aluno.",
+      "fonte": {"nome": "CNN Brasil, 05/06/2025", "url": "https://www.cnnbrasil.com.br/educacao/estudantes-no-pe-de-meia-vao-receber-r-200-se-fizerem-o-enem-entenda/"},
+      "pergunta": "Que sonho um jovem da sua família poderia começar com R$ 9.200?",
+      "trecho_da_fonte": "os valores chegam a R$ 9.200, considerando as parcelas, os depósitos anuais e o adicional do Enem"
+    },
+    {
+      "id": "salario-minimo-valorizacao",
+      "tema": "trabalho",
+      "titulo": "Salário mínimo com ganho acima da inflação",
+      "fato": "O salário mínimo subiu de R$ 1.518 para R$ 1.621 em 2026, alta de R$ 103 (6,79%). A regra soma a inflação ao crescimento do PIB, com ganho real de 2,5%.",
+      "fonte": {"nome": "InfoMoney, 10/12/2025", "url": "https://www.infomoney.com.br/minhas-financas/governo-salario-minimo-de-2026-1621/"},
+      "pergunta": "Quem você conhece que vive com o mínimo e sentiu esse aumento?",
+      "trecho_da_fonte": "Governo confirma reajuste do salário mínimo de 2026 para R$ 1.621"
+    },
+    {
+      "id": "bolsa-familia-adicional-crianca",
+      "tema": "familia",
+      "titulo": "Bolsa Família com adicional por criança",
+      "fato": "O Bolsa Família paga no mínimo R$ 600, mais R$ 150 por criança de até 6 anos e R$ 50 por filho de 7 a 18 anos. Em abril de 2026, o valor médio foi de R$ 678,22 para 18,9 milhões de famílias.",
+      "fonte": {"nome": "Poder360, 24/04/2026", "url": "https://www.poder360.com.br/poder-economia/bolsa-familia-caixa-paga-beneficiarios-com-nis-de-final-6/"},
+      "pergunta": "Quantas crianças da sua rua comem melhor por causa disso?",
+      "trecho_da_fonte": "de R$ 50 a cada filho de 7 a 18 anos e de R$ 150 a cada criança de até 6 anos"
+    },
+    {
+      "id": "gas-do-povo",
+      "tema": "familia",
+      "titulo": "Gás do Povo: botijão de graça",
+      "fato": "O Congresso aprovou em fevereiro de 2026 o Auxílio Gás do Povo, que dá botijão de gás gratuito direto na revenda para famílias do CadÚnico com renda de até meio salário mínimo por pessoa.",
+      "fonte": {"nome": "CNN Brasil, 03/02/2026", "url": "https://www.cnnbrasil.com.br/politica/senado-aprova-mp-que-cria-programa-gas-do-povo-para-familias-de-baixa-renda/"},
+      "pergunta": "Quanto pesa o botijão no orçamento do mês da sua casa?",
+      "trecho_da_fonte": "Senado aprova MP que cria programa Gás do Povo para famílias de baixa renda"
+    },
+    {
+      "id": "minha-casa-minha-vida-faixas",
+      "tema": "moradia",
+      "titulo": "Minha Casa Minha Vida para renda de até R$ 13 mil",
+      "fato": "Desde 22/04/2026, o Minha Casa Minha Vida atende renda de até R$ 3.200 (Faixa 1), R$ 5.000 (Faixa 2), R$ 9.600 (Faixa 3) e R$ 13.000 (Faixa 4), com imóveis de até R$ 600 mil.",
+      "fonte": {"nome": "InfoMoney, abril/2026", "url": "https://www.infomoney.com.br/politica/renda-de-r-13-mil-e-imoveis-de-r-600-mil-as-novas-regras-do-minha-casa-minha-vida/"},
+      "pergunta": "Qual seria o primeiro cômodo que você arrumaria na sua casa própria?",
+      "trecho_da_fonte": "Renda de R$ 13 mil e imóveis de R$ 600 mil: as novas regras do Minha Casa, Minha Vida"
+    },
+    {
+      "id": "reforma-casa-brasil",
+      "tema": "moradia",
+      "titulo": "Reforma Casa Brasil: crédito barato pra reformar",
+      "fato": "O Reforma Casa Brasil passou a atender renda familiar de até R$ 13 mil, com até R$ 50 mil para a obra, juros de 0,99% ao mês e até 72 meses para pagar.",
+      "fonte": {"nome": "Exame, 15/04/2026", "url": "https://exame.com/brasil/reforma-casa-brasil-governo-amplia-credito-para-quem-tem-renda-de-ate-r-13-mil/"},
+      "pergunta": "Aquela goteira ou aquele puxadinho que você adia há anos: o que é?",
+      "trecho_da_fonte": "a renda familiar máxima passou de R$ 9,6 mil para R$ 13 mil"
+    },
+    {
+      "id": "mais-medicos",
+      "tema": "saude",
+      "titulo": "Mais Médicos dobrou de tamanho",
+      "fato": "De 2023 a 2025, o Mais Médicos passou de 13.700 para 27.300 médicos em atuação, levando atenção primária a 4.500 municípios.",
+      "fonte": {"nome": "Poder360, 27/12/2025", "url": "https://www.poder360.com.br/poder-saude/mais-medicos-amplia-em-99-quantidade-de-profissionais-em-3-anos/"},
+      "pergunta": "Quando foi a última vez que você foi bem atendido no posto do bairro?",
+      "trecho_da_fonte": "o número foi de 13.700 para 27.300 médicos em atuação"
+    },
+    {
+      "id": "agora-tem-especialistas",
+      "tema": "saude",
+      "titulo": "Agora Tem Especialistas acelera cirurgias",
+      "fato": "O SUS fez mais de 7,5 milhões de cirurgias eletivas no 1º semestre de 2026; 2,92 milhões delas pelo programa Agora Tem Especialistas.",
+      "fonte": {"nome": "Poder360, 27/09/2026", "url": "https://www.poder360.com.br/poder-saude/cirurgias-eletivas-pelo-sus-passam-de-75-milhoes-no-1o-semestre/"},
+      "pergunta": "Quem você conhece que esperava uma cirurgia e finalmente conseguiu?",
+      "trecho_da_fonte": "representando 2,92 milhões de cirurgias entre janeiro e junho de 2026"
+    },
+    {
+      "id": "desemprego-recorde",
+      "tema": "trabalho",
+      "titulo": "Desemprego no menor nível da história",
+      "fato": "O desemprego caiu para 5,1% no trimestre até dezembro de 2025, a menor taxa desde o início da série do IBGE, em 2012. A média de 2025 (5,6%) também foi a menor da série.",
+      "fonte": {"nome": "CNN Brasil, 30/01/2026", "url": "https://www.cnnbrasil.com.br/economia/macroeconomia/desemprego-cai-para-51-no-trimestre-ate-dezembro-mostra-ibge/"},
+      "pergunta": "Quem na sua família arrumou emprego nos últimos anos?",
+      "trecho_da_fonte": "menor taxa de desocupação desde a série histórica iniciada em 2012"
+    },
+    {
+      "id": "desemprego-agosto-2026",
+      "tema": "trabalho",
+      "titulo": "Desemprego segue baixo em 2026",
+      "fato": "O desemprego ficou em 5,3% no trimestre até agosto de 2026, o menor nível para esse período desde 2012, segundo o IBGE.",
+      "fonte": {"nome": "CNN Brasil, 29/09/2026", "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/taxa-desemprego-pnad-hoje-29-setembro-2026/"},
+      "pergunta": "Está mais fácil achar vaga na sua área do que há quatro anos?",
+      "trecho_da_fonte": "Desemprego fica em 5,3% no trimestre até agosto, menor nível para o período na série iniciada em 2012"
+    },
+    {
+      "id": "luz-do-povo",
+      "tema": "familia",
+      "titulo": "Luz do Povo: conta de luz zerada até 80 kWh",
+      "fato": "Lula sancionou o Luz do Povo: famílias do CadÚnico com renda de até meio salário mínimo por pessoa não pagam a energia até 80 kWh por mês, e têm desconto até 120 kWh. O governo estima 17,1 milhões de famílias isentas.",
+      "fonte": {"nome": "Metrópoles, 08/10/2025", "url": "https://www.metropoles.com/brasil/luz-do-povo-lula-sanciona-mp-que-amplia-tarifa-social-na-conta-de-luz"},
+      "pergunta": "Quanto a conta de luz pesava na sua casa antes?",
+      "trecho_da_fonte": "isenção total da parcela de energia na conta de luz"
+    }
+  ],
+  "nao_verificado": []
+}

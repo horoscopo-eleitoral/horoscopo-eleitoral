@@ -1,75 +1,369 @@
 {
-  "_leia": "Banco de fatos usados nas revelações. Cada item precisa de fonte verificável. status: 'rascunho' = ainda não conferido por alguém do projeto; 'verificado' = conferido na fonte, com data. Nada de site partidário: use plano registrado no TSE, dados oficiais (IBGE, Câmara, Senado, Diário Oficial) ou imprensa grande.",
+  "_leia": "Banco de fatos das revelações. lado 'lula' = o que o governo fez ou propõe (campo 'proposta' dos dias); lado 'flavio' = contraste do bloco 'Saturno retrógrado avisa' (campo 'contraste'). Toda fonte precisa ser imprensa grande não alinhada à esquerda ou dado oficial, com link aberto e conferido. Pesquisa completa em docs/.",
   "itens": [
     {
-      "id": "escala-6x1",
-      "tema": "trabalho",
-      "titulo": "Fim da escala 6x1",
-      "fato": "O plano de governo do Lula registrado no TSE propõe o fim da escala 6x1 e a redução da jornada para 40 horas semanais.",
-      "fonte": { "nome": "Plano de governo Lula/PT no TSE, p. 73–77", "url": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt" },
-      "pergunta": "Quantos dias por semana você descansa de verdade?",
-      "status": "rascunho",
-      "verificado_em": null
-    },
-    {
-      "id": "ir-zero-5mil",
+      "id": "isencao-ir-5-mil",
+      "lado": "lula",
       "tema": "dinheiro",
-      "titulo": "Imposto de Renda zero até R$ 5 mil",
-      "fato": "Quem ganha até R$ 5 mil por mês ficou isento do Imposto de Renda a partir de 2026.",
-      "fonte": { "nome": "Receita Federal", "url": "https://www.gov.br/receitafederal" },
-      "pergunta": "Você já fez a conta de quanto isso dá no ano?",
-      "status": "rascunho",
-      "verificado_em": null
+      "titulo": "Isenção do IR para quem ganha até R$ 5 mil",
+      "fato": "Lula sancionou a lei que isenta do Imposto de Renda quem ganha até R$ 5 mil por mês, valendo desde 1º de janeiro de 2026. Quem ganha até R$ 7.350 tem isenção parcial. A medida beneficia 25 milhões de brasileiros.",
+      "fonte": {
+        "nome": "CNN Brasil, 26/11/2025",
+        "url": "https://www.cnnbrasil.com.br/politica/lula-sanciona-isencao-do-ir-para-quem-ganha-ate-r-5-mil/"
+      },
+      "pergunta": "Quanto a mais sobra no seu salário agora que o leão não morde até R$ 5 mil?",
+      "status": "verificado",
+      "verificado_em": "2026-10-10"
     },
     {
-      "id": "farmacia-popular",
+      "id": "fim-escala-6x1-camara",
+      "lado": "lula",
+      "tema": "trabalho",
+      "titulo": "Câmara aprova fim da escala 6x1 e jornada de 40 horas",
+      "fato": "Em 27/05/2026, a Câmara aprovou a PEC que acaba com a escala 6x1: jornada de 40 horas semanais em cinco dias, com dois de folga, sem redução de salário. Placar: 472 a 22 no 1º turno e 461 a 19 no 2º.",
+      "fonte": {
+        "nome": "Agência Câmara de Notícias, 27/05/2026",
+        "url": "https://www.camara.leg.br/noticias/1277141-camara-aprova-em-dois-turnos-fim-da-escala-6x1-com-jornada-maxima-de-40-horas-semanais"
+      },
+      "pergunta": "O que você faria com dois dias de folga toda semana?",
+      "status": "verificado",
+      "verificado_em": "2026-10-10"
+    },
+    {
+      "id": "fim-escala-6x1-senado",
+      "lado": "lula",
+      "tema": "trabalho",
+      "titulo": "Fim da 6x1 chega ao plenário do Senado",
+      "fato": "Davi Alcolumbre marcou o 1º turno da PEC do fim da 6x1 no Senado para 14/10. O governo quer concluir a votação antes do 2º turno; a oposição, aliada de Flávio Bolsonaro, quer evitar a votação antes da eleição.",
+      "fonte": {
+        "nome": "Metrópoles, 09/10/2026",
+        "url": "https://www.metropoles.com/brasil/alcolumbre-pauta-1o-turno-de-votacao-do-fim-da-6x1-para-quarta-14-10"
+      },
+      "pergunta": "Quem na sua casa trabalha seis dias e descansa só um?",
+      "status": "verificado",
+      "verificado_em": "2026-10-10"
+    },
+    {
+      "id": "pec-seguranca-susp",
+      "lado": "lula",
+      "tema": "seguranca",
+      "titulo": "PEC da Segurança põe o SUSP na Constituição",
+      "fato": "A PEC da Segurança Pública, aprovada pela Câmara em 4 de março, passou na CCJ do Senado em 2/09/2026. Ela dá status constitucional ao SUSP, endurece a punição a membros de facções e permite que prefeituras criem polícias municipais.",
+      "fonte": {
+        "nome": "CNN Brasil, 02/09/2026",
+        "url": "https://www.cnnbrasil.com.br/politica/comissao-do-senado-aprova-pec-da-seguranca-texto-segue-para-o-plenario/"
+      },
+      "pergunta": "O que faria você se sentir mais seguro no caminho de volta pra casa?",
+      "status": "verificado",
+      "verificado_em": "2026-10-10"
+    },
+    {
+      "id": "desenrola-brasil",
+      "lado": "lula",
+      "tema": "dinheiro",
+      "titulo": "Desenrola Brasil limpou o nome de milhões",
+      "fato": "O Desenrola Brasil terminou em maio de 2024 com dívidas renegociadas de 15,5 milhões de pessoas. Quem ganhava até 2 salários mínimos teve desconto médio de 90% à vista.",
+      "fonte": {
+        "nome": "Poder360, 21/05/2024",
+        "url": "https://www.poder360.com.br/economia/desenrola-brasil-renegociou-dividas-de-155-milhoes-de-brasileiros/"
+      },
+      "pergunta": "Lembra do alívio de quitar uma dívida que tirava seu sono?",
+      "status": "verificado",
+      "verificado_em": "2026-10-10"
+    },
+    {
+      "id": "farmacia-popular-gratis",
+      "lado": "lula",
       "tema": "saude",
-      "titulo": "Farmácia Popular",
-      "fato": "Todos os itens do Farmácia Popular passaram a ser gratuitos, inclusive fralda geriátrica.",
-      "fonte": { "nome": "Ministério da Saúde", "url": "https://www.gov.br/saude" },
+      "titulo": "Farmácia Popular 100% gratuita",
+      "fato": "Todos os 41 itens do Farmácia Popular passaram a ser distribuídos de graça nas farmácias credenciadas, incluindo remédio para diabetes e fraldas geriátricas. Em 2024, mais de 24 milhões de pessoas foram beneficiadas.",
+      "fonte": {
+        "nome": "CNN Brasil, 14/02/2025",
+        "url": "https://www.cnnbrasil.com.br/politica/saude-anuncia-100-de-gratuidade-nos-41-remedios-da-farmacia-popular/"
+      },
       "pergunta": "Quem na sua família pega remédio de graça hoje?",
-      "status": "rascunho",
-      "verificado_em": null
+      "status": "verificado",
+      "verificado_em": "2026-10-10"
     },
     {
-      "id": "salario-minimo",
-      "tema": "dinheiro",
-      "titulo": "Salário mínimo acima da inflação",
-      "fato": "O salário mínimo voltou a subir acima da inflação, e isso puxa a aposentadoria de quem recebe o piso.",
-      "fonte": { "nome": "Lei 14.663/2023", "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14663.htm" },
-      "pergunta": "Quem você conhece que vive de um salário mínimo ou de uma aposentadoria?",
-      "status": "rascunho",
-      "verificado_em": null
+      "id": "pe-de-meia",
+      "lado": "lula",
+      "tema": "educacao",
+      "titulo": "Pé-de-Meia: poupança pra terminar o ensino médio",
+      "fato": "O Pé-de-Meia paga R$ 200 por mês ao estudante do ensino médio público de família do Bolsa Família, mais R$ 1.000 por ano concluído. Somando tudo, chega a R$ 9.200 por aluno.",
+      "fonte": {
+        "nome": "CNN Brasil, 05/06/2025",
+        "url": "https://www.cnnbrasil.com.br/educacao/estudantes-no-pe-de-meia-vao-receber-r-200-se-fizerem-o-enem-entenda/"
+      },
+      "pergunta": "Que sonho um jovem da sua família poderia começar com R$ 9.200?",
+      "status": "verificado",
+      "verificado_em": "2026-10-10"
     },
     {
-      "id": "desenrola",
-      "tema": "dinheiro",
-      "titulo": "Desenrola Brasil",
-      "fato": "O plano do Lula no TSE prevê continuar o Desenrola, programa de renegociação de dívidas com desconto.",
-      "fonte": { "nome": "Plano de governo Lula/PT no TSE, p. 57–58", "url": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt" },
-      "pergunta": "Tem alguém perto de você com o nome sujo por uma dívida pequena?",
-      "status": "rascunho",
-      "verificado_em": null
-    },
-    {
-      "id": "desemprego",
+      "id": "salario-minimo-valorizacao",
+      "lado": "lula",
       "tema": "trabalho",
-      "titulo": "Desemprego no menor nível da série",
-      "fato": "A taxa de desemprego está no menor nível da série histórica do IBGE.",
-      "fonte": { "nome": "IBGE – PNAD Contínua", "url": "https://www.ibge.gov.br/estatisticas/sociais/trabalho/9173-pesquisa-nacional-por-amostra-de-domicilios-continua-trimestral.html" },
-      "pergunta": "Você lembra como era procurar emprego há alguns anos?",
-      "status": "rascunho",
-      "verificado_em": null
+      "titulo": "Salário mínimo com ganho acima da inflação",
+      "fato": "O salário mínimo subiu de R$ 1.518 para R$ 1.621 em 2026, alta de R$ 103 (6,79%). A regra soma a inflação ao crescimento do PIB, com ganho real de 2,5%.",
+      "fonte": {
+        "nome": "InfoMoney, 10/12/2025",
+        "url": "https://www.infomoney.com.br/minhas-financas/governo-salario-minimo-de-2026-1621/"
+      },
+      "pergunta": "Quem você conhece que vive com o mínimo e sentiu esse aumento?",
+      "status": "verificado",
+      "verificado_em": "2026-10-10"
     },
     {
-      "id": "tesouraco",
+      "id": "bolsa-familia-adicional-crianca",
+      "lado": "lula",
+      "tema": "familia",
+      "titulo": "Bolsa Família com adicional por criança",
+      "fato": "O Bolsa Família paga no mínimo R$ 600, mais R$ 150 por criança de até 6 anos e R$ 50 por filho de 7 a 18 anos. Em abril de 2026, o valor médio foi de R$ 678,22 para 18,9 milhões de famílias.",
+      "fonte": {
+        "nome": "Poder360, 24/04/2026",
+        "url": "https://www.poder360.com.br/poder-economia/bolsa-familia-caixa-paga-beneficiarios-com-nis-de-final-6/"
+      },
+      "pergunta": "Quantas crianças da sua rua comem melhor por causa disso?",
+      "status": "verificado",
+      "verificado_em": "2026-10-10"
+    },
+    {
+      "id": "gas-do-povo",
+      "lado": "lula",
+      "tema": "familia",
+      "titulo": "Gás do Povo: botijão de graça",
+      "fato": "O Congresso aprovou em fevereiro de 2026 o Auxílio Gás do Povo, que dá botijão de gás gratuito direto na revenda para famílias do CadÚnico com renda de até meio salário mínimo por pessoa.",
+      "fonte": {
+        "nome": "CNN Brasil, 03/02/2026",
+        "url": "https://www.cnnbrasil.com.br/politica/senado-aprova-mp-que-cria-programa-gas-do-povo-para-familias-de-baixa-renda/"
+      },
+      "pergunta": "Quanto pesa o botijão no orçamento do mês da sua casa?",
+      "status": "verificado",
+      "verificado_em": "2026-10-10"
+    },
+    {
+      "id": "minha-casa-minha-vida-faixas",
+      "lado": "lula",
+      "tema": "moradia",
+      "titulo": "Minha Casa Minha Vida para renda de até R$ 13 mil",
+      "fato": "Desde 22/04/2026, o Minha Casa Minha Vida atende renda de até R$ 3.200 (Faixa 1), R$ 5.000 (Faixa 2), R$ 9.600 (Faixa 3) e R$ 13.000 (Faixa 4), com imóveis de até R$ 600 mil.",
+      "fonte": {
+        "nome": "InfoMoney, abril/2026",
+        "url": "https://www.infomoney.com.br/politica/renda-de-r-13-mil-e-imoveis-de-r-600-mil-as-novas-regras-do-minha-casa-minha-vida/"
+      },
+      "pergunta": "Qual seria o primeiro cômodo que você arrumaria na sua casa própria?",
+      "status": "verificado",
+      "verificado_em": "2026-10-10"
+    },
+    {
+      "id": "reforma-casa-brasil",
+      "lado": "lula",
+      "tema": "moradia",
+      "titulo": "Reforma Casa Brasil: crédito barato pra reformar",
+      "fato": "O Reforma Casa Brasil passou a atender renda familiar de até R$ 13 mil, com até R$ 50 mil para a obra, juros de 0,99% ao mês e até 72 meses para pagar.",
+      "fonte": {
+        "nome": "Exame, 15/04/2026",
+        "url": "https://exame.com/brasil/reforma-casa-brasil-governo-amplia-credito-para-quem-tem-renda-de-ate-r-13-mil/"
+      },
+      "pergunta": "Aquela goteira ou aquele puxadinho que você adia há anos: o que é?",
+      "status": "verificado",
+      "verificado_em": "2026-10-10"
+    },
+    {
+      "id": "mais-medicos",
+      "lado": "lula",
+      "tema": "saude",
+      "titulo": "Mais Médicos dobrou de tamanho",
+      "fato": "De 2023 a 2025, o Mais Médicos passou de 13.700 para 27.300 médicos em atuação, levando atenção primária a 4.500 municípios.",
+      "fonte": {
+        "nome": "Poder360, 27/12/2025",
+        "url": "https://www.poder360.com.br/poder-saude/mais-medicos-amplia-em-99-quantidade-de-profissionais-em-3-anos/"
+      },
+      "pergunta": "Quando foi a última vez que você foi bem atendido no posto do bairro?",
+      "status": "verificado",
+      "verificado_em": "2026-10-10"
+    },
+    {
+      "id": "agora-tem-especialistas",
+      "lado": "lula",
+      "tema": "saude",
+      "titulo": "Agora Tem Especialistas acelera cirurgias",
+      "fato": "O SUS fez mais de 7,5 milhões de cirurgias eletivas no 1º semestre de 2026; 2,92 milhões delas pelo programa Agora Tem Especialistas.",
+      "fonte": {
+        "nome": "Poder360, 27/09/2026",
+        "url": "https://www.poder360.com.br/poder-saude/cirurgias-eletivas-pelo-sus-passam-de-75-milhoes-no-1o-semestre/"
+      },
+      "pergunta": "Quem você conhece que esperava uma cirurgia e finalmente conseguiu?",
+      "status": "verificado",
+      "verificado_em": "2026-10-10"
+    },
+    {
+      "id": "desemprego-recorde",
+      "lado": "lula",
+      "tema": "trabalho",
+      "titulo": "Desemprego no menor nível da história",
+      "fato": "O desemprego caiu para 5,1% no trimestre até dezembro de 2025, a menor taxa desde o início da série do IBGE, em 2012. A média de 2025 (5,6%) também foi a menor da série.",
+      "fonte": {
+        "nome": "CNN Brasil, 30/01/2026",
+        "url": "https://www.cnnbrasil.com.br/economia/macroeconomia/desemprego-cai-para-51-no-trimestre-ate-dezembro-mostra-ibge/"
+      },
+      "pergunta": "Quem na sua família arrumou emprego nos últimos anos?",
+      "status": "verificado",
+      "verificado_em": "2026-10-10"
+    },
+    {
+      "id": "desemprego-agosto-2026",
+      "lado": "lula",
+      "tema": "trabalho",
+      "titulo": "Desemprego segue baixo em 2026",
+      "fato": "O desemprego ficou em 5,3% no trimestre até agosto de 2026, o menor nível para esse período desde 2012, segundo o IBGE.",
+      "fonte": {
+        "nome": "CNN Brasil, 29/09/2026",
+        "url": "https://www.cnnbrasil.com.br/economia/money/macroeconomia/taxa-desemprego-pnad-hoje-29-setembro-2026/"
+      },
+      "pergunta": "Está mais fácil achar vaga na sua área do que há quatro anos?",
+      "status": "verificado",
+      "verificado_em": "2026-10-10"
+    },
+    {
+      "id": "luz-do-povo",
+      "lado": "lula",
+      "tema": "familia",
+      "titulo": "Luz do Povo: conta de luz zerada até 80 kWh",
+      "fato": "Lula sancionou o Luz do Povo: famílias do CadÚnico com renda de até meio salário mínimo por pessoa não pagam a energia até 80 kWh por mês, e têm desconto até 120 kWh. O governo estima 17,1 milhões de famílias isentas.",
+      "fonte": {
+        "nome": "Metrópoles, 08/10/2025",
+        "url": "https://www.metropoles.com/brasil/luz-do-povo-lula-sanciona-mp-que-amplia-tarifa-social-na-conta-de-luz"
+      },
+      "pergunta": "Quanto a conta de luz pesava na sua casa antes?",
+      "status": "verificado",
+      "verificado_em": "2026-10-10"
+    },
+    {
+      "id": "flavio-mudar-constituicao",
+      "lado": "flavio",
+      "tema": "democracia",
+      "titulo": "Maioria no Congresso para mudar a Constituição",
+      "fato": "Em 6/out, em Goiânia, Flávio disse que já tem maioria no Senado e na Câmara para mudar a Constituição e 'redemocratizar o país'. No dia seguinte, citou como exemplos reforma do Judiciário, redução da maioridade penal e mudanças na reforma tributária, por meio de PECs (CNN Brasil, 7/out).",
+      "fonte": {
+        "nome": "Metrópoles, 06/10/2026",
+        "url": "https://www.metropoles.com/brasil/flavio-promete-mudar-constituicao-para-redemocratizar-o-pais"
+      },
+      "pergunta": "Quando um governo fala em mudar as regras do jogo, você sabe quais regras ele quer mudar?",
+      "status": "verificado",
+      "verificado_em": "2026-10-10"
+    },
+    {
+      "id": "flavio-negociado-sobre-legislado",
+      "lado": "flavio",
+      "tema": "trabalho",
+      "titulo": "Combinar direto com o patrão",
+      "fato": "O plano de governo de Flávio defende o 'negociado sobre o legislado': trabalhador e empresa combinam diretamente as condições de trabalho, dentro da lei. O plano diz que reduzirá o custo da carteira assinada 'sem retirar direitos'.",
+      "fonte": {
+        "nome": "Poder360, 13/08/2026",
+        "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-deixa-fim-da-escala-6-x-1-fora-do-plano-de-governo/"
+      },
+      "pergunta": "Negociar sozinho com o patrão: quem você acha que leva vantagem?",
+      "status": "verificado",
+      "verificado_em": "2026-10-10"
+    },
+    {
+      "id": "flavio-escala-6x1",
+      "lado": "flavio",
+      "tema": "trabalho",
+      "titulo": "Fim da 6x1 fora do plano",
+      "fato": "O plano de governo de Flávio não inclui o fim da escala 6x1. Em 6/out, ele disse ter uma proposta 'infinitamente melhor' que a PEC em debate (que reduz a jornada de 44 para 40 horas, sem corte de salário), defendendo jornada flexível escolhida pelo trabalhador, sem dar detalhes.",
+      "fonte": {
+        "nome": "Poder360, 06/10/2026",
+        "url": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-critica-fim-da-escala-6-x-1-e-defende-jornada-flexivel/"
+      },
+      "pergunta": "Dois dias de folga por semana fariam diferença na sua vida?",
+      "status": "verificado",
+      "verificado_em": "2026-10-10"
+    },
+    {
+      "id": "flavio-aposentadoria-bpc-correcao",
+      "lado": "flavio",
       "tema": "dinheiro",
-      "titulo": "Corte de gastos sem dizer onde",
-      "fato": "O plano do Flávio promete um grande corte de gastos, mas não diz de quais programas o dinheiro vai sair.",
-      "fonte": { "nome": "Plano de governo Flávio Bolsonaro/PL no TSE", "url": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl" },
-      "pergunta": "Corte sem dizer onde: você acha que vai cortar de quem?",
-      "status": "rascunho",
-      "verificado_em": null
+      "titulo": "Reajuste de aposentadorias e BPC em estudo",
+      "fato": "Segundo reportagem da Folha citada pela Reuters, a equipe de Flávio estuda mudar a correção das aposentadorias e do BPC, dentro de uma meta de corte de R$ 250 bilhões. Flávio negou, chamou a notícia de 'fake news do PT' e disse que dará reajuste acima da inflação.",
+      "fonte": {
+        "nome": "InfoMoney (Reuters), 08/10/2026",
+        "url": "https://www.infomoney.com.br/politica/campanha-de-flavio-nega-privatizar-de-estatais-e-promete-fortalecer-programas-sociais/"
+      },
+      "pergunta": "Se o salário mínimo subir e a aposentadoria não acompanhar, quem da sua família sente primeiro?",
+      "status": "verificado",
+      "verificado_em": "2026-10-10"
+    },
+    {
+      "id": "flavio-pisos-saude-educacao",
+      "lado": "flavio",
+      "tema": "saude",
+      "titulo": "Gastos com saúde e educação na mira",
+      "fato": "A mesma reportagem da Folha, citada pela Reuters, diz que o estudo da equipe de Flávio também mexeria na correção dos gastos obrigatórios com saúde e educação. A campanha nega cortes e diz que vai preservar os programas sociais.",
+      "fonte": {
+        "nome": "InfoMoney (Reuters), 08/10/2026",
+        "url": "https://www.infomoney.com.br/politica/campanha-de-flavio-nega-privatizar-de-estatais-e-promete-fortalecer-programas-sociais/"
+      },
+      "pergunta": "O posto de saúde e a escola do seu bairro aguentariam receber menos?",
+      "status": "verificado",
+      "verificado_em": "2026-10-10"
+    },
+    {
+      "id": "flavio-tesouraco",
+      "lado": "flavio",
+      "tema": "dinheiro",
+      "titulo": "Tesouraço: corte 'por todos os lados'",
+      "fato": "O plano de governo promete um 'Tesouraço', descrito como 'um corte profundo e por todos os lados'. Como exemplos, cita cortar no mínimo 10 ministérios, cargos comissionados e supersalários.",
+      "fonte": {
+        "nome": "Plano de governo 'Para o Brasil Vencer o Atraso', p. 68-69 (ago/2026, cópia publicada pelo Poder360)",
+        "url": "https://static.poder360.com.br/uploads/2026/08/plano-flavio.pdf"
+      },
+      "pergunta": "Quando alguém promete cortar 'por todos os lados', você sabe de qual lado vai sair?",
+      "status": "verificado",
+      "verificado_em": "2026-10-10"
+    },
+    {
+      "id": "flavio-super-pec-200-bilhoes",
+      "lado": "flavio",
+      "tema": "dinheiro",
+      "titulo": "Super PEC de até R$ 200 bilhões",
+      "fato": "A equipe de Flávio estuda uma PEC para cortar até R$ 200 bilhões em despesas logo após a eleição, com até dez medidas a negociar no Congresso. Não há texto final; os detalhes vieram de uma apresentação a investidores. A campanha diz que o corte viria da máquina pública, não de benefícios.",
+      "fonte": {
+        "nome": "Gazeta do Povo, out/2026",
+        "url": "https://www.gazetadopovo.com.br/eleicoes/2026/super-pec-flavio-bolsonaro-ajuste-fiscal/"
+      },
+      "pergunta": "R$ 200 bilhões é muito dinheiro: você já sabe de onde ele vai sair?",
+      "status": "verificado",
+      "verificado_em": "2026-10-10"
+    },
+    {
+      "id": "flavio-desestatizacao",
+      "lado": "flavio",
+      "tema": "dinheiro",
+      "titulo": "Volta do programa de privatizações",
+      "fato": "O plano de governo propõe retomar o Programa Nacional de Desestatização, avaliando 'caso a caso' onde o Estado deve sair. Depois, o coordenador econômico Adolfo Sachsida disse que Petrobras, Caixa e Banco do Brasil não serão privatizados (InfoMoney, 8/out).",
+      "fonte": {
+        "nome": "Plano de governo 'Para o Brasil Vencer o Atraso', p. 70 (ago/2026, cópia publicada pelo Poder360)",
+        "url": "https://static.poder360.com.br/uploads/2026/08/plano-flavio.pdf"
+      },
+      "pergunta": "'Caso a caso': quais empresas públicas você gostaria de saber se estão na lista?",
+      "status": "verificado",
+      "verificado_em": "2026-10-10"
+    },
+    {
+      "id": "flavio-pec-das-praias",
+      "lado": "flavio",
+      "tema": "meio-ambiente",
+      "titulo": "Relator da PEC das Praias",
+      "fato": "Flávio foi relator na CCJ do Senado da PEC que transfere a propriedade dos terrenos de marinha: particulares poderiam comprá-los e estados e municípios os receberiam de graça. Críticos apontam risco à privatização do acesso às praias e de danos ambientais; Flávio diz que as praias continuam bens públicos.",
+      "fonte": {
+        "nome": "Agência Senado, 04/12/2024",
+        "url": "https://www12.senado.leg.br/noticias/materias/2024/12/04/ccj-concede-vista-para-pec-das-praias"
+      },
+      "pergunta": "Se o terreno na beira da praia virar particular, você acha que o caminho até a areia continua livre?",
+      "status": "verificado",
+      "verificado_em": "2026-10-10"
     }
   ]
 }

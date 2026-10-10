@@ -22,95 +22,99 @@
       "trabalho": "Lua chegando em Áries na sexta: resolva o que trava e deixe o resto pra segunda.",
       "dinheiro": "Você percebeu que o imposto sumiu do contracheque e já gastou mentalmente? Tudo bem, mas conte isso pra alguém que ainda não percebeu.",
       "saude": "Marte em signo de fogo e Lua no seu signo: cabeça quente. Banho morno e cama cedo.",
-      "proposta": "ir-zero-5mil",
+      "proposta": "isencao-ir-5-mil",
       "recomendacao": "Mande um recado pro grupo da família: domingo tem votação, quem ainda não sabe onde vota abre o e-Título. Ofereça ajuda pra quem travar."
     },
     "touro": {
       "amor": "O Sol entra no seu signo oposto, Escorpião, onde Vênus já está retrógrada: jantar simples e demorado. Desligue a TV.",
       "trabalho": "Semana pesada acabando, e a Lua indo pra Áries acelera todo mundo. Não assuma nada novo na sexta.",
-      "dinheiro": "Faça a feira de manhã cedo, que é mais barato. Touro sabe.",
-      "saude": "Sua mãe reclamou do preço do remédio de diabetes? Lembre a ela de perguntar na farmácia se tem de graça. Muita coisa tem.",
-      "proposta": "farmacia-popular",
+      "dinheiro": "Lua indo pra Áries puxa compra por impulso. Se tem conta atrasada pesando, lembre que renegociar com desconto já tirou muita gente do sufoco.",
+      "saude": "Garganta pede chá morno e menos ar-condicionado.",
+      "proposta": "desenrola-brasil",
       "recomendacao": "Combine hoje com alguém da sua casa quem acorda primeiro no domingo. Vão votar juntos antes do almoço."
     },
     "gemeos": {
       "amor": "Mercúrio, seu regente, em Escorpião deixa seu humor fino. Faça o outro rir e a sexta vira feriado.",
       "trabalho": "Lua entrando em Áries traz reunião de última hora. Vá, fale pouco, anote tudo.",
-      "dinheiro": "Sua avó, que vive de um salário, disse que esse ano a aposentadoria deu pra pagar o gás e sobrar. Quando o piso sobe acima do preço, é isso.",
+      "dinheiro": "Sua avó contou que a conta de luz chegou quase zerada este mês. Pra quem vive apertado, esse alívio vira pão e leite na mesa.",
       "saude": "Mãos e braços cansados de celular. Alongue os dedos.",
-      "proposta": "salario-minimo",
+      "proposta": "luz-do-povo",
       "recomendacao": "Lembre um amigo distraído: documento com foto na carteira e seção conferida. Peça pra ele mandar um joinha quando fizer."
     },
     "cancer": {
       "amor": "A Lua, sua regente, sai de Peixes e entra em Áries: pede casa cheia e fogo no fogão. Chame quem está sozinho pra jantar.",
       "trabalho": "O Sol entra em Escorpião, signo do seu elemento, e você cuida do time inteiro. Hoje, cuide do seu horário de sair.",
-      "dinheiro": "O primo que limpou o nome voltou a comprar o fogão parcelado. Renegociar dívida com desconto muda a vida de quem está apertado.",
-      "saude": "Barriga reclama de preocupação. Chá de camomila e menos notícia.",
-      "proposta": "desenrola",
+      "dinheiro": "Vênus retrógrada em Escorpião, signo do seu elemento, pede segurar a carteira até segunda. O fim de semana já tem gasto marcado.",
+      "saude": "Barriga reclama de preocupação: chá de camomila e menos notícia. Se a consulta está adiada há meses, procure a unidade de saúde: tem mais médico atendendo nos postos do que antes.",
+      "proposta": "mais-medicos",
       "recomendacao": "Pergunte a um parente que votou longe no primeiro turno: ele vai conseguir ir domingo? Se precisar de condução, combinem agora."
     },
     "leao": {
       "amor": "Marte no seu signo brilha, e a Lua chega em Áries, signo do seu elemento. Compartilhe o brilho com quem anda apagado.",
-      "trabalho": "Lembra de quando seu irmão passou meses sem resposta de vaga? Hoje ele está de carteira assinada. Ainda não é o ideal, mas é um começo.",
-      "dinheiro": "Júpiter no seu signo exagera: não banque a rodada inteira. Generosidade também tem orçamento.",
+      "trabalho": "Sexta com Marte no seu signo pede foco: entregue o principal e deixe o brilho pro fim de semana.",
+      "dinheiro": "Júpiter no seu signo pensa grande. Se tem jovem no ensino médio público em casa e a família está no Bolsa Família, lembre que terminar a escola agora vira uma poupança de verdade pro futuro dele.",
       "saude": "Coluna travada de quem fica muito sentado. Levante e dance um pouco.",
-      "proposta": "desemprego",
+      "proposta": "pe-de-meia",
       "recomendacao": "Combine com um vizinho: domingo de manhã, vocês vão votar juntos. Marque a hora e deixe o celular carregado."
     },
     "virgem": {
       "amor": "Mercúrio, seu regente, em Escorpião deixa você crítico. Hoje elogie antes de apontar.",
       "trabalho": "A Lua sai do seu signo oposto e sua lista chega ao fim. Comemore, mesmo que ninguém note.",
-      "dinheiro": "Virgem gosta de saber de onde sai cada centavo. Promessa de corte sem dizer o que corta é planilha em branco.",
-      "saude": "Alergia de poeira. Troque a fronha hoje.",
-      "proposta": "tesouraco",
-      "recomendacao": "Confira no e-Título se seu local de votação mudou. Depois ensine alguém mais velho a conferir o dele."
+      "dinheiro": "Virgem sabe de onde sai cada centavo. Aquela reforma adiada pode caber num crédito de juros baixos e parcela pequena; vale fazer as contas com calma.",
+      "saude": "Alergia de poeira pede fronha trocada e janela aberta. Ar livre faz bem, e praia aberta pra todo mundo também.",
+      "proposta": "reforma-casa-brasil",
+      "recomendacao": "Confira no e-Título se seu local de votação mudou. Depois ensine alguém mais velho a conferir o dele.",
+      "contraste": "flavio-pec-das-praias"
     },
     "libra": {
       "amor": "O Sol deixa seu signo e Vênus, sua regente, segue retrógrada. Um encontro pendente volta à pauta: capriche na conversa.",
-      "trabalho": "Uma amiga sua trabalha seis dias por semana e não lembra a última vez que viu os filhos de dia. Dois dias de folga mudariam a casa dela.",
+      "trabalho": "O Sol muda de signo e o foco vai pro valor do seu trabalho. Peça o retorno que ficou pendente.",
       "dinheiro": "Lua entrando em Áries, seu signo oposto, puxa pro impulso. Divida o custo do almoço de domingo; Libra não precisa pagar sozinho.",
-      "saude": "Rins pedem água e menos sal.",
-      "proposta": "escala-6x1",
+      "saude": "Rins pedem água e menos sal. E dormir tranquilo faz bem pra pressão; a PEC da Segurança avançando no Congresso dá esperança de rua mais protegida.",
+      "proposta": "pec-seguranca-susp",
       "recomendacao": "Mande mensagem pra alguém que trabalha fim de semana e pergunte se já viu em que horário vai conseguir votar domingo."
     },
     "escorpiao": {
       "amor": "O Sol entra no seu signo e encontra Vênus retrógrada: ciúme não é prova de amor, é prova de medo.",
       "trabalho": "Sua temporada começa hoje. Sexta boa pra fechar pendência que estava te sugando.",
-      "dinheiro": "Você guarda segredo até do salário, mas repare: tem mais dinheiro sobrando desde que o imposto sumiu. Alguém próximo precisa fazer essa conta.",
+      "dinheiro": "Você guarda segredo até do salário, mas o botijão não esconde: pra família que mais aperta, ele passou a vir de graça. Desconfie de quem fala em cortar de todo lado sem dizer até onde vai.",
       "saude": "Sono leve demais. Chá, banho e sem telas.",
-      "proposta": "ir-zero-5mil",
-      "recomendacao": "Procure um conhecido que faltou no primeiro turno e avise: ele pode votar domingo normalmente. Pergunte se sabe onde."
+      "proposta": "gas-do-povo",
+      "recomendacao": "Procure um conhecido que faltou no primeiro turno e avise: ele pode votar domingo normalmente. Pergunte se sabe onde.",
+      "contraste": "flavio-tesouraco"
     },
     "sagitario": {
       "amor": "Júpiter, seu regente, em Leão e a Lua chegando em Áries: fogo em dobro. Aceite o convite.",
       "trabalho": "Sexta de aventura é sexta de ir embora na hora certa.",
-      "dinheiro": "Vênus retrógrada pede reserva: guarde o troco da semana num pote. Sagitário gosta de ter dinheiro pra viagem.",
-      "saude": "Seu pai toma remédio de pressão todo dia e você compra? Confira na farmácia popular, pode estar saindo de graça.",
-      "proposta": "farmacia-popular",
+      "dinheiro": "Vênus retrógrada pede reserva e olhar pra quem está perto. Pra muita mãe, o valor a mais por criança é o que garante o leite até o fim do mês.",
+      "saude": "Lua chegando em Áries, signo do seu elemento, dá pique. Gaste numa caminhada, não na ansiedade.",
+      "proposta": "bolsa-familia-adicional-crianca",
       "recomendacao": "Veja o horário dos ônibus de domingo da sua cidade e passe pra alguém que depende deles pra votar."
     },
     "capricornio": {
       "amor": "Saturno, seu regente, retrógrado pede que você tire a gravata do coração. Com a Lua em Áries, hoje amor é bagunça.",
-      "trabalho": "Saturno retrógrado cobra, mas você fecha a semana cansado e de pé. Não é pouco.",
-      "dinheiro": "Sua mãe vive de aposentadoria e disse que fechou o mês. Quando o mínimo sobe acima da inflação, é a mesa dela que enche.",
+      "trabalho": "Saturno retrógrado cobra, mas você fecha a semana de pé. Piso que sobe acima dos preços é respeito por quem trabalha. Negociar sozinho com o patrão: quem você acha que leva vantagem?",
+      "dinheiro": "A Lua chega em Áries e acende vontade de gastar. Capricórnio segura: deixe a compra grande pra depois do fim de semana.",
       "saude": "Joelhos pedem descanso e sol.",
-      "proposta": "salario-minimo",
-      "recomendacao": "Escreva num papel: dia, hora, local da sua votação e com quem você vai. Cole na geladeira e tire foto."
+      "proposta": "salario-minimo-valorizacao",
+      "recomendacao": "Escreva num papel: dia, hora, local da sua votação e com quem você vai. Cole na geladeira e tire foto.",
+      "contraste": "flavio-negociado-sobre-legislado"
     },
     "aquario": {
       "amor": "Sol e Mercúrio juntos em Escorpião: conversa estranha, mas sincera. Vai render.",
       "trabalho": "Lua em Áries e Marte no seu signo oposto: você quer mudar o mundo na sexta. Comece mudando o horário de dormir.",
-      "dinheiro": "Um amigo seu voltou a ter crédito depois de renegociar com desconto. Conta pequena, alívio grande. Lembre quem ainda está preso.",
-      "saude": "Formigamento nas pernas: levante, ande, se alongue.",
-      "proposta": "desenrola",
-      "recomendacao": "Pergunte a alguém do seu círculo se ele já sabe como vai votar: a pé, de ônibus, de carona. Ajude a resolver o 'como'."
+      "dinheiro": "Aquário pensa no coletivo. Quando alguém fala em mexer no dinheiro da saúde, pense em quem está na fila do hospital.",
+      "saude": "Formigamento nas pernas: levante, ande, se alongue. Se alguém da família esperava cirurgia pelo SUS, pergunte de novo, porque muita gente foi operada pelo SUS este ano.",
+      "proposta": "agora-tem-especialistas",
+      "recomendacao": "Pergunte a alguém do seu círculo se ele já sabe como vai votar: a pé, de ônibus, de carona. Ajude a resolver o 'como'.",
+      "contraste": "flavio-pisos-saude-educacao"
     },
     "peixes": {
       "amor": "A Lua se despede do seu signo e você se derrete. Derreta, mas com quem merece.",
       "trabalho": "O Sol entra em Escorpião, signo do seu elemento, e aguça a memória: lembra do vizinho que passou um ano procurando serviço? Agora ele reclama do chefe. Reclamar de chefe é sinal de que tem emprego.",
       "dinheiro": "Vênus retrógrada avisa: não compre o presente agora. Peixes se arrepende depois.",
       "saude": "Pés doem de tanto andar. Deixe de molho.",
-      "proposta": "desemprego",
+      "proposta": "desemprego-recorde",
       "recomendacao": "Ligue pra alguém que você sabe que vota longe e pergunte: tem como ir? Se tiver carona sobrando, ofereça sem pedir nada em troca."
     }
   }
