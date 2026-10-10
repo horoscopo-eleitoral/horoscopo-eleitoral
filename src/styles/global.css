@@ -149,6 +149,8 @@ details.revelacao[open] > summary { margin-bottom: 14px; }
 .fato { font-family: var(--serif); font-size: 1.3rem; margin: 10px 0 4px; color: var(--tinta); }
 .fonte { font-size: .8rem; color: var(--tinta-apagada); }
 .pergunta { font-family: var(--serif); font-style: italic; font-size: 1.15rem; margin: 16px 0; color: var(--tinta); }
+.contraste { border-top: 1px dashed var(--linha-forte); margin-top: 16px; padding-top: 14px; }
+.fato-contraste { font-size: 1.05rem; margin: 8px 0 4px; color: var(--tinta); }
 .posicao { font-weight: 600; color: var(--dourado); }
 .posicao .treze { font-family: var(--serif); font-size: 1.6rem; }
 

@@ -11,7 +11,7 @@ export function getStaticPaths() {
 }
 
 const { signo: slug } = Astro.params;
-const { dia, signo, texto, proposta, combina } = leituraDoSigno(slug);
+const { dia, signo, texto, proposta, contraste, retrogrado, combina } = leituraDoSigno(slug);
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const dataExtenso = dataPorExtenso(dia.data);
 const urlPagina = new URL(`${base}/${slug}/`, Astro.site).href;
@@ -66,6 +66,15 @@ const imagemOg = new URL(`${base}/og/${slug}.png`, Astro.site).href;
       <p class="fato">{proposta.fato}</p>
       <p class="fonte">Fonte: <a href={proposta.fonte.url} rel="noopener" target="_blank">{proposta.fonte.nome}</a></p>
       <p class="pergunta">“{proposta.pergunta}”</p>
+      {contraste && (
+        <div class="contraste">
+          <span class="rotulo">{retrogrado ? `${retrogrado.simbolo} ${retrogrado.titulo}` : 'Os astros avisam'}</span>
+          <p class="pequeno suave" style="margin:2px 0 6px">Retrógrado é quando o planeta parece andar pra trás.</p>
+          <p class="fato-contraste">{contraste.fato}</p>
+          <p class="fonte">Fonte: <a href={contraste.fonte.url} rel="noopener" target="_blank">{contraste.fonte.nome}</a></p>
+          <p class="pergunta">“{contraste.pergunta}”</p>
+        </div>
+      )}
       <p class="posicao">No dia 25, os astros recomendam: Lula <span class="treze">13</span></p>
       <p class="pequeno"><b>Os astros recomendam hoje:</b> {texto.recomendacao}</p>
     </details>

@@ -9,7 +9,7 @@ const ler = (p) => JSON.parse(readFileSync(join(raiz, p), 'utf8'));
 
 const signos = ler('signos.json').map((s) => s.slug);
 const propostas = ler('propostas.json').itens;
-const ids = new Set(propostas.map((p) => p.id));
+const lado = Object.fromEntries(propostas.map((p) => [p.id, p.lado]));
 const areas = ['amor', 'trabalho', 'dinheiro', 'saude', 'proposta', 'recomendacao'];
 
 let erros = 0;
@@ -17,6 +17,7 @@ const erro = (m) => { console.error('✗', m); erros++; };
 
 for (const p of propostas) {
   if (!p.fonte?.url) erro(`proposta "${p.id}" sem fonte.url`);
+  if (!['lula', 'flavio'].includes(p.lado)) erro(`proposta "${p.id}" com lado inválido`);
   if (p.status !== 'verificado') console.warn(`⚠ proposta "${p.id}" ainda está como "${p.status}"`);
 }
 
@@ -28,7 +29,8 @@ for (const arq of readdirSync(join(raiz, 'dias')).filter((f) => f.endsWith('.jso
     const t = dia.signos?.[s];
     if (!t) { erro(`${arq}: falta o signo "${s}"`); continue; }
     for (const a of areas) if (!t[a]) erro(`${arq}: ${s} sem "${a}"`);
-    if (t.proposta && !ids.has(t.proposta)) erro(`${arq}: ${s} usa proposta inexistente "${t.proposta}"`);
+    if (t.proposta && lado[t.proposta] !== 'lula') erro(`${arq}: ${s} usa proposta "${t.proposta}" inexistente ou que não é do lado lula`);
+    if (t.contraste && lado[t.contraste] !== 'flavio') erro(`${arq}: ${s} usa contraste "${t.contraste}" inexistente ou que não é do lado flavio`);
   }
 }
 

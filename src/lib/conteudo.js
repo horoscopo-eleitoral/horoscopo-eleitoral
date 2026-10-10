@@ -69,6 +69,21 @@ export function leituraDoSigno(slug) {
     signo: s,
     texto,
     proposta: proposta(texto.proposta),
+    contraste: texto.contraste ? proposta(texto.contraste) : null,
+    retrogrado: retrogradoDoDia(dia),
     combina: signo(s.combina),
   };
+}
+
+// Planeta retrógrado que "assina" o contraste. Saturno (regras, limites, contas) quando estiver
+// retrógrado; no dia em que Mercúrio também está, ele assume. Sempre um trânsito real do dia.
+const NOMES = { mercurio: 'Mercúrio', venus: 'Vênus', marte: 'Marte', jupiter: 'Júpiter', saturno: 'Saturno' };
+const SIMBOLOS = { mercurio: '☿', venus: '♀', marte: '♂', jupiter: '♃', saturno: '♄' };
+function retrogradoDoDia(dia) {
+  const r = dia.ceu?.retrogrados ?? [];
+  const escolhido = ['mercurio', 'saturno', 'venus', 'jupiter', 'marte'].find((p) => r.includes(p));
+  if (!escolhido) return null;
+  const nome = NOMES[escolhido];
+  const feminino = escolhido === 'venus';
+  return { simbolo: SIMBOLOS[escolhido], titulo: `${nome} ${feminino ? 'retrógrada' : 'retrógrado'} avisa` };
 }

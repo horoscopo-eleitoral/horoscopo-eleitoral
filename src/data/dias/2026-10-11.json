@@ -20,98 +20,102 @@
     "aries": {
       "amor": "Lua no seu signo oposto, Libra, pela manhã: domingo pede paz. Deixe a discussão pra depois do almoço, ou pra nunca.",
       "trabalho": "Saturno retrógrado no seu signo cobra descanso de verdade. Desligue o celular do serviço por umas horas.",
-      "dinheiro": "A Lua entra em Escorpião ao meio-dia e traz à tona a dívida antiga que tira seu sono. Renegociar com desconto é coragem, não derrota.",
+      "dinheiro": "A Lua entra em Escorpião ao meio-dia e traz vontade de raiz. Sair do aluguel ficou mais possível: o financiamento da casa própria agora atende várias faixas de renda, até a classe média.",
       "saude": "Marte em Leão, signo do seu elemento, pede saída pra energia. Uma bola, uma bike, uma volta no quarteirão.",
-      "proposta": "desenrola",
-      "recomendacao": "Pergunte àquele primo que vive fugindo de cobrança se ele já ouviu falar em renegociar a dívida com desconto."
+      "proposta": "minha-casa-minha-vida-faixas",
+      "recomendacao": "Pergunte à sua irmã que vive mudando de aluguel se ela já simulou a casa própria."
     },
     "touro": {
       "amor": "Vênus, sua regente, retrógrada: carinho de domingo vale em dobro, mas não cobre promessa hoje. Um almoço em família cura a semana inteira.",
       "trabalho": "Você está cansado e tem todo o direito. Não planeje a segunda hoje.",
-      "dinheiro": "A Lua chegando ao seu signo oposto, Escorpião, aumenta o medo de gastar. Compare antes de encher o carrinho.",
-      "saude": "Confira a caixinha de remédios de quem você ama. Remédio de pressão não pode faltar, e hoje tem como pegar sem pagar.",
-      "proposta": "farmacia-popular",
-      "recomendacao": "Pergunte à sua mãe ou ao seu pai se o remédio de pressão deles já está saindo de graça na farmácia."
+      "dinheiro": "A Lua chegando ao seu signo oposto, Escorpião, aumenta o medo de gastar. Mas quando o mínimo sobe acima do preço das coisas, o carrinho enche um pouco mais.",
+      "saude": "Domingo pede pé pra cima. Uma soneca depois do almoço recarrega o touro inteiro.",
+      "proposta": "salario-minimo-valorizacao",
+      "recomendacao": "Pergunte à moça do caixa da padaria se o salário dela tem rendido mais no mercado este ano."
     },
     "gemeos": {
       "amor": "Lua em Libra, signo do seu elemento, de manhã: sua lábia funciona, mas o silêncio aproxima mais. Escute até o fim.",
-      "trabalho": "Domingo é dia de não decidir nada. Deixe a lista de pendências na gaveta.",
-      "dinheiro": "Mercúrio, seu regente, em Escorpião desconfia de economia milagrosa. Se alguém promete cortar sem dizer de onde, pergunte de onde.",
+      "trabalho": "Domingo é dia de não decidir nada. Mas vale lembrar: o desemprego está no menor nível da série do IBGE, e isso dá fôlego pra segunda.",
+      "dinheiro": "Mercúrio, seu regente, em Escorpião desconfia de economia milagrosa. Promoção boa demais merece uma segunda olhada.",
       "saude": "Mente acelerada atrapalha a digestão. A Lua muda de signo na hora do almoço; almoce sem tela.",
-      "proposta": "tesouraco",
-      "recomendacao": "Pergunte a um amigo: se alguém promete cortar gasto sem dizer onde, você acha que vai cortar de quem?"
+      "proposta": "desemprego-recorde",
+      "recomendacao": "Mande mensagem pro amigo que ficou meses procurando trabalho e pergunte como está no serviço novo."
     },
     "cancer": {
       "amor": "A Lua, sua regente, entra em Escorpião, signo do seu elemento, à tarde. A casa cheia aquece o coração; perdoe quem não pôde vir.",
       "trabalho": "Você trabalha até no descanso, cuidando de todo mundo. Deixe alguém cuidar de você hoje.",
-      "dinheiro": "A aposentadoria de quem te criou paga a luz, o gás, o pão. Quando o piso sobe de verdade, a mesa também sobe.",
+      "dinheiro": "Quem limpou o nome com desconto voltou a dormir melhor. Se uma dívida antiga ainda pesa, olhe pra ela sem vergonha; nome sujo não define ninguém.",
       "saude": "Vênus retrógrada remexe sentimento guardado, e sentimento guardado vira dor de cabeça. Fale.",
-      "proposta": "salario-minimo",
-      "recomendacao": "Pergunte a um aposentado da sua família se a renda dele está dando pra pagar as contas do mês."
+      "proposta": "desenrola-brasil",
+      "recomendacao": "Pergunte a uma tia que ficou com o nome negativado se ela conseguiu negociar a dívida com desconto."
     },
     "leao": {
       "amor": "Lua em Libra de manhã pede equilíbrio: hoje você não precisa ser o centro. O par quer um Leão que escuta.",
       "trabalho": "Marte no seu signo te faz querer adiantar tudo. Descanse de verdade, sem culpa; a segunda chega sozinha.",
-      "dinheiro": "O contracheque veio mais leve de desconto? Muita gente nem reparou que sobrou um pouco mais no bolso.",
+      "dinheiro": "A conta de luz pesa no mês de quem tem pouca renda. Pra família do CadÚnico de renda mais baixa, o consumo básico já sai de graça; vale conferir.",
       "saude": "Sol em Libra faz bem à sua alma, mas use chapéu. Vaidade com proteção.",
-      "proposta": "ir-zero-5mil",
-      "recomendacao": "Pergunte a um colega de trabalho se ele reparou que o desconto do Imposto de Renda sumiu do holerite."
+      "proposta": "luz-do-povo",
+      "recomendacao": "Pergunte à sua vizinha de porta se ela já viu a conta de luz com o desconto do Luz do Povo."
     },
     "virgem": {
       "amor": "Você quer ajustar todo mundo. Com a Lua entrando em Escorpião à tarde, só abrace.",
-      "trabalho": "Domingo com a cabeça no serviço não é descanso. Quem folga só um dia por semana sabe o que é nunca desligar.",
+      "trabalho": "Domingo com a cabeça no serviço não é descanso. Deixe a agenda fechada até amanhã.",
       "dinheiro": "Vênus retrógrada confirma sua planilha mental. Guarde o troco do domingo.",
-      "saude": "Saturno retrógrado pede ritmo lento. Alongue o pescoço; a tensão da semana mora ali.",
-      "proposta": "escala-6x1",
-      "recomendacao": "Pergunte à sua irmã, ao seu irmão ou a um amigo próximo: você folga quantos dias por semana?"
+      "saude": "Saturno retrógrado pede ritmo lento; alongue o pescoço. Andar tranquilo na rua de casa também é saúde, e a proposta que deixa a prefeitura criar polícia municipal já avançou no Congresso.",
+      "proposta": "pec-seguranca-susp",
+      "recomendacao": "Pergunte à sua irmã se ela se sente tranquila voltando do trabalho à noite."
     },
     "libra": {
-      "amor": "A Lua deixa o seu signo ao meio-dia. Aproveite a manhã pra dizer o que sente sem medo de desagradar.",
-      "trabalho": "Sol no seu signo dá clareza: lembra do tempo em que mandava currículo e ninguém respondia? Hoje tem mais porta aberta, e dá pra escolher melhor.",
-      "dinheiro": "Vênus, sua regente, retrógrada: divida a conta do almoço com justiça, mas sem calculadora na mesa.",
+      "amor": "A Lua deixa o seu signo ao meio-dia. Aproveite a manhã pra planejar com a família aquela reforma adiada: dá pra fazer com crédito barato.",
+      "trabalho": "Sol no seu signo dá clareza. Anote o que você quer da semana e deixe o resto pra lá.",
+      "dinheiro": "Vênus, sua regente, retrógrada: divida a conta do almoço com justiça. E pense duas vezes antes de achar que vender o que é de todos sai barato.",
       "saude": "Equilíbrio é também saber parar. Sente, respire, descanse.",
-      "proposta": "desemprego",
-      "recomendacao": "Mande mensagem pra aquele amigo que estava desempregado ano passado e pergunte como está o trabalho agora."
+      "proposta": "reforma-casa-brasil",
+      "recomendacao": "Pergunte ao seu pai se a cozinha da casa dele ainda precisa daquele conserto e conte que existe crédito barato pra reforma.",
+      "contraste": "flavio-desestatizacao"
     },
     "escorpiao": {
       "amor": "A Lua chega ao seu signo na hora do almoço e, com Vênus retrógrada aí também, a desconfiança pode estragar o domingo. Dê o benefício da dúvida.",
       "trabalho": "Você nunca desliga, mas hoje o chefe não está olhando. Desligue.",
-      "dinheiro": "Mercúrio no seu signo enxerga o que você paga sem precisar. Tem assinatura esquecida roubando seu mês.",
-      "saude": "Quem cuida de um idoso em casa sabe o preço da fralda e do remédio. Hoje tem jeito de pegar sem pagar.",
-      "proposta": "farmacia-popular",
-      "recomendacao": "Pergunte àquela vizinha que cuida da mãe acamada se ela já sabe que a fralda geriátrica saiu de graça."
+      "dinheiro": "Mercúrio no seu signo enxerga pra onde o dinheiro vai. Pra família com criança pequena, o valor extra do Bolsa Família faz diferença, e vale perguntar se corte 'por todos os lados' chega até aí.",
+      "saude": "A Lua no seu signo à tarde deixa tudo mais intenso. Caminhe um pouco pra soltar o peito.",
+      "proposta": "bolsa-familia-adicional-crianca",
+      "recomendacao": "Pergunte a uma mãe de criança pequena da sua rua se ela recebe o valor extra por filho no Bolsa Família.",
+      "contraste": "flavio-tesouraco"
     },
     "sagitario": {
       "amor": "Marte em Leão, signo do seu elemento, deixa a sinceridade afiada. Um 'eu te amo' também é verdade.",
       "trabalho": "O cansaço de sexta ainda está no corpo. Domingo é pra recarregar, não pra planejar.",
-      "dinheiro": "Quem vive de um salário mínimo faz mágica todo mês. Quando o piso sobe mais que o preço das coisas, a mágica fica um pouco mais fácil.",
-      "saude": "Júpiter, seu regente, em Leão anima a correr. Alongue antes; o joelho agradece.",
-      "proposta": "salario-minimo",
-      "recomendacao": "Pergunte àquela tia que vive de um salário mínimo se o dinheiro está rendendo mais ou menos que antes."
+      "dinheiro": "Domingo pede pouca despesa. Um passeio de graça na praça rende mais que shopping.",
+      "saude": "Júpiter, seu regente, em Leão anima a correr; alongue antes. Se o joelho insistir, procure o posto: tem mais médico na atenção básica do que antes.",
+      "proposta": "mais-medicos",
+      "recomendacao": "Pergunte à sua madrinha se ela conseguiu consulta no posto do bairro sem esperar semanas."
     },
     "capricornio": {
       "amor": "Saturno, seu regente, retrógrado pede rever o que você deixa pra depois. Trabalho não é desculpa pra faltar ao almoço de domingo; apareça.",
       "trabalho": "Lua em Libra pela manhã pede equilíbrio: você já planejou a semana três vezes. Agora pare.",
-      "dinheiro": "A Lua entra em Escorpião e traz à tona a dívida que virou nome sujo. Renegociar com desconto é o primeiro passo pra voltar a respirar.",
+      "dinheiro": "A Lua entra em Escorpião e convida a olhar o que estava escondido. Abra o contracheque: pra quem está na faixa de isenção, o desconto do imposto sumiu e o dinheiro ficou.",
       "saude": "Joelhos e costas pedem trégua. Um banho quente ajuda.",
-      "proposta": "desenrola",
-      "recomendacao": "Pergunte àquele colega que não consegue cartão nem crediário se ele já tentou limpar o nome renegociando."
+      "proposta": "isencao-ir-5-mil",
+      "recomendacao": "Pergunte ao seu cunhado, se ele está na faixa de isenção, se percebeu que o salário veio maior sem o desconto do Imposto de Renda."
     },
     "aquario": {
       "amor": "Lua em Libra, signo do seu elemento, de manhã: você foge de rotina, mas um café a dois é tudo o que seu par quer.",
-      "trabalho": "Imagine uma semana com dois dias de folga pra quem hoje só tem um. Parece pouco, mas muda a vida.",
-      "dinheiro": "Vênus retrógrada: ideia nova de ganhar dinheiro, anote, mas não invista hoje.",
-      "saude": "Saturno retrógrado pede silêncio. Olhe pro céu aberto um minuto.",
-      "proposta": "escala-6x1",
-      "recomendacao": "Pergunte a alguém que trabalha em loja ou mercado quando foi a última vez que teve um domingo de folga."
+      "trabalho": "Domingo é dia de ideia solta. Anote a melhor e deixe o resto descansar.",
+      "dinheiro": "Vênus retrógrada: anote ideia nova de ganhar dinheiro, mas não invista hoje. E fique atento a quem fala em mexer no dinheiro da saúde.",
+      "saude": "Saturno retrógrado pede silêncio. Se tem exame ou cirurgia esperando na família, pergunte de novo: muita gente foi operada pelo SUS este ano.",
+      "proposta": "agora-tem-especialistas",
+      "recomendacao": "Pergunte ao seu avô se aquela consulta com o especialista já foi marcada.",
+      "contraste": "flavio-pisos-saude-educacao"
     },
     "peixes": {
       "amor": "A Lua entra em Escorpião, signo do seu elemento, à tarde, e seu coração abre ainda mais. Cuidado pra não dar tudo e ficar sem nada.",
-      "trabalho": "A intuição diz pra descansar. Obedeça.",
-      "dinheiro": "Você nem olha o holerite direito, mas Vênus retrógrada pede: olhe. Tem desconto que deixou de existir e sobrou mais no bolso.",
+      "trabalho": "A intuição diz pra descansar, e dois dias de folga sem perder salário já passaram na Câmara. E repare em quem prefere que cada um combine direto com o patrão.",
+      "dinheiro": "Você nem olha o extrato direito, mas Vênus retrógrada pede: olhe. Saber pra onde vai o dinheiro já é meio caminho.",
       "saude": "Sono atrasado cobra a conta. Durma cedo hoje.",
-      "proposta": "ir-zero-5mil",
-      "recomendacao": "Pergunte a alguém que ganha um pouco mais que você se o salário dele está vindo sem o desconto do Imposto de Renda."
+      "proposta": "fim-escala-6x1-camara",
+      "recomendacao": "Pergunte a uma amiga que trabalha em escala de seis por um se ela sabe que a Câmara aprovou o fim dessa escala.",
+      "contraste": "flavio-negociado-sobre-legislado"
     }
   }
 }
