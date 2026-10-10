@@ -31,8 +31,9 @@ jobs:
       - run: npm run build
         env:
           TZ: America/Sao_Paulo
-          # Em GitHub Pages de projeto, o site fica em /<repo>. Com domínio próprio, troque para '/'.
-          SITE: https://${{ github.repository_owner }}.github.io
+          # O Pages do usuário responde em teles.dev.br; o projeto fica em /<repo>.
+          # Com domínio próprio só para este site, troque SITE e deixe BASE como '/'.
+          SITE: https://teles.dev.br
           BASE: /${{ github.event.repository.name }}
       - uses: actions/upload-pages-artifact@v3
         with:
