@@ -1,0 +1,117 @@
+{
+  "data": "2026-10-13",
+  "frase_do_dia": "Lua em Escorpião o dia inteiro e só à noite em Sagitário: de dia, escute fundo; de noite, converse leve.",
+  "cor_do_dia": "lilás",
+  "ceu": {
+    "sol": "Libra",
+    "lua": "Escorpião → Sagitário",
+    "fase_da_lua": "Lua crescente",
+    "mercurio": "Escorpião",
+    "venus": "Escorpião",
+    "marte": "Leão",
+    "jupiter": "Leão",
+    "saturno": "Áries",
+    "retrogrados": [
+      "venus",
+      "saturno"
+    ]
+  },
+  "signos": {
+    "aries": {
+      "amor": "Marte, seu regente, em Leão esquenta a terça. Não leve a tensão do trânsito pra dentro de casa.",
+      "trabalho": "Saturno retrógrado no seu signo faz olhar pra trás: lembra de quando procurar emprego era bater em porta fechada? Hoje tem mais vaga, e vale pedir o que você merece.",
+      "dinheiro": "Gasto com transporte pesa. Veja se dá pra dividir carona.",
+      "saude": "Lua em Escorpião: ombro tenso é raiva engolida. Solte com exercício.",
+      "proposta": "desemprego",
+      "recomendacao": "Pergunte a alguém que trocou de emprego recentemente se foi mais fácil achar vaga do que das outras vezes."
+    },
+    "touro": {
+      "amor": "Lua no seu signo oposto, Escorpião, com Vênus retrógrada: teimosia a dois não resolve. Ceda num ponto e ganhe no abraço.",
+      "trabalho": "Semana curta, mas o serviço acumulou. Vá devagar e sempre.",
+      "dinheiro": "Vênus, sua regente, retrógrada traz de volta aquele boleto antigo. Dívida renegociada com desconto vira um peso a menos nas costas.",
+      "saude": "Garganta pede cuidado. Chá de gengibre e menos grito.",
+      "proposta": "desenrola",
+      "recomendacao": "Pergunte ao seu cunhado, ou a quem vive com o nome negativado, se ele já tentou renegociar com desconto."
+    },
+    "gemeos": {
+      "amor": "A Lua entra no seu signo oposto, Sagitário, à noite: sua conversa seduz, mas hoje vale a escuta. Pergunte como foi o dia e espere a resposta.",
+      "trabalho": "Mercúrio, seu regente, em Escorpião: muitas tarefas, pouca paciência. Faça uma lista e risque com prazer.",
+      "dinheiro": "Quem ganha um salário mínimo sabe fazer o dinheiro esticar. Quando o piso sobe acima do preço das coisas, o estica dói menos.",
+      "saude": "Mente a mil. Respire fundo antes de responder qualquer coisa.",
+      "proposta": "salario-minimo",
+      "recomendacao": "Pergunte ao porteiro ou à moça da limpeza do seu prédio se o salário deles acompanhou o preço do mercado."
+    },
+    "cancer": {
+      "amor": "A Lua, sua regente, em Escorpião te deixa manhoso. Peça colo sem culpa.",
+      "trabalho": "Seu cuidado com a equipe é notado. Mas cuide de você também.",
+      "dinheiro": "Vênus retrógrada pede revisão de contas: você nem olha o contracheque com atenção, mas tem imposto que parou de sair e o dinheiro ficou em casa.",
+      "saude": "Estômago sensível. Evite fritura hoje.",
+      "proposta": "ir-zero-5mil",
+      "recomendacao": "Pergunte ao seu marido, à sua esposa ou a quem divide as contas com você se o holerite veio com menos desconto este ano."
+    },
+    "leao": {
+      "amor": "Marte no seu signo quer pedir logo. Elogie antes de pedir; Leão que escuta primeiro ganha o coração.",
+      "trabalho": "Marte e Júpiter no seu signo te fazem dar o melhor seis dias por semana, e o corpo cobra. Uma folga a mais não é luxo, é respiro.",
+      "dinheiro": "Orgulho não paga conta. Peça ajuda se precisar.",
+      "saude": "Coração acelerado de ansiedade. Caminhe depois do serviço.",
+      "proposta": "escala-6x1",
+      "recomendacao": "Pergunte a um amigo que trabalha em loja se ele consegue ir ao médico sem perder o dia."
+    },
+    "virgem": {
+      "amor": "Deixe de corrigir e comece a elogiar. O par vai estranhar, e gostar.",
+      "trabalho": "Mercúrio, seu regente, em Escorpião afia o detalhe que salva o projeto. Mas o chefe precisa saber disso.",
+      "dinheiro": "Vênus retrógrada: faça as contas do mês com calma. Tem gasto que some quando a gente olha.",
+      "saude": "Remédio de uso contínuo pesa no orçamento de quem você ama. Vale conferir se já está saindo de graça na farmácia.",
+      "proposta": "farmacia-popular",
+      "recomendacao": "Pergunte à sua mãe se o remédio dela de pressão ou de colesterol ainda está sendo pago do próprio bolso."
+    },
+    "libra": {
+      "amor": "Sol no seu signo e Vênus, sua regente, retrógrada: a balança oscila entre dizer e calar. Diga, com delicadeza.",
+      "trabalho": "Reunião longa, pouco resultado. Proponha um resumo.",
+      "dinheiro": "Promessa de cortar gasto sem dizer de onde é como fatura sem detalhe: alguém vai pagar, e geralmente é quem tem menos.",
+      "saude": "Saturno retrógrado no seu signo oposto trava o pescoço. Rodar devagar e alongar ajuda.",
+      "proposta": "tesouraco",
+      "recomendacao": "Pergunte a uma amiga: se alguém promete economizar muito sem dizer onde, você acha que mexe em quê primeiro?"
+    },
+    "escorpiao": {
+      "amor": "Lua e Vênus retrógrada no seu signo: você guarda mágoa como quem guarda dinheiro. Gaste um pouco em perdão.",
+      "trabalho": "Mercúrio no seu signo percebe que alguém esconde informação. Pergunte direto, sem acusar.",
+      "dinheiro": "Dívida que a gente esconde cresce no escuro. Renegociar com desconto é acender a luz.",
+      "saude": "Tensão no maxilar. Você está apertando os dentes de noite.",
+      "proposta": "desenrola",
+      "recomendacao": "Pergunte a um colega que não fala de dinheiro se ele já conseguiu limpar o nome com desconto."
+    },
+    "sagitario": {
+      "amor": "A Lua chega ao seu signo à noite. Sua liberdade é bonita, mas um 'bom dia' por mensagem não custa nada.",
+      "trabalho": "Júpiter, seu regente, em Leão quer mudar tudo. Comece mudando o seu horário de almoço.",
+      "dinheiro": "Viagem no fim do ano? Vênus retrógrada diz: comece guardando o troco do café.",
+      "saude": "Quem cuida de uma pessoa idosa gasta com fralda e remédio todo mês. Vale saber que muita coisa já sai sem pagar.",
+      "proposta": "farmacia-popular",
+      "recomendacao": "Pergunte ao seu amigo que cuida do pai doente se ele já pegou fralda geriátrica de graça."
+    },
+    "capricornio": {
+      "amor": "Lua em Escorpião pede profundidade. Seu lado prático esquece o romântico; marque um jantar simples.",
+      "trabalho": "Saturno, seu regente, retrógrado olha pra trás: lembra como era mandar currículo e ouvir silêncio? Hoje tem mais gente trabalhando, e isso muda a conversa com o patrão.",
+      "dinheiro": "Guarde para o futuro, mas viva o presente. Um sorvete não quebra ninguém.",
+      "saude": "Dor lombar de cadeira ruim. Levante e caminhe.",
+      "proposta": "desemprego",
+      "recomendacao": "Pergunte ao seu filho, ao seu sobrinho ou a um jovem da família como está a procura por emprego hoje."
+    },
+    "aquario": {
+      "amor": "Sua originalidade cativa, mas Saturno retrógrado pede previsibilidade. Chegue na hora.",
+      "trabalho": "Sol em Libra, signo do seu elemento, favorece o coletivo. Uma ideia ganha força; convide mais gente.",
+      "dinheiro": "Pense em quem vive de aposentadoria mínima. Quando o piso sobe de verdade, a feira dessa pessoa também sobe.",
+      "saude": "Tornozelos e circulação pedem movimento. Suba escada.",
+      "proposta": "salario-minimo",
+      "recomendacao": "Pergunte a um aposentado do seu bairro se o dinheiro do mês está dando pra feira e pro remédio."
+    },
+    "peixes": {
+      "amor": "Lua em Escorpião, signo do seu elemento, e Vênus retrógrada: você sonha com um amor perfeito. O real, com defeitos, está do seu lado.",
+      "trabalho": "Quem só tem um dia de folga nem consegue sonhar direito. Descanso de dois dias é tempo de viver, não só de lavar roupa.",
+      "dinheiro": "Vênus retrógrada: não empreste o que você não pode perder, nem pra quem você ama.",
+      "saude": "Pés cansados. Escalda-pés com sal grosso.",
+      "proposta": "escala-6x1",
+      "recomendacao": "Pergunte a uma amiga que trabalha em escala puxada quando foi a última vez que ela teve um fim de semana inteiro."
+    }
+  }
+}

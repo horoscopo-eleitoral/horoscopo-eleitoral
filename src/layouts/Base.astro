@@ -1,0 +1,64 @@
+---
+import '../styles/global.css';
+import { todosSignos } from '../lib/conteudo.js';
+
+const { titulo, descricao, signoAtual, imagem } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const url = new URL(Astro.url.pathname, Astro.site).href;
+const og = imagem ?? new URL(`${base}/og.png`, Astro.site).href;
+---
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{titulo} · Horóscopo Eleitoral</title>
+    <meta name="description" content={descricao} />
+    <link rel="canonical" href={url} />
+    <meta property="og:title" content={titulo} />
+    <meta property="og:description" content={descricao} />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content={url} />
+    <meta property="og:image" content={og} />
+    <meta property="og:locale" content="pt_BR" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <link rel="icon" href={`${base}/favicon.svg`} type="image/svg+xml" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&family=Playfair+Display:ital,wght@0,600;0,700;1,400&display=swap" rel="stylesheet" />
+    <meta name="theme-color" content="#080d1e" />
+  </head>
+  <body>
+    <header class="topo">
+      <div class="container">
+        <a class="marca" href={`${base}/`}>✦ Horóscopo Eleitoral <small>o 2º turno escrito nas estrelas</small></a>
+      </div>
+    </header>
+
+    <div class="container">
+      <ul class="faixa-signos">
+        {todosSignos().map((s) => (
+          <li>
+            <a href={`${base}/${s.slug}/`} aria-current={s.slug === signoAtual ? 'page' : undefined}>
+              <span class="simbolo" aria-hidden="true">{s.simbolo}</span>
+              {s.nome}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+
+    <main class="container">
+      <slot />
+    </main>
+
+    <footer class="rodape container">
+      <p>
+        Horóscopo Eleitoral é um projeto voluntário e independente, com intenção eleitoral declarada:
+        convencer quem ainda não decidiu a votar no Lula no 2º turno, dia 25 de outubro.
+        Sem vínculo com partido ou campanha. Sem impulsionamento pago.
+      </p>
+      <p><a href={`${base}/sobre/`}>Sobre o projeto e fontes</a></p>
+    </footer>
+  </body>
+</html>

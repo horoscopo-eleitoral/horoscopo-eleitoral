@@ -1,0 +1,118 @@
+{
+  "data": "2026-10-25",
+  "frase_do_dia": "Hoje é dia. Mercúrio fica retrógrado e pede que você confira seu local de votação duas vezes; a Lua entra em Touro e pede calma na fila. Os astros só pedem uma coisa: vá votar.",
+  "cor_do_dia": "lilás",
+  "ceu": {
+    "sol": "Escorpião",
+    "lua": "Áries → Touro",
+    "fase_da_lua": "Lua crescente, quase cheia",
+    "mercurio": "Escorpião",
+    "venus": "Libra",
+    "marte": "Leão",
+    "jupiter": "Leão",
+    "saturno": "Áries",
+    "retrogrados": [
+      "mercurio",
+      "venus",
+      "saturno"
+    ]
+  },
+  "signos": {
+    "aries": {
+      "amor": "A Lua sai do seu signo e Marte, seu regente, acorda cedo. Chame quem ama pra tomar café e sair de casa junto.",
+      "trabalho": "Mercúrio retrógrado pede conferir o horário: a seção abre cedo e fecha no fim da tarde. Pra quem trabalha seis dias por semana, hoje é o dia de escolher quantos dias quer descansar.",
+      "dinheiro": "Leve só o documento e o dinheiro da condução. O resto fica em casa.",
+      "saude": "Lua entrando em Touro pede calma na fila. Boné, água e paciência.",
+      "proposta": "escala-6x1",
+      "recomendacao": "Vá com alguém da sua rua. Se um vizinho precisa de carona, ofereça e não pergunte em quem ele vota."
+    },
+    "touro": {
+      "amor": "A Lua entra no seu signo e Vênus, sua regente, volta pra Libra: domingo de mão dada. A fila da seção vale como passeio.",
+      "trabalho": "Sem escala hoje? Lua no seu signo não aceita desculpa: a urna abre cedo e espera até o fim da tarde.",
+      "dinheiro": "Quem viu o imposto sumir do contracheque sabe que escolha tem preço. Hoje a urna recebe a sua.",
+      "saude": "Lua no seu signo: almoce depois de votar. Touro com fome não decide nada.",
+      "proposta": "ir-zero-5mil",
+      "recomendacao": "Ligue pra um parente mais velho e pergunte se já votou. Se não, vá buscar."
+    },
+    "gemeos": {
+      "amor": "Mercúrio, seu regente, fica retrógrado hoje: menos conversa e mais ação. Convide e vá.",
+      "trabalho": "Mercúrio retrógrado pede conferir duas vezes a zona e a seção. O serviço de hoje é um só e leva poucos minutos: votar. Depois, folga.",
+      "dinheiro": "Não precisa gastar: a urna é de graça e a feira pode esperar.",
+      "saude": "Sua mãe pega remédio de graça na farmácia e não sabe que isso é escolha. Vá votar e leve ela junto.",
+      "proposta": "farmacia-popular",
+      "recomendacao": "Mande mensagem no grupo: 'quem ainda não votou?'. Quem responder sem saber onde, ensine o e-Título pelo telefone."
+    },
+    "cancer": {
+      "amor": "A Lua, sua regente, entra em Touro e pede família reunida. Votem juntos e almocem juntos.",
+      "trabalho": "Hoje o trabalho é cívico e o chefe é você.",
+      "dinheiro": "Sua avó vive do piso e hoje o voto dela pesa igual ao de qualquer um. Vá com ela.",
+      "saude": "Lua em Touro pede barriga calma: tome café antes de sair, a fila com fome dói.",
+      "proposta": "salario-minimo",
+      "recomendacao": "Acompanhe quem precisa: quem anda devagar, quem não enxerga bem, quem tem medo da máquina. Segure o braço e vá junto."
+    },
+    "leao": {
+      "amor": "O Sol, seu regente, em Escorpião e Marte no seu signo: leve quem ama pra ver você votar.",
+      "trabalho": "Marte no seu signo quer palco, mas a cabine é pequena e o gesto é grande.",
+      "dinheiro": "Quem limpou o nome com desconto sabe que programa bom precisa continuar. Hoje você decide isso com o dedo.",
+      "saude": "Coração batendo forte na fila é normal. Respire, vote, sorria.",
+      "proposta": "desenrola",
+      "recomendacao": "Se você tem carro, vá buscar um conhecido que mora longe da seção. Carona é carona, não é campanha."
+    },
+    "virgem": {
+      "amor": "Mercúrio, seu regente, retrógrado a partir de hoje: menos lista e mais abraço. Vá votar de mãos dadas.",
+      "trabalho": "Seu irmão saiu do desemprego este ano e hoje vai votar de carteira assinada. Vá junto, a urna fecha às 17h.",
+      "dinheiro": "Mercúrio retrógrado pede conferir: documento com foto na mão e troco pro ônibus. Lista conferida duas vezes.",
+      "saude": "Lua em Touro, signo do seu elemento, pede calma: fila é curta pra quem chega cedo. Leve o lenço.",
+      "proposta": "desemprego",
+      "recomendacao": "Faça a chamada: ligue pra cada pessoa da sua lista e pergunte se já votou. Quem travou, ajude."
+    },
+    "libra": {
+      "amor": "Vênus, sua regente, volta pro seu signo hoje, ainda retrógrada: vote cedo e aproveite o resto do domingo a dois.",
+      "trabalho": "Lua em Touro, signo de Vênus como o seu: a balança de hoje é a urna. Ela pesa cada voto igual.",
+      "dinheiro": "Corte de gastos sem dizer onde é promessa vazia. Hoje você escolhe quem fala claro.",
+      "saude": "Lombar agradece fila curta. Vá de manhã.",
+      "proposta": "tesouraco",
+      "recomendacao": "Lembre o vizinho que trabalha de domingo: a urna fica aberta até o fim da tarde. Se precisar, cubra um pouco pra ele conseguir ir."
+    },
+    "escorpiao": {
+      "amor": "Sol no seu signo e Mercúrio retrógrado também no seu signo: entrega sem discurso. Vote cedo e depois se entregue ao domingo.",
+      "trabalho": "Quem trabalha seis dias por semana tem um domingo. Hoje ele serve pra garantir que esse domingo não seja o único descanso.",
+      "dinheiro": "Vênus deixa seu signo hoje. Nada de gasto: a única coisa que você entrega é o voto.",
+      "saude": "Sono curto por ansiedade? A Lua entrando em Touro, seu signo oposto, pede: vote e volte pra cama.",
+      "proposta": "escala-6x1",
+      "recomendacao": "Procure quem disse que não ia votar por preguiça. Convide pra ir junto, sem sermão. Só vá."
+    },
+    "sagitario": {
+      "amor": "Júpiter, seu regente, em Leão traz um domingo de sorte. Comece pela urna, depois o passeio.",
+      "trabalho": "Mercúrio retrógrado: confira o horário antes de sair. A seção eleitoral é o único lugar com hora certa hoje.",
+      "dinheiro": "Quem parou de pagar imposto sentiu no bolso. Hoje decide se quer que continue.",
+      "saude": "A Lua saindo de Áries, signo do seu elemento, ainda dá pique: coxa agradece caminhada até a seção. Vá a pé se puder.",
+      "proposta": "ir-zero-5mil",
+      "recomendacao": "Ofereça carona pra alguém que mora longe da seção. Não pergunte em quem vota, só leve."
+    },
+    "capricornio": {
+      "amor": "Saturno, seu regente, retrógrado pede disciplina até no amor: vote cedo e tire o resto do dia pra dois.",
+      "trabalho": "Lua em Touro, signo do seu elemento: hoje seu trabalho é ir e levar. Cumpra o horário como você sempre faz.",
+      "dinheiro": "Mercúrio retrógrado pede conferir a carteira: leve só o essencial. Capricórnio sabe que o resto é distração.",
+      "saude": "O remédio da sua mãe sai de graça na farmácia. Hoje é dia de defender isso na urna, com ela ao lado.",
+      "proposta": "farmacia-popular",
+      "recomendacao": "Pegue a lista que você fez ontem e vá riscando: quem já votou, quem precisa de carona, quem vai com você."
+    },
+    "aquario": {
+      "amor": "Lua em Touro muda o seu ritmo: vote cedo e surpreenda alguém com um almoço demorado.",
+      "trabalho": "Marte no seu signo oposto dá energia: votar é trabalho coletivo. Chame o grupo todo.",
+      "dinheiro": "Sua tia vive de um salário e hoje vota igual a quem tem muito. Vá junto com ela.",
+      "saude": "Circulação pede andar. A fila anda, você também.",
+      "proposta": "salario-minimo",
+      "recomendacao": "Mande no grupo: 'alguém precisa de carona pra votar?'. Depois vá buscar quem respondeu."
+    },
+    "peixes": {
+      "amor": "Vênus retrógrada pede amor na prática: acompanhe quem você ama até a seção.",
+      "trabalho": "Mercúrio retrógrado: confira a seção no e-Título antes de sair. Entre o café e o almoço, seu único serviço é votar.",
+      "dinheiro": "Quem renegociou dívida com desconto voltou a respirar. Hoje a sua escolha decide se mais gente respira.",
+      "saude": "A Lua entrando em Touro pede pé no chão: chinelo não, tênis. Fila e caminhada.",
+      "proposta": "desenrola",
+      "recomendacao": "Ligue pra uma pessoa que cuida de um idoso e combine: você fica com ele enquanto ela vai votar, ou vão todos juntos."
+    }
+  }
+}

@@ -1,0 +1,117 @@
+{
+  "data": "2026-10-21",
+  "frase_do_dia": "Última quarta antes da urna: a Lua sai de Aquário e entra em Peixes, e a conversa deixa de ser ideia pra virar cuidado.",
+  "cor_do_dia": "verde",
+  "ceu": {
+    "sol": "Libra",
+    "lua": "Aquário → Peixes",
+    "fase_da_lua": "Lua crescente",
+    "mercurio": "Escorpião",
+    "venus": "Escorpião",
+    "marte": "Leão",
+    "jupiter": "Leão",
+    "saturno": "Áries",
+    "retrogrados": [
+      "venus",
+      "saturno"
+    ]
+  },
+  "signos": {
+    "aries": {
+      "amor": "A Lua entrando em Peixes baixa o fogo. Hoje seu charme está no cuidado, não na pressa.",
+      "trabalho": "Saturno retrógrado no seu signo pesa a semana no meio, e o corpo já quer sexta. Seis dias de serviço pra um de descanso não é ritmo, é maratona.",
+      "dinheiro": "Vênus retrógrada traz de volta uma conta que você empurrou. Abra, olhe, negocie.",
+      "saude": "Marte em signo de fogo, como o seu, sobe a pressão e encurta a paciência. Respire antes de reagir.",
+      "proposta": "escala-6x1",
+      "recomendacao": "Mande mensagem pra alguém que trabalha de domingo e pergunte quando foi a última folga de dois dias seguidos."
+    },
+    "touro": {
+      "amor": "Touro gosta de rotina, mas a Lua mudando de signo pede uma surpresa pequena: um bilhete, um doce, um beijo fora de hora.",
+      "trabalho": "Saturno retrógrado pede rever o que você carrega. Você segura a barra de todo mundo; peça ajuda uma vez, só pra ver como é.",
+      "dinheiro": "O mercado continua caro, mas repare no holerite: quem ganha até cinco mil parou de pagar Imposto de Renda. Esse dinheiro ficou com você.",
+      "saude": "Joelho e pescoço avisam que a cadeira está errada. Levante a cada hora.",
+      "proposta": "ir-zero-5mil",
+      "recomendacao": "Ajude alguém da família a fazer a conta de quanto sobra no ano sem o desconto do imposto."
+    },
+    "gemeos": {
+      "amor": "Mercúrio, seu regente, em Escorpião deixa você falante e fundo, mas o outro quer ser ouvido. Troque a resposta rápida por um 'me conta mais'.",
+      "trabalho": "A Lua sai de Aquário, signo do seu elemento: a manhã rende, a tarde dispersa. Termine a tarefa mais chata primeiro.",
+      "dinheiro": "Você fala de tudo, menos do piso. Quando o salário mínimo sobe acima da inflação, a aposentadoria de muita gente sobe junto.",
+      "saude": "A mente a mil deixa o sono picado. Nada de tela na cama.",
+      "proposta": "salario-minimo",
+      "recomendacao": "Pergunte a um aposentado que você conhece se o benefício dele subiu mais do que o preço do gás."
+    },
+    "cancer": {
+      "amor": "A Lua, sua regente, entra em Peixes e você fica mais sensível. Seu coração abriga todo mundo, mas hoje peça colo também.",
+      "trabalho": "Um sobrinho que estava parado acabou de arrumar serviço. Repare como anda mais fácil achar vaga do que há uns anos, mesmo que ainda falte muita coisa.",
+      "dinheiro": "Vênus retrógrada em signo de água, como o seu, avisa: o dinheiro do mês já tem dono. Não empreste o que você não tem.",
+      "saude": "Estômago sensível pede comida de casa. Deixe o lanche pra outro dia.",
+      "proposta": "desemprego",
+      "recomendacao": "Pergunte a alguém que está trabalhando hoje como foi a última vez que procurou emprego."
+    },
+    "leao": {
+      "amor": "Marte e Júpiter no seu signo iluminam seu lado generoso. Elogie em voz alta, sem esperar troco.",
+      "trabalho": "Marte no seu signo faz quererem você na frente de novo. Aceite, mas combine o horário de sair.",
+      "dinheiro": "Leão sabe reconhecer conversa fiada. Quando alguém promete cortar gastos mas não diz de onde, pergunte: vai cortar do remédio, da escola ou do seu benefício?",
+      "saude": "Coração grande, cuide dele também. Uma caminhada curta depois do almoço.",
+      "proposta": "tesouraco",
+      "recomendacao": "Converse com alguém que gosta da ideia de 'cortar gastos' e pergunte, com calma, de onde ele acha que sairia o corte."
+    },
+    "virgem": {
+      "amor": "Lua chegando em Peixes, seu signo oposto, pede menos correção e mais abraço. Hoje o detalhe que importa é a presença.",
+      "trabalho": "Saturno retrógrado pede rever a rotina. Você tem um só dia de folga e gasta ele pondo a casa em ordem. Descanso de verdade é ter dois dias seguidos pra viver.",
+      "dinheiro": "A planilha está certa, o salário é que está curto. Não se culpe pelo que não é seu.",
+      "saude": "Mercúrio, seu regente, em Escorpião leva a tensão pro maxilar. Solte os dentes, respire fundo.",
+      "proposta": "escala-6x1",
+      "recomendacao": "Mande mensagem pra alguém que trabalha no comércio e pergunte quando foi o último fim de semana inteiro de folga."
+    },
+    "libra": {
+      "amor": "Vênus, sua regente, retrógrada traz de volta uma conversa pendente. Com o Sol ainda no seu signo, ela flui bem hoje.",
+      "trabalho": "Sol no seu signo nos últimos dias: decida o que estava em cima do muro. Dá pra ajustar depois.",
+      "dinheiro": "Libra pesa os dois lados. Promessa de corte de gastos sem dizer onde não tem como pesar: falta o outro prato da balança.",
+      "saude": "Rins e bexiga agradecem água. Leve a garrafinha.",
+      "proposta": "tesouraco",
+      "recomendacao": "Pergunte a alguém indeciso: se cortar sem dizer de onde, você acha que vai cortar de quem?"
+    },
+    "escorpiao": {
+      "amor": "Mercúrio no seu signo aprofunda o olhar: hoje você percebe o que o outro não diz. Use com ternura.",
+      "trabalho": "Alguém tenta jogar a culpa em você. Mercúrio no seu signo ajuda: guarde as mensagens e siga em frente.",
+      "dinheiro": "Vênus retrógrada no seu signo pede encarar o extrato que você esconde. Dívida pequena com nome sujo tem jeito, renegociar com desconto existe.",
+      "saude": "Quem cuida dos outros esquece de si. Marque o seu próprio exame.",
+      "proposta": "desenrola",
+      "recomendacao": "Mande recado pra um amigo que não consegue cartão por causa de uma conta antiga e ofereça ajuda pra renegociar."
+    },
+    "sagitario": {
+      "amor": "Júpiter, seu regente, em Leão expande o coração. Diga o que sente antes que o momento passe.",
+      "trabalho": "Marte em signo de fogo, como o seu, dá gás, e a chefia pede algo de última hora. Diga sim só se couber na sua vida.",
+      "dinheiro": "Seu tio que vive do piso contou que a conta fechou este mês. Quando o mínimo sobe mais que o preço, é isso que acontece, e vale lembrar.",
+      "saude": "Coxa e quadril pedem alongamento. Sagitário parado enferruja.",
+      "proposta": "salario-minimo",
+      "recomendacao": "Ligue pra uma pessoa que vive de um salário e pergunte se o fim do mês está chegando mais leve ou mais pesado."
+    },
+    "capricornio": {
+      "amor": "Saturno, seu regente, retrógrado deixa você sério, mas a Lua em Peixes pede riso. Conte uma história boba.",
+      "trabalho": "Saturno retrógrado pede rever o que você assumiu. Sua disciplina é notada, só não vire a muleta da equipe toda.",
+      "dinheiro": "Você odeia dever. Mas conhece alguém com o nome sujo por uma conta pequena, e renegociar com desconto é caminho que continua aberto.",
+      "saude": "Ossos e joelhos pedem cálcio e sol de manhã.",
+      "proposta": "desenrola",
+      "recomendacao": "Pergunte a um parente que está devendo no cartão se ele sabe que existe renegociação com desconto e ofereça ajuda pra olhar."
+    },
+    "aquario": {
+      "amor": "A Lua sai do seu signo e entra em Peixes: o dia começa racional e termina sensível. Esteja aberto a um encontro inesperado, mas com os pés no chão.",
+      "trabalho": "Lembra quando mandar currículo era como jogar garrafa no mar? Hoje tem vaga aparecendo, ainda que não seja a dos sonhos.",
+      "dinheiro": "Vênus retrógrada pede gasto com o que une: um almoço com os amigos vale mais que um aparelho novo.",
+      "saude": "Tornozelos inchados avisam: levante e ande um pouco.",
+      "proposta": "desemprego",
+      "recomendacao": "Mande mensagem pra alguém que estava desempregado no começo do ano e pergunte como está agora."
+    },
+    "peixes": {
+      "amor": "A Lua entra no seu signo e deixa tudo mais sonhador. Aproveite, mas combine o que é real.",
+      "trabalho": "Com a Lua chegando no seu signo, você absorve o humor dos colegas. Mas repare: tem mais gente trabalhando por perto do que há alguns anos, e isso também muda o clima.",
+      "dinheiro": "Vênus retrógrada afina seu faro: Peixes sente quando a promessa vem vazia. Peça pra ver a conta antes de acreditar.",
+      "saude": "Pés cansados pedem escalda-pés e cama cedo.",
+      "proposta": "desemprego",
+      "recomendacao": "Lembre de alguém que ficou meses procurando emprego e pergunte como está agora."
+    }
+  }
+}

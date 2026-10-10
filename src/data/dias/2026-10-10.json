@@ -1,0 +1,117 @@
+{
+  "data": "2026-10-10",
+  "frase_do_dia": "Lua nova em Libra pede recomeço: dia de plantar conversa, não de colher briga. Pergunte primeiro.",
+  "cor_do_dia": "dourado",
+  "ceu": {
+    "sol": "Libra",
+    "lua": "Libra",
+    "fase_da_lua": "Lua nova",
+    "mercurio": "Escorpião",
+    "venus": "Escorpião",
+    "marte": "Leão",
+    "jupiter": "Leão",
+    "saturno": "Áries",
+    "retrogrados": [
+      "venus",
+      "saturno"
+    ]
+  },
+  "signos": {
+    "aries": {
+      "amor": "Lua nova no seu signo oposto, Libra, é convite pra recomeçar a dois. Fale menos e pergunte mais, que a resposta vem.",
+      "trabalho": "Saturno retrógrado no seu signo pede revisão da carga que você carrega. O corpo já pediu um sábado de folga faz tempo.",
+      "dinheiro": "Com Vênus retrógrada, revise o extrato sem medo. Tem gasto pequeno que vira grande.",
+      "saude": "Marte em Leão, signo do seu elemento, dá energia de sobra. Gaste com caminhada, não com discussão.",
+      "proposta": "escala-6x1",
+      "recomendacao": "Ligue pra alguém que trabalha seis dias por semana e pergunte como está."
+    },
+    "touro": {
+      "amor": "Vênus, sua regente, está retrógrada no seu signo oposto, Escorpião: não é dia de decisão impulsiva no amor. Um café feito com calma vale mais que presente.",
+      "trabalho": "Alguém vai reconhecer seu esforço, mas a Lua nova ainda está plantando. Não espere que seja hoje.",
+      "dinheiro": "Vênus retrógrada manda rever o dinheiro: abra o holerite e veja o que entra e o que sai de desconto. Tem gente descobrindo que sobrou mais do que pensava.",
+      "saude": "Durma cedo. Touro cansado fica teimoso, e Marte em Leão só aumenta a teimosia.",
+      "proposta": "ir-zero-5mil",
+      "recomendacao": "Faça a conta de quanto sobra no ano sem o Imposto de Renda. Depois conte pra alguém."
+    },
+    "gemeos": {
+      "amor": "Lua nova em Libra, signo do seu elemento, abre espaço pra uma conversa nova. Pergunte mais, fale menos.",
+      "trabalho": "Mercúrio, seu regente, em Escorpião pede foco em uma coisa só. Olhe a vaga que você quer de verdade, não a primeira que aparece.",
+      "dinheiro": "Com Vênus retrógrada, compra por impulso vira arrependimento. O carrinho pode esperar até segunda.",
+      "saude": "A cabeça não para. Um passeio sem celular ajuda a baixar o volume.",
+      "proposta": "desemprego",
+      "recomendacao": "Lembre de alguém que procurou emprego por meses e mande uma mensagem."
+    },
+    "cancer": {
+      "amor": "Sol em Libra ilumina a família. Uma visita curta pode render uma tarde inteira.",
+      "trabalho": "Não leve pra casa o peso do serviço. Com Lua nova, o sábado é pra começar de novo, não pra repetir.",
+      "dinheiro": "Vênus retrógrada em Escorpião, signo do seu elemento, pede cuidado com quem você sustenta. Guarde um pouco pra você.",
+      "saude": "A memória de quem cuidou de você aparece. Pergunte se os remédios estão em dia.",
+      "proposta": "farmacia-popular",
+      "recomendacao": "Pergunte a um parente mais velho se ele já pegou remédio de graça na farmácia."
+    },
+    "leao": {
+      "amor": "Lua nova em Libra pede equilíbrio: hoje o palco é do outro. Aplauda e veja o que acontece.",
+      "trabalho": "Marte e Júpiter no seu signo te fazem dar tudo de si, mas o corpo já pediu descanso. Semana de seis dias cansa até Leão.",
+      "dinheiro": "Júpiter em Leão traz orgulho pelo que você conquistou, mesmo que ainda falte.",
+      "saude": "Descanso não é fraqueza. Leão também precisa de sombra, principalmente com Marte acelerando tudo.",
+      "proposta": "escala-6x1",
+      "recomendacao": "Pergunte a alguém da sua família quantos dias por semana ela descansa."
+    },
+    "virgem": {
+      "amor": "Deixe o detalhe de lado e veja a intenção. A Lua nova em Libra prefere começo imperfeito a nenhum começo.",
+      "trabalho": "Mercúrio, seu regente, em Escorpião afia sua organização. Ela salva o dia de alguém; aceite o agradecimento.",
+      "dinheiro": "Com Vênus retrógrada, faça as contas com calma. Depois, faça por quem vive de um salário e não consegue.",
+      "saude": "Saturno retrógrado pede ritmo. A ansiedade aparece no estômago; coma devagar.",
+      "proposta": "salario-minimo",
+      "recomendacao": "Pense em quem você conhece que vive de um salário mínimo. Mande uma mensagem."
+    },
+    "libra": {
+      "amor": "Lua nova no seu signo é recomeço de verdade. Hoje vale tomar partido por quem você ama.",
+      "trabalho": "Saturno retrógrado no seu signo oposto, Áries, traz de volta uma decisão adiada. Escolha, mesmo sem ter certeza.",
+      "dinheiro": "Vênus, sua regente, retrógrada pede revisão: a balança do mês ainda não fechou, e renegociar não é vergonha.",
+      "saude": "Sol no seu signo renova a energia, mas os ombros ainda guardam a semana. Alongue antes de dormir.",
+      "proposta": "desenrola",
+      "recomendacao": "Lembre de alguém com o nome sujo por uma dívida pequena e pergunte se já tentou renegociar."
+    },
+    "escorpiao": {
+      "amor": "Vênus retrógrada no seu signo mexe com o passado. Uma conversa sincera vale mais que um silêncio desconfiado.",
+      "trabalho": "Mercúrio no seu signo afia sua percepção. Use pra ajudar, não pra cobrar.",
+      "dinheiro": "Vênus retrógrada é hora de ler a letra miúda. Desconfie de promessa que não diz como vai pagar.",
+      "saude": "Respire fundo antes de responder aquela mensagem. Lua nova em Libra pede paz.",
+      "proposta": "tesouraco",
+      "recomendacao": "Pergunte a alguém: corte de gastos sem dizer onde, você acha que vai cortar de quem?"
+    },
+    "sagitario": {
+      "amor": "Marte em Leão, signo do seu elemento, deixa sua franqueza ainda mais forte. Diga a verdade com carinho.",
+      "trabalho": "O sábado pede aventura, mas seis dias de serviço e um de folga não dão nem pra sonhar direito. Hoje, sonhe sentado.",
+      "dinheiro": "Vênus retrógrada: planeje a viagem, mas antes olhe quanto sobra de verdade.",
+      "saude": "Caminhe ao ar livre. Lua nova em Libra, signo de ar, pede vento no rosto.",
+      "proposta": "escala-6x1",
+      "recomendacao": "Pergunte a um amigo quando foi a última vez que ele teve dois dias seguidos de folga."
+    },
+    "capricornio": {
+      "amor": "Saturno, seu regente, retrógrado em Áries pede revisão de prioridades. Trabalho demais e carinho de menos: hoje, inverta a ordem.",
+      "trabalho": "Você carrega mais do que devia. Saturno retrógrado é hora de rever responsabilidades: delegar também é competência.",
+      "dinheiro": "Vênus retrógrada pede olhar pra quem está ficando pra trás. Você planeja o futuro melhor que ninguém; pense em quem vive de aposentadoria.",
+      "saude": "As costas reclamam. Escute.",
+      "proposta": "salario-minimo",
+      "recomendacao": "Pergunte a um aposentado que você conhece se a renda dele acompanhou o preço das coisas."
+    },
+    "aquario": {
+      "amor": "Lua nova em Libra, signo do seu elemento, aproxima. Sua independência é linda, mas hoje alguém precisa de você por perto.",
+      "trabalho": "Júpiter no seu signo oposto, Leão, abre portas. Uma ideia diferente ganha espaço, e tem mais vaga do que antes pra quem sabe explicar com calma.",
+      "dinheiro": "Pense no coletivo: o que é bom pra todo mundo acaba sendo bom pra você.",
+      "saude": "Saturno retrógrado pede pausa. Desconecte uma hora; o mundo continua.",
+      "proposta": "desemprego",
+      "recomendacao": "Converse com alguém que mudou de emprego este ano e pergunte como foi."
+    },
+    "peixes": {
+      "amor": "Vênus retrógrada em Escorpião, signo do seu elemento, faz você sentir tudo em dobro. Proteja o coração sem fechar a porta.",
+      "trabalho": "A intuição acerta. Com Mercúrio em Escorpião, confie nela na hora de escolher.",
+      "dinheiro": "Cuidado com quem promete mundos e fundos. Peça pra ver a conta.",
+      "saude": "Água, sono e silêncio. E confira se o remédio de quem você cuida já está saindo de graça na farmácia.",
+      "proposta": "farmacia-popular",
+      "recomendacao": "Pergunte a alguém que cuida de um idoso se já sabe que fralda geriátrica é de graça."
+    }
+  }
+}

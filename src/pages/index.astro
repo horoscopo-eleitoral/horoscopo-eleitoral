@@ -1,0 +1,34 @@
+---
+import Base from '../layouts/Base.astro';
+import CeuDoDia from '../components/CeuDoDia.astro';
+import { todosSignos, diaAtual, dataPorExtenso, diasAteSegundoTurno } from '../lib/conteudo.js';
+
+const dia = diaAtual();
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const faltam = diasAteSegundoTurno();
+---
+<Base
+  titulo="Horóscopo do dia para todos os signos"
+  descricao={`Horóscopo de ${dataPorExtenso(dia.data)}: amor, trabalho, dinheiro e saúde para os 12 signos. E o que os astros dizem sobre o 2º turno.`}
+>
+  <h1>Horóscopo do dia {dataPorExtenso(dia.data)}</h1>
+  <p class="suave">Escolha o seu signo e veja o que os astros dizem sobre amor, trabalho, dinheiro e saúde. Faltam <b>{faltam} dias</b> para o 2º turno.</p>
+
+  <p class="aviso">✦ <b>Frase do dia:</b> {dia.frase_do_dia}</p>
+
+  <CeuDoDia ceu={dia.ceu} />
+
+  <ul class="grade-signos">
+    {todosSignos().map((s) => (
+      <li>
+        <a href={`${base}/${s.slug}/`}>
+          <span class="simbolo" aria-hidden="true">{s.simbolo}</span>
+          <span class="nome">{s.nome}</span>
+          <span class="periodo">{s.periodo}</span>
+        </a>
+      </li>
+    ))}
+  </ul>
+
+  <p class="pequeno suave">Não sabe seu signo? É só achar o período com a data do seu aniversário.</p>
+</Base>

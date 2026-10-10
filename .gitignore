@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.astro/
+.DS_Store
+# PDFs dos planos de governo ficam fora do repositório; links no README.
+docs/planos/
+public/og/
+public/og.png

@@ -1,0 +1,95 @@
+---
+import Base from '../layouts/Base.astro';
+import MandarParaAlguem from '../components/MandarParaAlguem.astro';
+import PlanoDeVoto from '../components/PlanoDeVoto.astro';
+import CeuDoDia from '../components/CeuDoDia.astro';
+import { todosSignos, leituraDoSigno, dataPorExtenso, fase } from '../lib/conteudo.js';
+
+export function getStaticPaths() {
+  return todosSignos().map((s) => ({ params: { signo: s.slug } }));
+}
+
+const { signo: slug } = Astro.params;
+const { dia, signo, texto, proposta, combina } = leituraDoSigno(slug);
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const dataExtenso = dataPorExtenso(dia.data);
+const urlPagina = new URL(`${base}/${slug}/`, Astro.site).href;
+const textoZap = `Horóscopo de ${signo.nome} hoje (${dataExtenso}): ${texto.trabalho} Veja o resto em ${urlPagina}`;
+const urlZap = `https://wa.me/?text=${encodeURIComponent(textoZap)}`;
+const faseAtual = fase(dia);
+const ultimoDia = faseAtual === 'eleicao';
+const imagemOg = new URL(`${base}/og/${slug}.png`, Astro.site).href;
+---
+<Base
+  titulo={`Horóscopo de ${signo.nome} hoje, ${dataExtenso}`}
+  descricao={`Veja como ${signo.nome} será influenciado hoje no amor, trabalho, dinheiro e saúde. E o número da sorte do 2º turno.`}
+  signoAtual={slug}
+  imagem={imagemOg}
+>
+  <div class="cabecalho-signo">
+    <span class="simbolo-grande" aria-hidden="true">{signo.simbolo}</span>
+    <div>
+      <h1>Horóscopo de {signo.nome}</h1>
+      <p class="suave" style="margin:0">{dataExtenso} · {signo.periodo}</p>
+    </div>
+  </div>
+
+  <div class="abas">
+    <span class="ativa">Hoje</span>
+    {!ultimoDia && <span class="bloqueada" title="Os astros só revelam amanhã">🔒 Amanhã</span>}
+  </div>
+
+  <CeuDoDia ceu={dia.ceu} />
+
+  {ultimoDia && <p class="aviso">🗳️ <b>Hoje é dia.</b> Os astros só pedem uma coisa: vá votar. Urnas das 8h às 17h.</p>}
+
+  <section class="cartao">
+    <ul class="areas">
+      <li><b>Amor:</b> {texto.amor}</li>
+      <li><b>Trabalho:</b> {texto.trabalho}</li>
+      <li><b>Dinheiro:</b> {texto.dinheiro}</li>
+      <li><b>Saúde:</b> {texto.saude}</li>
+    </ul>
+  </section>
+
+  {faseAtual !== 'convencer' && <PlanoDeVoto diaDaEleicao={ultimoDia} />}
+
+  <section class="cartao sorte">
+    <span class="rotulo">✦ Sorte do dia</span>
+    <p style="margin:6px 0 0">Número: <span class="numero">13</span> &nbsp;·&nbsp; Cor: <b>{dia.cor_do_dia}</b></p>
+
+    <details class="revelacao">
+      <summary>Por que 13?</summary>
+      <span class="rotulo">{signo.nome} e o 2º turno</span>
+      <p class="fato">{proposta.fato}</p>
+      <p class="fonte">Fonte: <a href={proposta.fonte.url} rel="noopener" target="_blank">{proposta.fonte.nome}</a></p>
+      <p class="pergunta">“{proposta.pergunta}”</p>
+      <p class="posicao">No dia 25, os astros recomendam: Lula <span class="treze">13</span></p>
+      <p class="pequeno"><b>Os astros recomendam hoje:</b> {texto.recomendacao}</p>
+    </details>
+  </section>
+
+  <section class="cartao">
+    <span class="rotulo">✧ Combina hoje com</span>
+    <p style="margin:6px 0 10px"><b>{combina.simbolo} {combina.nome}</b>. Conhece alguém de {combina.nome}? Manda o horóscopo pra essa pessoa.</p>
+    <MandarParaAlguem signoSugerido={combina.slug} />
+  </section>
+
+  <section class="acoes duas">
+    <a class="botao zap" href={urlZap} target="_blank" rel="noopener">Compartilhar</a>
+    <button class="botao leve" type="button" data-copiar={urlPagina}>Copiar link</button>
+  </section>
+
+  <script>
+    document.querySelectorAll('[data-copiar]').forEach((b) => {
+      b.addEventListener('click', async () => {
+        try {
+          await navigator.clipboard.writeText(b.dataset.copiar);
+          b.textContent = 'Link copiado ✓';
+        } catch {
+          prompt('Copie o link:', b.dataset.copiar);
+        }
+      });
+    });
+  </script>
+</Base>

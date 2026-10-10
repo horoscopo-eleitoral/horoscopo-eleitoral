@@ -1,0 +1,117 @@
+{
+  "data": "2026-10-17",
+  "frase_do_dia": "Lua em Capricórnio no sábado: ninguém muda de ideia gritando, mas muita gente muda ouvindo com paciência.",
+  "cor_do_dia": "verde",
+  "ceu": {
+    "sol": "Libra",
+    "lua": "Capricórnio",
+    "fase_da_lua": "Lua crescente",
+    "mercurio": "Escorpião",
+    "venus": "Escorpião",
+    "marte": "Leão",
+    "jupiter": "Leão",
+    "saturno": "Áries",
+    "retrogrados": [
+      "venus",
+      "saturno"
+    ]
+  },
+  "signos": {
+    "aries": {
+      "amor": "Lua em Capricórnio pede paciência com quem acorda tarde no sábado. Nem todo mundo tem o seu ritmo.",
+      "trabalho": "Saturno retrógrado no seu signo revê a história: você lembra de quando a fila do currículo dava volta no quarteirão. Hoje tem mais gente trabalhando, e vale notar quem conseguiu.",
+      "dinheiro": "Cuidado com a promoção que parece boa demais. Compare antes de levar.",
+      "saude": "Marte em Leão, do seu elemento, pede movimento: jogue bola, lave o quintal. Áries parado vira pólvora.",
+      "proposta": "desemprego",
+      "recomendacao": "Mande mensagem pro seu amigo que conseguiu carteira assinada este ano e pergunte como foi a procura."
+    },
+    "touro": {
+      "amor": "Lua em Capricórnio, do seu elemento, favorece o almoço de família e uma boa conversa, inclusive sobre o debate. Escute antes de opinar.",
+      "trabalho": "Você está no serviço num sábado enquanto a família almoça. Sentir que isso não é justo é o primeiro passo pra mudar.",
+      "dinheiro": "Vênus retrógrada no seu signo oposto pede revisão: olhe o que sobrou e planeje a semana. Pouco planejado rende mais que muito no susto.",
+      "saude": "Pescoço travado de tanta tela. Vire o rosto devagar pros dois lados.",
+      "proposta": "escala-6x1",
+      "recomendacao": "Pergunte ao seu sobrinho que trabalha em supermercado quantos sábados por mês ele folga."
+    },
+    "gemeos": {
+      "amor": "Sol em Libra, do seu elemento, faz a conversa ir longe. Só cuidado pra não falar sobre o outro em vez de falar com ele.",
+      "trabalho": "Sábado de folga, mas a cabeça já está na segunda. Deixe o serviço lá onde ele mora.",
+      "dinheiro": "Mercúrio em Escorpião gosta de ler o que está escondido. Promessa de aperto geral sem dizer de qual programa sai o dinheiro é conta escondida.",
+      "saude": "Fale menos e respire mais. Gêmeos esquece de respirar quando se empolga.",
+      "proposta": "tesouraco",
+      "recomendacao": "Pergunte ao seu colega de trabalho: quando prometem cortar gasto sem dizer onde, quem costuma pagar a conta?"
+    },
+    "cancer": {
+      "amor": "Lua no seu signo oposto, Capricórnio, deixa você mais fechado. Um bolo no forno diz o que a boca não diz.",
+      "trabalho": "O serviço da semana pesou. Deixe que alguém cuide de você por um dia.",
+      "dinheiro": "Vênus retrógrada em signo de água traz de volta um assunto de família: alguém com o nome travado por uma dívida pequena. Tem como limpar com desconto, e lembrar isso é cuidado.",
+      "saude": "A emoção vai pro estômago. Comida caseira e um cochilo depois do almoço.",
+      "proposta": "desenrola",
+      "recomendacao": "Pergunte ao seu irmão se aquela dívida do cartão ainda está pendurada e se ele já viu que dá pra renegociar com desconto."
+    },
+    "leao": {
+      "amor": "Júpiter no seu signo pede generosidade. Hoje quem precisa de atenção é alguém mais velho da família: vá visitar.",
+      "trabalho": "Lua em Capricórnio no sábado: sem palco. Descanse a voz e o orgulho.",
+      "dinheiro": "Um gasto de vaidade pode esperar. O mês ainda tem conta chegando.",
+      "saude": "Marte no seu signo acelera, mas o cuidado hoje é com os outros. Pergunte a quem você ama se o remédio do dia a dia está garantido: há coisa que já não precisa pesar no bolso.",
+      "proposta": "farmacia-popular",
+      "recomendacao": "Pergunte ao seu pai se o remédio de diabetes dele ainda sai do bolso ou se já pega de graça."
+    },
+    "virgem": {
+      "amor": "Vênus retrógrada: a crítica sai fácil, o elogio custa. Hoje, inverta a proporção.",
+      "trabalho": "Lua em Capricórnio, do seu elemento, organiza até o sábado. Deixe um pedaço do dia sem lista.",
+      "dinheiro": "Você faz conta de tudo. Então faça esta: quanto deixou de sair do contracheque desde que o imposto zerou pra quem ganha pouco?",
+      "saude": "Dor de cabeça de fim de semana é cansaço acumulado. Água e sombra.",
+      "proposta": "ir-zero-5mil",
+      "recomendacao": "Ajude sua prima a ver no holerite dela se ainda tem desconto de Imposto de Renda. Depois contem juntas quanto sobra no ano."
+    },
+    "libra": {
+      "amor": "Sol no seu signo lembra: você quer agradar todo mundo e acaba sumindo. Diga o que você quer fazer hoje.",
+      "trabalho": "Saturno retrógrado no seu signo oposto faz a proposta chegar devagar. Pense com calma, sem decidir no sábado.",
+      "dinheiro": "A balança pesa pro lado de quem vive do piso. Quando o mínimo sobe mais que o preço das coisas, a vida de muita gente respira.",
+      "saude": "Os ombros carregam a semana. Peça uma massagem a quem está do lado.",
+      "proposta": "salario-minimo",
+      "recomendacao": "Pergunte à sua tia que recebe um salário mínimo se o dinheiro dela está rendendo mais ou menos que no ano passado."
+    },
+    "escorpiao": {
+      "amor": "Vênus retrógrada no seu signo: a intensidade assusta quem está chegando. Deixe o outro vir no tempo dele.",
+      "trabalho": "Mercúrio no seu signo dá memória longa. Você lembra de quem perdeu o emprego e ficou sem rumo; hoje a maioria voltou a trabalhar, e isso tem valor.",
+      "dinheiro": "Guarde um pouco, mesmo que seja pouco. Escorpião gosta de ter reserva.",
+      "saude": "A insônia vem da cabeça cheia. Escreva o que te incomoda antes de deitar.",
+      "proposta": "desemprego",
+      "recomendacao": "Mande mensagem pra aquela amiga que ficou um ano sem emprego e pergunte se ela lembra como era a procura."
+    },
+    "sagitario": {
+      "amor": "Marte em Leão, do seu elemento, pede aventura a dois. Pode ser só uma volta no bairro, mas de mãos dadas.",
+      "trabalho": "Lua em Capricórnio lembra do serviço: enquanto você folga, alguém que você conhece está na sexta ou sétima jornada da semana. Lembre dessa pessoa.",
+      "dinheiro": "A grana da viagem some em bobagem. Decida o que importa de verdade.",
+      "saude": "Sol na cara e pé na grama. Sagitário se cura ao ar livre.",
+      "proposta": "escala-6x1",
+      "recomendacao": "Pergunte à sua amiga que trabalha em restaurante quando foi a última vez que ela teve sábado e domingo juntos."
+    },
+    "capricornio": {
+      "amor": "Lua no seu signo: você planeja até o romance. Hoje, deixe acontecer sem roteiro.",
+      "trabalho": "Saturno, seu regente, retrógrado lembra que o descanso também é parte do plano. Capricórnio esgotado não produz.",
+      "dinheiro": "Você gosta de saber de onde vem e pra onde vai cada real. Desconfie de quem promete economizar muito e não mostra a lista do que corta.",
+      "saude": "As costas pedem colchão bom e menos peso na bolsa.",
+      "proposta": "tesouraco",
+      "recomendacao": "Pergunte ao seu sogro: corte grande de gasto sem dizer de qual programa sai, você acha que atinge quem primeiro?"
+    },
+    "aquario": {
+      "amor": "Lua em Capricórnio deixa Aquário quieto. Você gosta de gente, mas hoje quer ficar só: avise com carinho, sem sumir.",
+      "trabalho": "Sol em Libra, do seu elemento, traz uma ideia maluca que pode ser a solução. Guarde pra segunda.",
+      "dinheiro": "O sábado pede economia. Cozinhar em casa com os amigos é diversão e poupança.",
+      "saude": "Você cuida do mundo e esquece de perguntar quem perto de você está sem remédio. Pergunte hoje.",
+      "proposta": "farmacia-popular",
+      "recomendacao": "Pergunte à sua avó se ela já sabe que os remédios da farmácia popular agora saem de graça, todos eles."
+    },
+    "peixes": {
+      "amor": "Vênus retrógrada em Escorpião, do seu elemento, faz Peixes absorver o humor da casa. Se o clima estiver pesado, abra a janela e mude de assunto.",
+      "trabalho": "Lua em Capricórnio aterra, mas sábado é dia de deixar a mente boiar. A inspiração vem no ócio.",
+      "dinheiro": "Você conhece alguém que vive escondendo o nome sujo por vergonha. Lembrar que dá pra limpar com desconto é um ato de amor.",
+      "saude": "Pés inchados pedem água morna e descanso.",
+      "proposta": "desenrola",
+      "recomendacao": "Mande mensagem pro seu amigo que não consegue fazer crediário e pergunte se ele já viu que dá pra renegociar a dívida com desconto."
+    }
+  }
+}

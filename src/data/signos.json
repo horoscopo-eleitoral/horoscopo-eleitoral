@@ -1,0 +1,98 @@
+[
+  {
+    "slug": "aries",
+    "nome": "Áries",
+    "simbolo": "♈︎",
+    "periodo": "21 mar – 19 abr",
+    "elemento": "fogo",
+    "combina": "leao"
+  },
+  {
+    "slug": "touro",
+    "nome": "Touro",
+    "simbolo": "♉︎",
+    "periodo": "20 abr – 20 mai",
+    "elemento": "terra",
+    "combina": "virgem"
+  },
+  {
+    "slug": "gemeos",
+    "nome": "Gêmeos",
+    "simbolo": "♊︎",
+    "periodo": "21 mai – 20 jun",
+    "elemento": "ar",
+    "combina": "aquario"
+  },
+  {
+    "slug": "cancer",
+    "nome": "Câncer",
+    "simbolo": "♋︎",
+    "periodo": "21 jun – 22 jul",
+    "elemento": "água",
+    "combina": "peixes"
+  },
+  {
+    "slug": "leao",
+    "nome": "Leão",
+    "simbolo": "♌︎",
+    "periodo": "23 jul – 22 ago",
+    "elemento": "fogo",
+    "combina": "sagitario"
+  },
+  {
+    "slug": "virgem",
+    "nome": "Virgem",
+    "simbolo": "♍︎",
+    "periodo": "23 ago – 22 set",
+    "elemento": "terra",
+    "combina": "capricornio"
+  },
+  {
+    "slug": "libra",
+    "nome": "Libra",
+    "simbolo": "♎︎",
+    "periodo": "23 set – 22 out",
+    "elemento": "ar",
+    "combina": "gemeos"
+  },
+  {
+    "slug": "escorpiao",
+    "nome": "Escorpião",
+    "simbolo": "♏︎",
+    "periodo": "23 out – 21 nov",
+    "elemento": "água",
+    "combina": "cancer"
+  },
+  {
+    "slug": "sagitario",
+    "nome": "Sagitário",
+    "simbolo": "♐︎",
+    "periodo": "22 nov – 21 dez",
+    "elemento": "fogo",
+    "combina": "aries"
+  },
+  {
+    "slug": "capricornio",
+    "nome": "Capricórnio",
+    "simbolo": "♑︎",
+    "periodo": "22 dez – 19 jan",
+    "elemento": "terra",
+    "combina": "touro"
+  },
+  {
+    "slug": "aquario",
+    "nome": "Aquário",
+    "simbolo": "♒︎",
+    "periodo": "20 jan – 18 fev",
+    "elemento": "ar",
+    "combina": "libra"
+  },
+  {
+    "slug": "peixes",
+    "nome": "Peixes",
+    "simbolo": "♓︎",
+    "periodo": "19 fev – 20 mar",
+    "elemento": "água",
+    "combina": "escorpiao"
+  }
+]

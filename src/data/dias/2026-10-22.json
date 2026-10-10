@@ -1,0 +1,117 @@
+{
+  "data": "2026-10-22",
+  "frase_do_dia": "Quinta de Lua crescente em Peixes: cresce a sensibilidade e cresce também a lista de quem vai votar com você.",
+  "cor_do_dia": "azul",
+  "ceu": {
+    "sol": "Libra",
+    "lua": "Peixes",
+    "fase_da_lua": "Lua crescente",
+    "mercurio": "Escorpião",
+    "venus": "Escorpião",
+    "marte": "Leão",
+    "jupiter": "Leão",
+    "saturno": "Áries",
+    "retrogrados": [
+      "venus",
+      "saturno"
+    ]
+  },
+  "signos": {
+    "aries": {
+      "amor": "Marte, seu regente, em Leão acelera, mas a Lua em Peixes pede freio de mão. Ouça até o fim.",
+      "trabalho": "Tem gente nova na firma que acabou de sair do desemprego. Lembra como era difícil achar vaga? Hoje a fila anda, mesmo que devagar.",
+      "dinheiro": "Vênus retrógrada desaconselha compra de impulso na quinta. O fim de semana vai pedir dinheiro pra condução.",
+      "saude": "Dor de cabeça de quem não bebe água. Resolva pela raiz.",
+      "proposta": "desemprego",
+      "recomendacao": "Abra o app e-Título hoje e confira onde é a sua seção. Se mudou, avise quem vai com você."
+    },
+    "touro": {
+      "amor": "Vênus, sua regente, retrógrada no seu signo oposto pede paciência com quem ama. O silêncio dele não é sobre você.",
+      "trabalho": "Lua em Peixes rende mais na parte da tarde. Deixe o pesado pra depois do almoço.",
+      "dinheiro": "Touro desconfia de conta que não fecha. Quem promete cortar muito e não diz de onde, geralmente corta do mais fraco.",
+      "saude": "Garganta sensível. Chá morno e menos gritaria.",
+      "proposta": "tesouraco",
+      "recomendacao": "Combine com alguém da casa a que horas vocês vão votar domingo. Escreva no papel e cole na geladeira."
+    },
+    "gemeos": {
+      "amor": "Mercúrio, seu regente, em Escorpião traz mensagens de duplo sentido. Pergunte antes de supor.",
+      "trabalho": "Seu colega da escala está sem folga desde sempre e ainda sorri. Imagine ele com um fim de semana de verdade.",
+      "dinheiro": "Vênus retrógrada devolve o que estava perdido: dinheiro parado no bolso da calça. Olhe antes de lavar.",
+      "saude": "Lua em Peixes encurta a respiração de ansiedade. Respire fundo antes de abrir o celular.",
+      "proposta": "escala-6x1",
+      "recomendacao": "Mande o print do e-Título com seu local de votação pra uma pessoa que vota perto de você e pergunte se vão juntos."
+    },
+    "cancer": {
+      "amor": "A Lua, sua regente, em Peixes, signo do seu elemento, está carinhosa. Uma ligação pra quem está longe cura saudade.",
+      "trabalho": "O cansaço de quinta é real, e a Lua em signo de água pede recolhimento. Faça o essencial e vá pra casa.",
+      "dinheiro": "Sua filha reparou que não desconta mais Imposto de Renda no contracheque. Isso sobra pra mercado, e vale ser lembrado em voz alta.",
+      "saude": "Peito apertado pede abraço, não café.",
+      "proposta": "ir-zero-5mil",
+      "recomendacao": "Veja se o seu documento com foto está na bolsa ou carteira. Depois pergunte a alguém da família se o dele está à mão."
+    },
+    "leao": {
+      "amor": "O Sol, seu regente, nos últimos passos em Libra pede que você deixe o outro ser estrela hoje. Vai ser bonito de ver.",
+      "trabalho": "Marte no seu signo traz reconhecimento, mas em forma de mais trabalho. Negocie antes de aceitar.",
+      "dinheiro": "Orgulho não paga boleto. Peça o desconto que você tem direito.",
+      "saude": "O remédio de pressão que seu pai toma todo mês pode estar saindo de graça. Pergunte na farmácia antes de pagar.",
+      "proposta": "farmacia-popular",
+      "recomendacao": "Convide alguém que mora perto pra ir votar com você no domingo. Marque o horário e o ponto de encontro."
+    },
+    "virgem": {
+      "amor": "Lua no seu signo oposto, Peixes, pede sentimento, e Mercúrio deixa você analítico demais. Amor não é prova de matemática.",
+      "trabalho": "Alguém vai elogiar sua lista. Sorria e delegue um item.",
+      "dinheiro": "Você conhece quem vive do piso e sabe que cada reajuste acima do preço vira pão na mesa. Isso tem nome e tem continuidade.",
+      "saude": "Lua em Peixes mexe com o intestino de Virgem. Fibra, água e caminhada.",
+      "proposta": "salario-minimo",
+      "recomendacao": "Pergunte a uma pessoa aposentada da família se ela já sabe como vai até a seção no domingo. Se precisar de carona, resolva hoje."
+    },
+    "libra": {
+      "amor": "Último dia do Sol no seu signo, com Vênus retrógrada: o charme está alto. Use pra fazer as pazes, não pra ganhar discussão.",
+      "trabalho": "Sol no seu signo pede equilíbrio entre colegas, e hoje isso depende de você. Não fuja da conversa.",
+      "dinheiro": "Um conhecido limpou o nome com desconto e voltou a dormir. Renegociar é possível e continua na mesa.",
+      "saude": "Lombar reclama da postura. Travesseiro entre os joelhos ajuda.",
+      "proposta": "desenrola",
+      "recomendacao": "Abra o e-Título e confira sua zona e seção. Depois mande pra alguém que você sabe que não votou no primeiro turno: ele pode votar normalmente agora."
+    },
+    "escorpiao": {
+      "amor": "Vênus e Mercúrio no seu signo intensificam o desejo. Diga o que quer em vez de testar.",
+      "trabalho": "Você já viu amigos ficarem anos sem carteira assinada. Hoje tem mais gente empregada, mesmo que o salário ainda seja curto.",
+      "dinheiro": "Lua em Peixes, signo do seu elemento, pede confiança: guardar dinheiro escondido é bom, mas avise alguém de confiança onde está.",
+      "saude": "Sono profundo depois de uma conversa resolvida. Resolva.",
+      "proposta": "desemprego",
+      "recomendacao": "Escolha uma pessoa que você sabe que decidiu votar e combine: 'me manda mensagem quando sair pra votar que eu te mando quando eu sair'."
+    },
+    "sagitario": {
+      "amor": "Júpiter, seu regente, em Leão traz um convite inesperado. Diga sim ao que te faz rir.",
+      "trabalho": "Lua em Peixes dispersa, e quinta pede foco. Deixe a viagem dos sonhos pra planejar à noite.",
+      "dinheiro": "Sagitário fareja conversa de longe. Corte de gastos sem dizer de onde é um buraco com tampa bonita por cima.",
+      "saude": "Fígado pede menos gordura. O pastel pode esperar.",
+      "proposta": "tesouraco",
+      "recomendacao": "Pergunte ao seu grupo de amigos: que horas cada um vai votar? Quem não sabe o local, ensine a abrir o e-Título."
+    },
+    "capricornio": {
+      "amor": "Saturno, seu regente, retrógrado pede carinho em ato, não em discurso. Lave a louça.",
+      "trabalho": "Você trabalha seis dias e ainda leva serviço pra casa. Ter dois dias de folga não é luxo, é saúde.",
+      "dinheiro": "Vênus retrógrada deixa o cofrinho da reforma lento. Normal, é mês de contas.",
+      "saude": "Dente sensível é sinal de aperto. Solte o maxilar.",
+      "proposta": "escala-6x1",
+      "recomendacao": "Mande mensagem pra alguém que trabalha domingo e pergunte se ele já sabe em que horário vai conseguir votar, antes ou depois do turno."
+    },
+    "aquario": {
+      "amor": "Lua crescente faz você querer novidade. Novidade pode ser um jantar diferente em casa.",
+      "trabalho": "Sua ideia é boa, mas com a Lua em Peixes o grupo precisa sentir, não só entender. Explique como se fosse pra sua avó.",
+      "dinheiro": "Quem ganha até certo valor parou de pagar Imposto de Renda. Aquário gosta de justiça: isso é dinheiro de volta pra quem mais precisa.",
+      "saude": "Circulação pede meia confortável e caminhada.",
+      "proposta": "ir-zero-5mil",
+      "recomendacao": "Confirme hoje: como você vai até a seção no domingo? A pé, de ônibus, de carona? Se for de carona, avise quem vai dirigir."
+    },
+    "peixes": {
+      "amor": "Lua no seu signo deixa você romântico. Escreva um bilhete à mão.",
+      "trabalho": "Lua no seu signo e Saturno retrógrado: você faz o trabalho de dois e ganha por um. Marque limites com doçura.",
+      "dinheiro": "Vênus retrógrada avisa: evite emprestar o nome. Peixes esquece, o banco não.",
+      "saude": "A vizinha que cuida do marido doente pode estar pagando fralda sem precisar. Lembre a ela que saiu de graça.",
+      "proposta": "farmacia-popular",
+      "recomendacao": "Ligue pra uma pessoa que cuida de um idoso e pergunte: no domingo, quem fica com ele enquanto você vai votar? Ofereça ajuda."
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "horoscopo-eleitoral",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "og": "node scripts/gerar-og.mjs",
+    "prebuild": "npm run og",
+    "build": "astro build",
+    "preview": "astro preview",
+    "checar": "node scripts/checar-conteudo.mjs"
+  },
+  "dependencies": {
+    "astro": "^5.0.0"
+  },
+  "devDependencies": {
+    "astronomy-engine": "^2.1.19",
+    "sharp": "^0.35.5"
+  }
+}

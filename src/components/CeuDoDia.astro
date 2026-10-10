@@ -1,0 +1,24 @@
+---
+// Posições reais calculadas por scripts/calcular-ceu.mjs (efemérides, meio-dia de Brasília).
+const { ceu } = Astro.props;
+const nomes = { mercurio: 'Mercúrio', venus: 'Vênus', marte: 'Marte', jupiter: 'Júpiter', saturno: 'Saturno' };
+const retro = ceu.retrogrados.map((r) => nomes[r]);
+---
+<p class="ceu">
+  <span class="rotulo">O céu hoje</span>
+  <span>☉ Sol em {ceu.sol}</span>
+  <span>☾ Lua em {ceu.lua} · {ceu.fase_da_lua}</span>
+  <span>☿ Mercúrio em {ceu.mercurio}</span>
+  <span>♀ Vênus em {ceu.venus}</span>
+  <span>♂ Marte em {ceu.marte}</span>
+  {retro.length > 0 && <span>℞ Retrógrados: {retro.join(', ')}</span>}
+</p>
+
+<style>
+  .ceu {
+    display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: center;
+    margin: 10px 0 4px; font-size: .82rem; color: var(--tinta-suave);
+  }
+  .ceu .rotulo { width: 100%; }
+  .ceu span:not(.rotulo) { font-variant-emoji: text; }
+</style>

@@ -1,0 +1,117 @@
+{
+  "data": "2026-10-12",
+  "frase_do_dia": "Lua em Escorpião e Vênus retrógrada no feriado: criança escuta de olho arregalado. Adulto também pode.",
+  "cor_do_dia": "verde",
+  "ceu": {
+    "sol": "Libra",
+    "lua": "Escorpião",
+    "fase_da_lua": "Lua crescente",
+    "mercurio": "Escorpião",
+    "venus": "Escorpião",
+    "marte": "Leão",
+    "jupiter": "Leão",
+    "saturno": "Áries",
+    "retrogrados": [
+      "venus",
+      "saturno"
+    ]
+  },
+  "signos": {
+    "aries": {
+      "amor": "Lua em Escorpião e Vênus retrógrada: hoje não é dia de competir, é de brincar. Feriado em casa com quem você ama.",
+      "trabalho": "Marte, seu regente, em Leão quer ação. Se você trabalha no feriado, respeito; se folga, folgue de verdade.",
+      "dinheiro": "Vênus retrógrada: presente de criança não precisa ser caro. O brinquedo mais lembrado é o tempo junto.",
+      "saude": "Alguém da família toma remédio todo dia? Vale saber que muita coisa já sai de graça no balcão da farmácia.",
+      "proposta": "farmacia-popular",
+      "recomendacao": "Pergunte à sua avó, ou a quem fez esse papel na sua vida, se os remédios dela saem de graça na farmácia."
+    },
+    "touro": {
+      "amor": "Lua no seu signo oposto, Escorpião, mexe com sua memória afetiva. Ligue pra quem te deu colo.",
+      "trabalho": "Feriado emendando com a segunda: aproveite a trégua e não encoste no e-mail.",
+      "dinheiro": "Vênus, sua regente, retrógrada pede contas feitas. Quem recebe o piso ou uma aposentadoria mínima conta cada real; reajuste acima do preço das coisas é fôlego.",
+      "saude": "Comida de feriado é tentação. Coma com gosto, mas pare antes do estufado.",
+      "proposta": "salario-minimo",
+      "recomendacao": "Pergunte ao seu avô ou a um vizinho aposentado se a aposentadoria dele melhorou ou piorou nos últimos anos."
+    },
+    "gemeos": {
+      "amor": "Mercúrio, seu regente, em Escorpião junto com a Lua: a criança de dentro quer ouvir história. Peça uma pra alguém mais velho.",
+      "trabalho": "Feriado pra uns, dia normal pra outros. Quem trabalha seis dias por semana mal nota a diferença.",
+      "dinheiro": "Vênus retrógrada: sem compra parcelada hoje. O feriado é curto, mas a fatura é longa.",
+      "saude": "Olhos cansados de tela. Olhe pra longe por alguns minutos.",
+      "proposta": "escala-6x1",
+      "recomendacao": "Pergunte a um amigo que trabalha em restaurante ou shopping se ele vai conseguir descansar neste feriado."
+    },
+    "cancer": {
+      "amor": "Lua em Escorpião, signo do seu elemento, no dia de Nossa Senhora Aparecida e das crianças: fé e família. Seu coração está em casa.",
+      "trabalho": "Deixe o trabalho fora da mesa do almoço. Hoje é dia de ser cuidado.",
+      "dinheiro": "Vênus retrógrada traz de volta a dívida que você carrega como culpa. Não é. Dá pra renegociar com desconto e seguir em frente.",
+      "saude": "Choro de feriado também lava a alma. Não segure.",
+      "proposta": "desenrola",
+      "recomendacao": "Pergunte a alguém da sua família que está com o nome sujo se já olhou se dá pra negociar a dívida com desconto."
+    },
+    "leao": {
+      "amor": "Sol em Libra pede que o palco seja das crianças hoje. Deixe elas brilharem e aplauda de pé.",
+      "trabalho": "Marte no seu signo dá gás, mas chefe que exige no feriado não valoriza ninguém. Guarde isso.",
+      "dinheiro": "Promessa de economia grande sem dizer de onde vem é brinquedo de plástico: brilha na vitrine e quebra em casa.",
+      "saude": "Júpiter no seu signo pede alegria. Brinque com as crianças; correr no quintal é exercício de verdade.",
+      "proposta": "tesouraco",
+      "recomendacao": "Pergunte a alguém da família: quando prometem cortar gasto sem dizer onde, você acha que o corte chega em quem?"
+    },
+    "virgem": {
+      "amor": "Lua em Escorpião pede profundidade, não perfeição. Deixe a bagunça do feriado existir.",
+      "trabalho": "Mercúrio, seu regente, em Escorpião já pensa na terça. Pare. A terça pensa em você.",
+      "dinheiro": "Você confere tudo, e Vênus retrógrada pede conferência. Veja se o Imposto de Renda ainda sai do seu holerite ou se já ficou no seu bolso.",
+      "saude": "Chá de camomila e um livro. Virgem precisa de silêncio pra não se criticar.",
+      "proposta": "ir-zero-5mil",
+      "recomendacao": "Pergunte a uma colega que ganha mais ou menos o que você se ela já reparou no contracheque sem o desconto do imposto."
+    },
+    "libra": {
+      "amor": "Sol no seu signo e Lua em Escorpião: harmonia hoje é brincar sem querer ganhar. Deixe a criança vencer.",
+      "trabalho": "Saturno retrógrado no seu signo oposto: decisão adiada continua adiada. Feriado é de descanso, não de culpa.",
+      "dinheiro": "Vênus, sua regente, retrógrada: comprar presente a prazo pra agradar não é equilíbrio. Gesto vale mais.",
+      "saude": "Quem tem diabetes ou pressão alta em casa sabe quanto custa remédio todo mês. Vale saber que hoje muita coisa sai de graça.",
+      "proposta": "farmacia-popular",
+      "recomendacao": "Pergunte ao seu tio ou à sua tia que tem diabetes se já pegou o remédio de graça na farmácia."
+    },
+    "escorpiao": {
+      "amor": "Lua e Vênus retrógrada no seu signo: ciúme no feriado é desperdício. Confie e aproveite.",
+      "trabalho": "Você lembra de quando emprego era coisa rara e qualquer vaga tinha fila? Hoje tem mais gente com carteira assinada, e isso dá poder de escolha.",
+      "dinheiro": "Mercúrio no seu signo faz conta boa. Guarde o troco do feriado numa caixinha; o fim de ano chega rápido.",
+      "saude": "Lua no seu signo deixa tudo mais intenso, e intensidade cansa. Uma soneca depois do almoço não é pecado.",
+      "proposta": "desemprego",
+      "recomendacao": "Mande mensagem pra um parente que passou um tempo sem emprego e pergunte se agora está mais fácil."
+    },
+    "sagitario": {
+      "amor": "Marte em Leão, signo do seu elemento, desperta seu lado brincalhão. Convide o par pra brincadeira.",
+      "trabalho": "Júpiter, seu regente, sonha com viagem, mas quem folga um dia por semana não consegue nem ir à praia. Descanso de verdade é ter dois dias.",
+      "dinheiro": "Vênus retrógrada: sem apostar em promoção duvidosa hoje. Preço bom demais tem letra miúda.",
+      "saude": "Sol forte, água na mão. Sagitário esquece de beber.",
+      "proposta": "escala-6x1",
+      "recomendacao": "Pergunte a um amigo que trabalha em escala puxada se ele conseguiu ver a família neste feriado."
+    },
+    "capricornio": {
+      "amor": "Lua em Escorpião amolece até Capricórnio. Solte o riso, vai fazer bem.",
+      "trabalho": "Saturno, seu regente, retrógrado: feriado não é dia de adiantar serviço. Feche o notebook.",
+      "dinheiro": "Você planeja a aposentadoria desde cedo. Mas quem já se aposentou precisa que o piso acompanhe o preço do mercado.",
+      "saude": "Joelho reclama de ficar sentado. Levante de hora em hora.",
+      "proposta": "salario-minimo",
+      "recomendacao": "Pergunte à sua mãe ou ao seu pai aposentado se a renda do mês está pagando remédio e mercado sem aperto."
+    },
+    "aquario": {
+      "amor": "Júpiter no seu signo oposto, Leão, aumenta a turma, que é sua família. Hoje, chame todo mundo pra um café.",
+      "trabalho": "Ideia de negócio no feriado? Com Vênus retrógrada, anote e volte nela na terça.",
+      "dinheiro": "Lua em Escorpião revira o que estava escondido: nome sujo não é vergonha, é sinal de que a vida apertou. Renegociar com desconto é reabrir a porta.",
+      "saude": "Desligue o grupo por uma tarde. A paz vem.",
+      "proposta": "desenrola",
+      "recomendacao": "Pergunte a um amigo que vive adiando uma dívida se ele sabe que dá pra renegociar com desconto."
+    },
+    "peixes": {
+      "amor": "Lua em Escorpião, signo do seu elemento, no dia de Nossa Senhora: você fica sensível. Aproveite pra dizer o que sente.",
+      "trabalho": "Você sofreu com a incerteza de outros tempos. Hoje tem mais vaga aberta, e dá pra sonhar um pouco mais alto.",
+      "dinheiro": "Vênus retrógrada: guarde seu dinheiro de quem promete multiplicar rápido.",
+      "saude": "Feriado é bom pra dormir sem despertador. Deixe o corpo mandar.",
+      "proposta": "desemprego",
+      "recomendacao": "Pergunte ao seu vizinho que vive de bico se ele conseguiu alguma vaga com carteira assinada ultimamente."
+    }
+  }
+}

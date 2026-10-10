@@ -1,0 +1,75 @@
+{
+  "_leia": "Banco de fatos usados nas revelações. Cada item precisa de fonte verificável. status: 'rascunho' = ainda não conferido por alguém do projeto; 'verificado' = conferido na fonte, com data. Nada de site partidário: use plano registrado no TSE, dados oficiais (IBGE, Câmara, Senado, Diário Oficial) ou imprensa grande.",
+  "itens": [
+    {
+      "id": "escala-6x1",
+      "tema": "trabalho",
+      "titulo": "Fim da escala 6x1",
+      "fato": "O plano de governo do Lula registrado no TSE propõe o fim da escala 6x1 e a redução da jornada para 40 horas semanais.",
+      "fonte": { "nome": "Plano de governo Lula/PT no TSE, p. 73–77", "url": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt" },
+      "pergunta": "Quantos dias por semana você descansa de verdade?",
+      "status": "rascunho",
+      "verificado_em": null
+    },
+    {
+      "id": "ir-zero-5mil",
+      "tema": "dinheiro",
+      "titulo": "Imposto de Renda zero até R$ 5 mil",
+      "fato": "Quem ganha até R$ 5 mil por mês ficou isento do Imposto de Renda a partir de 2026.",
+      "fonte": { "nome": "Receita Federal", "url": "https://www.gov.br/receitafederal" },
+      "pergunta": "Você já fez a conta de quanto isso dá no ano?",
+      "status": "rascunho",
+      "verificado_em": null
+    },
+    {
+      "id": "farmacia-popular",
+      "tema": "saude",
+      "titulo": "Farmácia Popular",
+      "fato": "Todos os itens do Farmácia Popular passaram a ser gratuitos, inclusive fralda geriátrica.",
+      "fonte": { "nome": "Ministério da Saúde", "url": "https://www.gov.br/saude" },
+      "pergunta": "Quem na sua família pega remédio de graça hoje?",
+      "status": "rascunho",
+      "verificado_em": null
+    },
+    {
+      "id": "salario-minimo",
+      "tema": "dinheiro",
+      "titulo": "Salário mínimo acima da inflação",
+      "fato": "O salário mínimo voltou a subir acima da inflação, e isso puxa a aposentadoria de quem recebe o piso.",
+      "fonte": { "nome": "Lei 14.663/2023", "url": "https://www.planalto.gov.br/ccivil_03/_ato2023-2026/2023/lei/l14663.htm" },
+      "pergunta": "Quem você conhece que vive de um salário mínimo ou de uma aposentadoria?",
+      "status": "rascunho",
+      "verificado_em": null
+    },
+    {
+      "id": "desenrola",
+      "tema": "dinheiro",
+      "titulo": "Desenrola Brasil",
+      "fato": "O plano do Lula no TSE prevê continuar o Desenrola, programa de renegociação de dívidas com desconto.",
+      "fonte": { "nome": "Plano de governo Lula/PT no TSE, p. 57–58", "url": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pt" },
+      "pergunta": "Tem alguém perto de você com o nome sujo por uma dívida pequena?",
+      "status": "rascunho",
+      "verificado_em": null
+    },
+    {
+      "id": "desemprego",
+      "tema": "trabalho",
+      "titulo": "Desemprego no menor nível da série",
+      "fato": "A taxa de desemprego está no menor nível da série histórica do IBGE.",
+      "fonte": { "nome": "IBGE – PNAD Contínua", "url": "https://www.ibge.gov.br/estatisticas/sociais/trabalho/9173-pesquisa-nacional-por-amostra-de-domicilios-continua-trimestral.html" },
+      "pergunta": "Você lembra como era procurar emprego há alguns anos?",
+      "status": "rascunho",
+      "verificado_em": null
+    },
+    {
+      "id": "tesouraco",
+      "tema": "dinheiro",
+      "titulo": "Corte de gastos sem dizer onde",
+      "fato": "O plano do Flávio promete um grande corte de gastos, mas não diz de quais programas o dinheiro vai sair.",
+      "fonte": { "nome": "Plano de governo Flávio Bolsonaro/PL no TSE", "url": "https://www.tse.jus.br/eleicoes/eleicoes-2026-content/arquivos/proposta-pl" },
+      "pergunta": "Corte sem dizer onde: você acha que vai cortar de quem?",
+      "status": "rascunho",
+      "verificado_em": null
+    }
+  ]
+}
