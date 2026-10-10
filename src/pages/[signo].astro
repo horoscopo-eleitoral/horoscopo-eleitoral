@@ -3,6 +3,7 @@ import Base from '../layouts/Base.astro';
 import MandarParaAlguem from '../components/MandarParaAlguem.astro';
 import PlanoDeVoto from '../components/PlanoDeVoto.astro';
 import CeuDoDia from '../components/CeuDoDia.astro';
+import Constelacao from '../components/Constelacao.astro';
 import { todosSignos, leituraDoSigno, dataPorExtenso, fase } from '../lib/conteudo.js';
 
 export function getStaticPaths() {
@@ -27,10 +28,11 @@ const imagemOg = new URL(`${base}/og/${slug}.png`, Astro.site).href;
   imagem={imagemOg}
 >
   <div class="cabecalho-signo">
-    <span class="simbolo-grande" aria-hidden="true">{signo.simbolo}</span>
+    <Constelacao slug={slug} nome={signo.nome} class="constelacao-grande" />
     <div>
+      <p class="rotulo" style="margin:0"><span class="simbolo" aria-hidden="true">{signo.simbolo}</span> {signo.periodo}</p>
       <h1>Horóscopo de {signo.nome}</h1>
-      <p class="suave" style="margin:0">{dataExtenso} · {signo.periodo}</p>
+      <p class="suave" style="margin:0">{dataExtenso}</p>
     </div>
   </div>
 
