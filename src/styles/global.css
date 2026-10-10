@@ -99,7 +99,15 @@ h3 { font-size: 1.1rem; }
   padding: 18px 8px; text-decoration: none; color: var(--tinta);
 }
 .grade-signos a:hover { border-color: var(--dourado-escuro); }
-.grade-signos .simbolo { font-size: 2rem; color: var(--dourado-suave); line-height: 1; }
+.grade-signos .simbolo { font-size: 1rem; color: var(--dourado-suave); }
+.constelacao-card { height: 64px; width: 80px; margin-bottom: 6px; opacity: .9; }
+.grade-signos a:hover .constelacao-card { opacity: 1; filter: drop-shadow(0 0 6px rgba(242, 202, 80, .5)); }
+.constelacao-grande {
+  flex: none; width: 104px; height: 104px; padding: 12px; border-radius: 50%;
+  background: var(--superficie); border: 1px solid var(--linha-forte);
+  box-shadow: 0 0 24px rgba(212, 175, 55, 0.18);
+}
+.cabecalho-signo .rotulo .simbolo { font-variant-emoji: text; }
 .grade-signos .nome { font-family: var(--serif); font-weight: 600; }
 .grade-signos .periodo { font-size: .72rem; color: var(--tinta-apagada); }
 

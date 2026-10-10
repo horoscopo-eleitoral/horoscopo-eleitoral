@@ -33,6 +33,10 @@ Só o dia atual (e os anteriores) entram no build. Dias futuros ficam fora até 
 
 Só vale fato com fonte verificável: planos de governo registrados no [TSE](https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026-segundo-turno), dados oficiais (IBGE, Diário Oficial, Câmara, Senado) e imprensa de grande circulação. Nada de site partidário. Veja `CONTRIBUTING.md`.
 
+## Créditos
+
+Desenhos das constelações (`src/assets/constelacoes/`): série "Constellation of …" de [Firkin](https://openclipart.org/artist/Firkin) no [OpenClipart](https://openclipart.org/detail/302431), em domínio público. Recoloridos para usar a cor do tema.
+
 ## Licença
 
 Código: MIT. Textos: CC BY-SA 4.0.

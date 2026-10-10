@@ -1,6 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import CeuDoDia from '../components/CeuDoDia.astro';
+import Constelacao from '../components/Constelacao.astro';
 import { todosSignos, diaAtual, dataPorExtenso, diasAteSegundoTurno } from '../lib/conteudo.js';
 
 const dia = diaAtual();
@@ -22,8 +23,8 @@ const faltam = diasAteSegundoTurno();
     {todosSignos().map((s) => (
       <li>
         <a href={`${base}/${s.slug}/`}>
-          <span class="simbolo" aria-hidden="true">{s.simbolo}</span>
-          <span class="nome">{s.nome}</span>
+          <Constelacao slug={s.slug} nome={s.nome} class="constelacao-card" />
+          <span class="nome"><span class="simbolo" aria-hidden="true">{s.simbolo}</span> {s.nome}</span>
           <span class="periodo">{s.periodo}</span>
         </a>
       </li>
