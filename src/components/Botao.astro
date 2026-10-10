@@ -1,0 +1,13 @@
+---
+// Botão do design system. variante: "primario" (dourado), "whatsapp" ou "contorno".
+// Com href vira link; sem href vira <button>. Atributos extras (data-*, target...) passam direto.
+const { variante = 'primario', href, class: classe = '', ...resto } = Astro.props;
+const estilos = {
+  primario: 'bg-primary-container text-on-primary hover:bg-secondary hover:shadow-glow',
+  whatsapp: 'bg-whatsapp text-white hover:bg-[#23a467]',
+  contorno: 'border border-on-surface/30 text-on-surface hover:border-secondary',
+};
+const base = 'inline-flex min-h-14 w-full items-center justify-center gap-2 rounded-2xl px-6 py-2.5 font-bold no-underline transition';
+const Tag = href ? 'a' : 'button';
+---
+<Tag href={href} type={href ? undefined : 'button'} class:list={[base, estilos[variante], classe]} {...resto}><slot /></Tag>

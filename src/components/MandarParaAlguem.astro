@@ -1,34 +1,42 @@
 ---
 import { todosSignos } from '../lib/conteudo.js';
+import Botao from './Botao.astro';
 const { signoSugerido } = Astro.props;
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 const signos = todosSignos().map((s) => ({ slug: s.slug, nome: s.nome, simbolo: s.simbolo, url: new URL(`${base}/${s.slug}/`, Astro.site).href }));
 ---
-<div class="mandar" data-signo={signoSugerido}>
-  <label class="pequeno" for="nome-amigo">Nome da pessoa (opcional)</label>
-  <input class="campo" id="nome-amigo" type="text" placeholder="Ex.: Ana" autocomplete="off" />
+<div data-mandar data-signo={signoSugerido}>
+  <label class="text-sm" for="nome-amigo">Nome da pessoa (opcional)</label>
+  <input
+    id="nome-amigo" type="text" placeholder="Ex.: Ana" autocomplete="off"
+    class="mt-1.5 mb-3 w-full rounded-[10px] border border-gold-line bg-surface-container-lowest px-3.5 py-3 text-on-surface placeholder:text-on-surface/40 focus:outline-2 focus:outline-primary-container"
+  />
 
-  <div class="chips" role="group" aria-label="Signo da pessoa">
+  <div class="scrollbar-none mb-2.5 flex gap-2 overflow-x-auto pb-1.5" role="group" aria-label="Signo da pessoa">
     {signos.map((s) => (
-      <button type="button" data-slug={s.slug} data-nome={s.nome} data-url={s.url} aria-pressed={s.slug === signoSugerido ? 'true' : 'false'}>
+      <button
+        type="button" data-slug={s.slug} data-nome={s.nome} data-url={s.url}
+        aria-pressed={s.slug === signoSugerido ? 'true' : 'false'}
+        class="glifo flex-none cursor-pointer rounded-full border border-gold-line bg-surface-container-high px-3.5 py-2 text-[0.9rem] text-on-surface aria-pressed:border-primary aria-pressed:bg-primary-container aria-pressed:font-bold aria-pressed:text-on-primary"
+      >
         {s.simbolo} {s.nome}
       </button>
     ))}
   </div>
 
-  <div class="balao" data-previa></div>
-  <a class="botao zap" data-enviar href="#" target="_blank" rel="noopener">Mandar no WhatsApp</a>
+  <div class="my-2.5 rounded-[14px_14px_14px_4px] border border-[#25d366]/25 bg-whatsapp-bubble px-3.5 py-3 whitespace-pre-wrap" data-previa></div>
+  <Botao variante="whatsapp" data-enviar href="#" target="_blank" rel="noopener">Mandar no WhatsApp</Botao>
 </div>
 
 <script>
-  document.querySelectorAll('.mandar').forEach((raiz) => {
-    const nome = raiz.querySelector('#nome-amigo');
-    const chips = [...raiz.querySelectorAll('.chips button')];
-    const previa = raiz.querySelector('[data-previa]');
-    const enviar = raiz.querySelector('[data-enviar]');
+  document.querySelectorAll<HTMLElement>('[data-mandar]').forEach((raiz) => {
+    const nome = raiz.querySelector<HTMLInputElement>('#nome-amigo')!;
+    const chips = [...raiz.querySelectorAll<HTMLButtonElement>('[role="group"] button')];
+    const previa = raiz.querySelector<HTMLElement>('[data-previa]')!;
+    const enviar = raiz.querySelector<HTMLAnchorElement>('[data-enviar]')!;
 
     function montar() {
-      const ativo = chips.find((c) => c.getAttribute('aria-pressed') === 'true');
+      const ativo = chips.find((c) => c.getAttribute('aria-pressed') === 'true')!;
       const quem = nome.value.trim();
       const msg = `${quem ? quem + ', ' : ''}vi o horóscopo de ${ativo.dataset.nome} de hoje e lembrei de você 👀\n${ativo.dataset.url}`;
       previa.textContent = msg;

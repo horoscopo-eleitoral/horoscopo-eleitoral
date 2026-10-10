@@ -1,14 +1,9 @@
 ---
 // Constelação do signo (SVG de domínio público, OpenClipart / Firkin), embutida inline
-// para herdar a cor do CSS via currentColor.
+// para herdar a cor do texto via currentColor.
 const svgs = import.meta.glob('../assets/constelacoes/*.svg', { query: '?raw', import: 'default', eager: true });
 const { slug, nome, class: classe = '' } = Astro.props;
 const svg = svgs[`../assets/constelacoes/${slug}.svg`];
-const comTitulo = svg?.replace('<svg ', `<svg aria-label="Constelação de ${nome}" `);
+const comTitulo = svg?.replace('<svg ', `<svg aria-label="Constelação de ${nome}" class="size-full" `);
 ---
-{comTitulo && <span class={`constelacao ${classe}`} set:html={comTitulo} />}
-
-<style>
-  .constelacao { display: inline-flex; align-items: center; justify-content: center; color: var(--dourado); }
-  .constelacao :global(svg) { width: 100%; height: 100%; }
-</style>
+{comTitulo && <span class:list={['inline-flex items-center justify-center text-primary', classe]} set:html={comTitulo} />}

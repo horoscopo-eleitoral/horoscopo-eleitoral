@@ -1,0 +1,5 @@
+---
+// Rótulo pequeno em caixa alta, como os do Stitch ("SORTE DO DIA", "O CÉU HOJE").
+const { class: classe = '' } = Astro.props;
+---
+<span class:list={['glifo text-xs font-semibold uppercase tracking-[0.18em] text-secondary', classe]}><slot /></span>
