@@ -1,0 +1,13 @@
+---
+// Card padrão do design system: superfície escura com fio dourado.
+const { destaque = false, class: classe = '' } = Astro.props;
+---
+<section
+  class:list={[
+    'my-3.5 rounded-2xl border bg-surface-container-low p-5 shadow-card',
+    destaque ? 'border-gold-line-strong' : 'border-gold-line',
+    classe,
+  ]}
+>
+  <slot />
+</section>

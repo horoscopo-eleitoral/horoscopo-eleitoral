@@ -2,6 +2,7 @@
 import Base from '../layouts/Base.astro';
 import CeuDoDia from '../components/CeuDoDia.astro';
 import Constelacao from '../components/Constelacao.astro';
+import Cartao from '../components/Cartao.astro';
 import { todosSignos, diaAtual, dataPorExtenso, diasAteSegundoTurno } from '../lib/conteudo.js';
 
 const dia = diaAtual();
@@ -12,24 +13,27 @@ const faltam = diasAteSegundoTurno();
   titulo="Horóscopo do dia para todos os signos"
   descricao={`Horóscopo de ${dataPorExtenso(dia.data)}: amor, trabalho, dinheiro e saúde para os 12 signos. E o que os astros dizem sobre o 2º turno.`}
 >
-  <h1>Horóscopo do dia {dataPorExtenso(dia.data)}</h1>
-  <p class="suave">Escolha o seu signo e veja o que os astros dizem sobre amor, trabalho, dinheiro e saúde. Faltam <b>{faltam} dias</b> para o 2º turno.</p>
+  <h1 class="mt-4 mb-2 text-[clamp(1.6rem,5vw,2.3rem)]">Horóscopo do dia {dataPorExtenso(dia.data)}</h1>
+  <p class="text-on-surface-variant">Escolha o seu signo e veja o que os astros dizem sobre amor, trabalho, dinheiro e saúde. Faltam <b>{faltam} dias</b> para o 2º turno.</p>
 
-  <p class="aviso">✦ <b>Frase do dia:</b> {dia.frase_do_dia}</p>
+  <Cartao destaque class="p-4! text-base">✦ <b>Frase do dia:</b> {dia.frase_do_dia}</Cartao>
 
   <CeuDoDia ceu={dia.ceu} />
 
-  <ul class="grade-signos">
+  <ul class="my-4 grid list-none grid-cols-3 gap-2.5 p-0">
     {todosSignos().map((s) => (
       <li>
-        <a href={`${base}/${s.slug}/`}>
-          <Constelacao slug={s.slug} nome={s.nome} class="constelacao-card" />
-          <span class="nome"><span class="simbolo" aria-hidden="true">{s.simbolo}</span> {s.nome}</span>
-          <span class="periodo">{s.periodo}</span>
+        <a
+          href={`${base}/${s.slug}/`}
+          class="group flex flex-col items-center gap-1 rounded-2xl border border-gold-line bg-surface-container-low px-2 py-4 text-on-surface no-underline hover:border-primary-container"
+        >
+          <Constelacao slug={s.slug} nome={s.nome} class="mb-1.5 h-16 w-20 opacity-90 group-hover:opacity-100 group-hover:drop-shadow-[0_0_6px_rgb(242_202_80/0.5)]" />
+          <span class="font-headline font-semibold"><span class="glifo text-base text-secondary" aria-hidden="true">{s.simbolo}</span> {s.nome}</span>
+          <span class="text-xs text-outline">{s.periodo}</span>
         </a>
       </li>
     ))}
   </ul>
 
-  <p class="pequeno suave">Não sabe seu signo? É só achar o período com a data do seu aniversário.</p>
+  <p class="text-sm text-on-surface-variant">Não sabe seu signo? É só achar o período com a data do seu aniversário.</p>
 </Base>

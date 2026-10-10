@@ -9,6 +9,10 @@ Toda ajuda é bem-vinda, inclusive de quem não programa. O prazo é curto: o 2�
 - **Propor um fato novo**: com fonte e link.
 - **Código e design**: veja as issues.
 
+## Estilo
+
+O visual usa **Tailwind CSS v4**, com os tokens do design system do Google Stitch em `src/styles/global.css` (`@theme`): `bg-surface-container-low`, `text-primary`, `text-on-surface-variant`, `border-gold-line`, `font-headline` etc. Use as utilitárias direto no HTML; para padrões repetidos, prefira um componente (`Cartao`, `Rotulo`, `Botao`) a criar classe CSS nova.
+
 ## Regras de conteúdo
 
 1. **Todo fato precisa de fonte com link**, e a fonte tem que ser uma que convença quem não votou no Lula: plano de governo no TSE, dados oficiais (IBGE, Diário Oficial, Câmara, Senado) ou imprensa de grande circulação. Site partidário ou de militância não serve.

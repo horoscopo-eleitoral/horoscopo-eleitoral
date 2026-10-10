@@ -29,36 +29,50 @@ const og = imagem ?? new URL(`${base}/og.png`, Astro.site).href;
     <meta name="theme-color" content="#080d1e" />
   </head>
   <body>
-    <header class="topo">
-      <div class="container">
-        <a class="marca" href={`${base}/`}>✦ Horóscopo Eleitoral <small>o 2º turno escrito nas estrelas</small></a>
-      </div>
+    <header class="pt-6 pb-1.5 text-center">
+      <a class="text-xs font-semibold uppercase tracking-[0.22em] text-secondary no-underline" href={`${base}/`}>
+        ✦ Horóscopo Eleitoral
+        <small class="mt-0.5 block text-[0.7rem] font-normal normal-case tracking-wide text-outline">o 2º turno escrito nas estrelas</small>
+      </a>
     </header>
 
-    <div class="container">
-      <ul class="faixa-signos">
-        {todosSignos().map((s) => (
-          <li>
-            <a href={`${base}/${s.slug}/`} aria-current={s.slug === signoAtual ? 'page' : undefined}>
-              <span class="simbolo" aria-hidden="true">{s.simbolo}</span>
-              {s.nome}
-            </a>
-          </li>
-        ))}
+    <nav class="mx-auto max-w-[540px] px-5" aria-label="Signos">
+      <ul class="m-0 grid list-none grid-cols-6 gap-1 p-0 pt-3 pb-1.5">
+        {todosSignos().map((s) => {
+          const atual = s.slug === signoAtual;
+          return (
+            <li>
+              <a
+                href={`${base}/${s.slug}/`}
+                aria-current={atual ? 'page' : undefined}
+                class:list={['flex flex-col items-center gap-[3px] py-1 text-[0.62rem] no-underline', atual ? 'font-semibold text-primary' : 'text-outline']}
+              >
+                <span
+                  aria-hidden="true"
+                  class:list={[
+                    'glifo grid size-10 place-items-center rounded-full border text-xl',
+                    atual ? 'border-primary bg-primary-container text-on-primary shadow-glow' : 'border-gold-line bg-surface-container-low text-secondary',
+                  ]}
+                >{s.simbolo}</span>
+                {s.nome}
+              </a>
+            </li>
+          );
+        })}
       </ul>
-    </div>
+    </nav>
 
-    <main class="container">
+    <main class="mx-auto max-w-[540px] px-5">
       <slot />
     </main>
 
-    <footer class="rodape container">
+    <footer class="mx-auto mt-10 mb-7 max-w-[540px] px-5 text-center text-xs tracking-wide text-outline">
       <p>
         Horóscopo Eleitoral é um projeto voluntário e independente, com intenção eleitoral declarada:
         convencer quem ainda não decidiu a votar no Lula no 2º turno, dia 25 de outubro.
         Sem vínculo com partido ou campanha. Sem impulsionamento pago.
       </p>
-      <p><a href={`${base}/sobre/`}>Sobre o projeto e fontes</a></p>
+      <p><a class="text-inherit" href={`${base}/sobre/`}>Sobre o projeto e fontes</a></p>
     </footer>
   </body>
 </html>

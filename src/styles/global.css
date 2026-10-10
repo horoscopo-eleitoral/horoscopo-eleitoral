@@ -1,201 +1,58 @@
-/* Tokens do design system gerado no Stitch (DESIGN.md): céu noturno + dourado. */
-:root {
-  --fundo: #080d1e;
-  --superficie: #161b2c;
-  --superficie-alta: #24293b;
-  --superficie-maxima: #2f3447;
-  --tinta: #dde1fa;
-  --tinta-suave: #d0c5af;
-  --tinta-apagada: #99907c;
-  --dourado: #f2ca50;
-  --dourado-escuro: #d4af37;
-  --dourado-suave: #e5c365;
-  --sobre-dourado: #3c2f00;
-  --linha: rgba(229, 195, 101, 0.18);
-  --linha-forte: rgba(229, 195, 101, 0.4);
-  --verde-zap: #25d366;
-  --raio: 16px;
-  --serif: 'Playfair Display', Georgia, serif;
-  --sans: 'Outfit', system-ui, -apple-system, sans-serif;
+@import 'tailwindcss';
+
+/* Tokens do design system gerado no Google Stitch (DESIGN.md): céu noturno + dourado.
+   Os nomes seguem o Stitch para dar pra copiar trechos do código dele direto. */
+@theme {
+  --color-surface: #0e1324;
+  --color-surface-container-lowest: #080d1e;
+  --color-surface-container-low: #161b2c;
+  --color-surface-container-high: #24293b;
+  --color-surface-container-highest: #2f3447;
+  --color-on-surface: #dde1fa;
+  --color-on-surface-variant: #d0c5af;
+  --color-outline: #99907c;
+  --color-primary: #f2ca50;
+  --color-primary-container: #d4af37;
+  --color-on-primary: #3c2f00;
+  --color-secondary: #e5c365;
+  --color-gold-line: rgb(229 195 101 / 0.18);
+  --color-gold-line-strong: rgb(229 195 101 / 0.4);
+  --color-whatsapp: #1e8e5a;
+  --color-whatsapp-bubble: #0f3d2e;
+
+  --font-headline: 'Playfair Display', Georgia, serif;
+  --font-body: 'Outfit', system-ui, -apple-system, sans-serif;
+
+  --shadow-card: 0 20px 40px rgb(0 0 0 / 0.35);
+  --shadow-glow: 0 0 24px rgb(212 175 55 / 0.18);
 }
 
-* { box-sizing: border-box; }
-html { -webkit-text-size-adjust: 100%; }
-/* Símbolos dos signos sempre como glifo de texto, nunca emoji colorido. */
-.simbolo, .simbolo-grande, .chips button { font-variant-emoji: text; }
-
-body {
-  margin: 0;
-  background: var(--fundo);
-  color: var(--tinta);
-  font-family: var(--sans);
-  font-size: 18px;
-  line-height: 1.6;
-  position: relative;
-}
-/* Textura de estrelas, igual ao Stitch */
-body::before {
-  content: '';
-  position: fixed; inset: 0; z-index: 0; pointer-events: none; opacity: .4;
-  background-image: radial-gradient(#e5c365 0.75px, transparent 0.75px);
-  background-size: 24px 24px;
-}
-body::after {
-  content: '';
-  position: fixed; inset: 0; z-index: 0; pointer-events: none;
-  background: radial-gradient(ellipse at top, rgba(242, 202, 80, 0.06), transparent 60%);
-}
-body > * { position: relative; z-index: 1; }
-
-a { color: var(--dourado-suave); }
-
-h1, h2, h3 { font-family: var(--serif); line-height: 1.2; margin: 0 0 .4em; font-weight: 600; color: var(--dourado); }
-h1 { font-size: clamp(1.6rem, 5vw, 2.3rem); }
-h2 { font-size: 1.35rem; }
-h3 { font-size: 1.1rem; }
-
-.container { max-width: 540px; margin: 0 auto; padding: 0 20px; }
-
-/* Cabeçalho */
-.topo { padding: 22px 0 6px; text-align: center; }
-.topo .container { display: flex; flex-direction: column; align-items: center; gap: 4px; }
-.marca {
-  color: var(--dourado-suave); text-decoration: none;
-  font-family: var(--sans); font-size: .8rem; font-weight: 600;
-  letter-spacing: .22em; text-transform: uppercase;
-}
-.marca small { display: block; font-size: .7rem; font-weight: 400; letter-spacing: .04em; text-transform: none; color: var(--tinta-apagada); margin-top: 2px; }
-.topo nav a { color: var(--tinta-apagada); text-decoration: none; font-size: .8rem; }
-
-/* Faixa dos 12 signos */
-.faixa-signos {
-  display: grid; grid-template-columns: repeat(6, 1fr); gap: 4px;
-  padding: 12px 0 6px; list-style: none; margin: 0;
-}
-.faixa-signos a {
-  display: flex; flex-direction: column; align-items: center; gap: 3px;
-  text-decoration: none; color: var(--tinta-apagada); font-size: .62rem; letter-spacing: .02em;
-  padding: 4px 0;
-}
-.faixa-signos a .simbolo {
-  width: 40px; height: 40px; border-radius: 50%; display: grid; place-items: center;
-  border: 1px solid var(--linha); color: var(--dourado-suave); font-size: 1.25rem;
-  background: var(--superficie);
-}
-.faixa-signos a[aria-current="page"] { color: var(--dourado); font-weight: 600; }
-.faixa-signos a[aria-current="page"] .simbolo {
-  background: var(--dourado-escuro); border-color: var(--dourado); color: var(--sobre-dourado);
-  box-shadow: 0 0 18px rgba(212, 175, 55, 0.35);
+@layer base {
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    @apply bg-surface-container-lowest text-on-surface font-body text-lg leading-relaxed;
+  }
+  /* Textura de estrelas e brilho no topo, igual ao Stitch. */
+  body::before {
+    content: '';
+    @apply pointer-events-none fixed inset-0 -z-10 opacity-40;
+    background-image: radial-gradient(#e5c365 0.75px, transparent 0.75px);
+    background-size: 24px 24px;
+  }
+  body::after {
+    content: '';
+    @apply pointer-events-none fixed inset-0 -z-10;
+    background: radial-gradient(ellipse at top, rgb(242 202 80 / 0.06), transparent 60%);
+  }
+  h1, h2, h3 { @apply font-headline font-semibold leading-tight text-primary; }
+  a { @apply text-secondary; }
+  /* Símbolos de signos e planetas sempre como glifo de texto, nunca emoji colorido. */
+  .glifo { font-variant-emoji: text; }
+  details > summary { list-style: none; }
+  details > summary::-webkit-details-marker { display: none; }
 }
 
-/* Grade grande da home */
-.grade-signos {
-  display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px;
-  list-style: none; padding: 0; margin: 16px 0;
+@utility scrollbar-none {
+  scrollbar-width: none;
+  &::-webkit-scrollbar { display: none; }
 }
-.grade-signos a {
-  display: flex; flex-direction: column; align-items: center; gap: 4px;
-  background: var(--superficie); border: 1px solid var(--linha); border-radius: var(--raio);
-  padding: 18px 8px; text-decoration: none; color: var(--tinta);
-}
-.grade-signos a:hover { border-color: var(--dourado-escuro); }
-.grade-signos .simbolo { font-size: 1rem; color: var(--dourado-suave); }
-.constelacao-card { height: 64px; width: 80px; margin-bottom: 6px; opacity: .9; }
-.grade-signos a:hover .constelacao-card { opacity: 1; filter: drop-shadow(0 0 6px rgba(242, 202, 80, .5)); }
-.constelacao-grande {
-  flex: none; width: 104px; height: 104px; padding: 12px; border-radius: 50%;
-  background: var(--superficie); border: 1px solid var(--linha-forte);
-  box-shadow: 0 0 24px rgba(212, 175, 55, 0.18);
-}
-.cabecalho-signo .rotulo .simbolo { font-variant-emoji: text; }
-.grade-signos .nome { font-family: var(--serif); font-weight: 600; }
-.grade-signos .periodo { font-size: .72rem; color: var(--tinta-apagada); }
-
-/* Blocos */
-.cartao {
-  background: var(--superficie); border: 1px solid var(--linha); border-radius: var(--raio);
-  padding: 20px; margin: 14px 0;
-  box-shadow: 0 20px 40px rgba(0, 0, 0, .35);
-}
-.rotulo { font-size: .72rem; letter-spacing: .18em; text-transform: uppercase; color: var(--dourado-suave); font-weight: 600; }
-.suave { color: var(--tinta-suave); }
-.pequeno { font-size: .85rem; }
-
-.cabecalho-signo { display: flex; align-items: center; gap: 16px; margin: 18px 0 6px; }
-.cabecalho-signo .simbolo-grande {
-  width: 72px; height: 72px; border-radius: 50%; flex: none;
-  display: grid; place-items: center; font-size: 2.4rem;
-  background: var(--superficie); border: 1px solid var(--linha-forte); color: var(--dourado);
-  box-shadow: 0 0 24px rgba(212, 175, 55, 0.18);
-}
-
-.areas { list-style: none; padding: 0; margin: 0; }
-.areas li { padding: 12px 0; border-bottom: 1px solid var(--linha); }
-.areas li:last-child { border-bottom: 0; padding-bottom: 0; }
-.areas li:first-child { padding-top: 0; }
-.areas b { color: var(--dourado-suave); font-weight: 600; }
-
-/* Sorte do dia + revelação */
-.sorte { border-color: var(--linha-forte); }
-.sorte .numero { font-family: var(--serif); font-size: 2.6rem; color: var(--dourado); line-height: 1; }
-details.revelacao > summary {
-  cursor: pointer; list-style: none; color: var(--dourado); font-weight: 600; margin-top: 10px;
-  text-decoration: underline; text-underline-offset: 4px; text-decoration-color: var(--linha-forte);
-}
-details.revelacao > summary::-webkit-details-marker { display: none; }
-details.revelacao > summary::after { content: ' ▾'; }
-details.revelacao[open] > summary::after { content: ' ▴'; }
-details.revelacao[open] > summary { margin-bottom: 14px; }
-.fato { font-family: var(--serif); font-size: 1.3rem; margin: 10px 0 4px; color: var(--tinta); }
-.fonte { font-size: .8rem; color: var(--tinta-apagada); }
-.pergunta { font-family: var(--serif); font-style: italic; font-size: 1.15rem; margin: 16px 0; color: var(--tinta); }
-.contraste { border-top: 1px dashed var(--linha-forte); margin-top: 16px; padding-top: 14px; }
-.fato-contraste { font-size: 1.05rem; margin: 8px 0 4px; color: var(--tinta); }
-.posicao { font-weight: 600; color: var(--dourado); }
-.posicao .treze { font-family: var(--serif); font-size: 1.6rem; }
-
-/* Botões */
-.botao {
-  display: inline-flex; align-items: center; justify-content: center; gap: 8px;
-  min-height: 56px; padding: 10px 24px; border-radius: var(--raio); border: 0;
-  font: inherit; font-weight: 700; text-decoration: none; cursor: pointer; width: 100%;
-  background: var(--dourado-escuro); color: var(--sobre-dourado);
-  transition: background .15s, box-shadow .15s;
-}
-.botao:hover { background: var(--dourado-suave); box-shadow: 0 0 16px rgba(212, 175, 55, 0.3); }
-.botao.zap { background: #1e8e5a; color: #fff; }
-.botao.zap:hover { background: #23a467; box-shadow: none; }
-.botao.leve { background: transparent; color: var(--tinta); border: 1px solid rgba(244, 238, 221, 0.3); }
-.botao.leve:hover { border-color: var(--dourado-suave); background: transparent; box-shadow: none; }
-.acoes { display: grid; gap: 10px; margin-top: 12px; }
-@media (min-width: 480px) { .acoes.duas { grid-template-columns: 1fr 1fr; } }
-
-/* Mandar pra alguém */
-.campo {
-  width: 100%; font: inherit; padding: 13px 14px; border-radius: 10px; margin: 6px 0 12px;
-  background: var(--fundo); color: var(--tinta); border: 1px solid var(--linha);
-}
-.campo::placeholder { color: rgba(244, 238, 221, 0.4); }
-.campo:focus { outline: 2px solid var(--dourado-escuro); outline-offset: 0; }
-.chips { display: flex; gap: 8px; overflow-x: auto; padding-bottom: 6px; margin-bottom: 10px; scrollbar-width: none; }
-.chips::-webkit-scrollbar { display: none; }
-.chips button {
-  flex: none; font: inherit; font-size: .9rem; padding: 9px 14px; border-radius: 999px;
-  border: 1px solid var(--linha); background: var(--superficie-alta); cursor: pointer; color: var(--tinta);
-}
-.chips button[aria-pressed="true"] { background: var(--dourado-escuro); border-color: var(--dourado); color: var(--sobre-dourado); font-weight: 700; }
-.balao {
-  background: #0f3d2e; border: 1px solid rgba(37, 211, 102, 0.25);
-  border-radius: 14px 14px 14px 4px; padding: 12px 14px; white-space: pre-wrap; margin: 10px 0;
-}
-
-/* Abas Hoje / Amanhã */
-.abas { display: flex; gap: 8px; margin: 10px 0; }
-.abas span, .abas a { padding: 6px 16px; border-radius: 999px; font-size: .85rem; text-decoration: none; }
-.abas .ativa { background: var(--dourado-escuro); color: var(--sobre-dourado); font-weight: 700; }
-.abas .bloqueada { border: 1px solid var(--linha); color: var(--tinta-apagada); }
-
-.rodape { margin: 40px auto 28px; font-size: .78rem; color: var(--tinta-apagada); text-align: center; letter-spacing: .02em; }
-.rodape a { color: inherit; }
-
-.aviso { background: var(--superficie); border: 1px solid var(--linha-forte); border-radius: var(--raio); padding: 12px 16px; font-size: .95rem; }
