@@ -29,6 +29,14 @@ O céu de cada dia (Sol, Lua, fase, planetas e retrógrados) é calculado por ef
 
 Cada signo tem a página de hoje (`/leao/`) e o arquivo dos dias já revelados (`/leao/20261010/`), listados no fim da página em "Horóscopos anteriores". Só o dia atual (e os anteriores) entram no build. Dias futuros ficam fora até chegar a data; um job diário republica o site à meia-noite de Brasília.
 
+## Publicação
+
+- **Cloudflare Pages** (principal): https://horoscopo-eleitoral.pages.dev, conectado ao repositório pela integração com o GitHub. Builda a cada push na `main` e gera link de prévia em cada PR.
+  - Build command: `npm run checar && npm run build` · Output: `dist`
+  - Variáveis: `SITE=https://horoscopo-eleitoral.pages.dev`, `BASE=/`, `NODE_VERSION=22` (opcionais: sem elas o site já assume esse endereço; o "hoje" é calculado no fuso de Brasília pelo próprio código)
+  - A virada do dia à meia-noite vem de `.github/workflows/virada-do-dia.yml`, que chama o Deploy Hook guardado no segredo `CLOUDFLARE_DEPLOY_HOOK`.
+- **GitHub Pages** (espelho): https://horoscopo-eleitoral.github.io/horoscopo-eleitoral/, pelo `.github/workflows/deploy.yml`.
+
 ## Fontes
 
 Só vale fato com fonte verificável: planos de governo registrados no [TSE](https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026-segundo-turno), dados oficiais (IBGE, Diário Oficial, Câmara, Senado) e imprensa de grande circulação. Nada de site partidário. Veja `CONTRIBUTING.md`.
