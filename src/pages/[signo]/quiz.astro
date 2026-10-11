@@ -1,0 +1,29 @@
+---
+import Base from '../../layouts/Base.astro';
+import Quiz from '../../components/Quiz.astro';
+import Ilustracao from '../../components/Ilustracao.astro';
+import { todosSignos, signo as buscarSigno } from '../../lib/conteudo.js';
+
+export function getStaticPaths() {
+  return todosSignos().map((s) => ({ params: { signo: s.slug } }));
+}
+
+const s = buscarSigno(Astro.params.signo);
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+---
+<Base
+  titulo={`Quiz do 2º turno de ${s.nome}`}
+  descricao={`Quatro perguntas para descobrir o perfil astral de ${s.nome} no 2º turno. Nada é salvo nem enviado.`}
+  signoAtual={s.slug}
+  imagem={new URL(`${base}/og/${s.slug}.png`, Astro.site).href}
+>
+  <header class="mt-4 text-center">
+    <Ilustracao slug={s.slug} nome={s.nome} carregar="eager" class="mx-auto h-36 w-full" />
+    <h1 class="mt-3 mb-1 text-[clamp(1.6rem,6vw,2.2rem)]">Quiz do 2º turno de {s.nome}</h1>
+    <p class="m-0 text-sm text-on-surface-variant">Quatro perguntas. Suas respostas não saem do seu celular.</p>
+  </header>
+
+  <Quiz signo={s} />
+
+  <p class="mt-8 text-center text-sm"><a href={`${base}/${s.slug}/`}>← Voltar pro horóscopo de {s.nome}</a></p>
+</Base>

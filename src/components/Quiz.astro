@@ -1,0 +1,150 @@
+---
+// Quiz do 2º turno: 4 perguntas, uma por tela, resultado calculado no próprio aparelho.
+// Nada é salvo nem enviado. Os fatos vêm do banco verificado (propostas.json).
+import quiz from '../data/quiz.json';
+import propostas from '../data/propostas.json';
+import Rotulo from './Rotulo.astro';
+
+const { signo } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const usados = new Set(Object.values(quiz.temas).flatMap((t) => [...t.fatos, t.contraste]));
+const fatos = Object.fromEntries(
+  propostas.itens.filter((p) => usados.has(p.id)).map((p) => [p.id, { fato: p.fato, pergunta: p.pergunta, fonte: p.fonte }]),
+);
+const dados = {
+  perguntas: quiz.perguntas,
+  temas: quiz.temas,
+  perfis: quiz.perfis,
+  fatos,
+  signo: { nome: signo.nome, frase: quiz.elementos[signo.elemento] },
+  urlQuiz: new URL(`${base}/${signo.slug}/quiz/`, Astro.site).href,
+  urlFaq: `${base}/faq/`,
+};
+---
+<div data-quiz class="mt-6">
+  <div data-etapa class="min-h-[22rem]"></div>
+  <script type="application/json" data-dados set:html={JSON.stringify(dados)} />
+</div>
+
+<template data-modelo-pergunta>
+  <div>
+    <p class="m-0 text-xs text-outline" data-progresso></p>
+    <h2 class="mt-2 mb-1 text-xl text-on-surface" data-texto></h2>
+    <p class="m-0 text-sm text-on-surface-variant" data-ajuda></p>
+    <div class="mt-4 grid gap-2.5" data-opcoes></div>
+  </div>
+</template>
+
+<template data-modelo-resultado>
+  <div>
+    <Rotulo>Seu perfil astral do 2º turno</Rotulo>
+    <h2 class="mt-2 mb-2 text-2xl" data-titulo></h2>
+    <p class="mb-2 text-on-surface-variant" data-elemento></p>
+    <p data-texto></p>
+    <div class="mt-5 rounded-2xl border border-gold-line-strong bg-surface-container-low p-5" data-fatos></div>
+    <p class="mt-5 font-semibold text-primary">No dia 25, os astros recomendam: Lula <span class="font-headline text-2xl">13</span></p>
+    <p class="text-sm text-on-surface-variant" data-chamada></p>
+    <div class="mt-4 grid gap-2.5" data-acoes></div>
+    <p class="mt-4 text-center text-sm"><button type="button" class="cursor-pointer text-secondary underline" data-refazer>Refazer o quiz</button></p>
+  </div>
+</template>
+
+<script>
+  type Fato = { fato: string; pergunta: string; fonte: { nome: string; url: string } };
+
+  document.querySelectorAll<HTMLElement>('[data-quiz]').forEach((raiz) => {
+    const dados = JSON.parse(raiz.querySelector('[data-dados]')!.textContent!);
+    const etapa = raiz.querySelector<HTMLElement>('[data-etapa]')!;
+    const modeloP = document.querySelector<HTMLTemplateElement>('[data-modelo-pergunta]')!;
+    const modeloR = document.querySelector<HTMLTemplateElement>('[data-modelo-resultado]')!;
+    let respostas: any[] = [];
+
+    const botao = (texto: string, aoClicar: () => void, classe = '') => {
+      const b = document.createElement('button');
+      b.type = 'button';
+      b.textContent = texto;
+      b.className = 'w-full cursor-pointer rounded-2xl border border-gold-line bg-surface-container-low px-4 py-3.5 text-left text-on-surface transition hover:border-primary-container ' + classe;
+      b.addEventListener('click', aoClicar);
+      return b;
+    };
+
+    const blocoFato = (rotulo: string, f: Fato) => {
+      const d = document.createElement('div');
+      d.className = 'mt-4 first:mt-0';
+      const r = document.createElement('p');
+      r.className = 'm-0 text-sm text-on-surface-variant';
+      r.innerHTML = rotulo;
+      const t = document.createElement('p');
+      t.className = 'mt-1.5 mb-1 text-[1.05rem] leading-relaxed text-on-surface';
+      t.textContent = f.fato;
+      const fonte = document.createElement('p');
+      fonte.className = 'm-0 text-[0.8rem] text-outline';
+      const a = document.createElement('a');
+      a.href = f.fonte.url; a.target = '_blank'; a.rel = 'noopener'; a.textContent = f.fonte.nome;
+      fonte.append('Fonte: ', a);
+      const q = document.createElement('p');
+      q.className = 'mt-3 mb-0 font-headline italic text-on-surface';
+      q.textContent = `“${f.pergunta}”`;
+      d.append(r, t, fonte, q);
+      return d;
+    };
+
+    function mostrarPergunta(i: number) {
+      const p = dados.perguntas[i];
+      const n = modeloP.content.cloneNode(true) as DocumentFragment;
+      n.querySelector('[data-progresso]')!.textContent = `Pergunta ${i + 1} de ${dados.perguntas.length}`;
+      n.querySelector('[data-texto]')!.textContent = p.texto;
+      n.querySelector('[data-ajuda]')!.textContent = p.ajuda ?? '';
+      const opcoes = n.querySelector('[data-opcoes]')!;
+      p.opcoes.forEach((o: any) => opcoes.append(botao(o.texto, () => {
+        respostas[i] = o;
+        i + 1 < dados.perguntas.length ? mostrarPergunta(i + 1) : mostrarResultado();
+      })));
+      etapa.replaceChildren(n);
+      etapa.querySelector('h2')?.focus();
+    }
+
+    function mostrarResultado() {
+      const pontos: Record<string, number> = { A: 0, B: 0, C: 0, F: 0 };
+      respostas.forEach((r) => Object.entries(r.pontos ?? {}).forEach(([k, v]) => (pontos[k] += v as number)));
+      const perfil = (['A', 'C', 'B', 'F'] as const).reduce((a, b) => (pontos[b] > pontos[a] ? b : a));
+      const tema = respostas.find((r) => r.tema)?.tema ?? 'dinheiro';
+      const temPlano = respostas.find((r) => 'plano' in r)?.plano ?? false;
+      const p = dados.perfis[perfil];
+      const t = dados.temas[tema];
+
+      const n = modeloR.content.cloneNode(true) as DocumentFragment;
+      n.querySelector('[data-titulo]')!.textContent = `${dados.signo.nome}: ${p.titulo}`;
+      n.querySelector('[data-elemento]')!.textContent = dados.signo.frase;
+      n.querySelector('[data-texto]')!.textContent = p.texto;
+      n.querySelector('[data-chamada]')!.textContent = p.chamada;
+
+      const caixa = n.querySelector('[data-fatos]')!;
+      caixa.append(blocoFato('Do lado de <b class="text-on-surface">Lula (PT)</b>:', dados.fatos[t.fatos[0]]));
+      if (p.mostrar_contraste && dados.fatos[t.contraste]) {
+        caixa.append(blocoFato('Do outro lado, o adversário, <b class="text-on-surface">Flávio Bolsonaro (PL)</b>:', dados.fatos[t.contraste]));
+      }
+
+      const acoes = n.querySelector('[data-acoes]')!;
+      if (!temPlano || perfil === 'A') {
+        const a = document.createElement('a');
+        a.href = dados.urlFaq;
+        a.className = 'inline-flex min-h-14 w-full items-center justify-center rounded-2xl bg-primary-container px-6 font-bold text-on-primary no-underline';
+        a.textContent = 'Como votar: local, horário e documento';
+        acoes.append(a);
+      }
+      const zap = document.createElement('a');
+      zap.href = `https://wa.me/?text=${encodeURIComponent(`Fiz o quiz do 2º turno de ${dados.signo.nome} e lembrei de você 👀 Qual é o seu perfil? ${dados.urlQuiz}`)}`;
+      zap.target = '_blank'; zap.rel = 'noopener';
+      zap.className = 'inline-flex min-h-14 w-full items-center justify-center rounded-2xl bg-whatsapp px-6 font-bold text-white no-underline';
+      zap.textContent = 'Mandar o quiz pra alguém';
+      acoes.append(zap);
+
+      n.querySelector('[data-refazer]')!.addEventListener('click', () => { respostas = []; mostrarPergunta(0); });
+      etapa.replaceChildren(n);
+      etapa.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+
+    mostrarPergunta(0);
+  });
+</script>

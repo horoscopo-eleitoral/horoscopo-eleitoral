@@ -1,0 +1,201 @@
+{
+  "_leia": "Quiz do 2º turno. Cada opção soma pontos para um perfil do Manual da Virada: A = já decidiu pelo 13 mas pode ficar em casa; B = votou na terceira via / cansado de briga; C = indeciso, decide pelo bolso; F = já decidiu pelo outro lado. A pergunta 'voto' é opcional. 'tema' escolhe os fatos do resultado (ids de propostas.json). Nada é salvo nem enviado: o resultado é calculado no aparelho.",
+  "perguntas": [
+    {
+      "id": "sentimento",
+      "texto": "Como você está se sentindo com o 2º turno?",
+      "opcoes": [
+        {
+          "texto": "Já sei em quem voto. Só falta dar um jeito de ir.",
+          "pontos": {
+            "A": 3
+          }
+        },
+        {
+          "texto": "Cansado de briga. Nenhum dos dois me convence.",
+          "pontos": {
+            "B": 3
+          }
+        },
+        {
+          "texto": "Ainda estou decidindo. Depende do que pesa na minha vida.",
+          "pontos": {
+            "C": 3
+          }
+        },
+        {
+          "texto": "Já decidi, e não é pelo 13.",
+          "pontos": {
+            "F": 3
+          }
+        }
+      ]
+    },
+    {
+      "id": "voto",
+      "texto": "Em quem você votou no 1º turno?",
+      "ajuda": "Opcional. Sua resposta não sai do seu celular.",
+      "opcoes": [
+        {
+          "texto": "Lula",
+          "pontos": {
+            "A": 4
+          }
+        },
+        {
+          "texto": "Flávio",
+          "pontos": {
+            "F": 4
+          }
+        },
+        {
+          "texto": "Cury, Renan, Caiado ou Zema",
+          "pontos": {
+            "B": 4
+          }
+        },
+        {
+          "texto": "Branco ou nulo",
+          "pontos": {
+            "B": 2,
+            "C": 2
+          }
+        },
+        {
+          "texto": "Não fui votar",
+          "pontos": {
+            "A": 2,
+            "C": 2
+          }
+        },
+        {
+          "texto": "Prefiro não dizer",
+          "pontos": {}
+        }
+      ]
+    },
+    {
+      "id": "tema",
+      "texto": "O que mais pesa na sua vida hoje?",
+      "opcoes": [
+        {
+          "texto": "O preço das coisas e as contas do mês",
+          "tema": "dinheiro"
+        },
+        {
+          "texto": "O trabalho e a falta de folga",
+          "tema": "trabalho"
+        },
+        {
+          "texto": "Saúde, remédio e consulta",
+          "tema": "saude"
+        },
+        {
+          "texto": "Ter uma casa ou arrumar a minha",
+          "tema": "moradia"
+        },
+        {
+          "texto": "A segurança no caminho de casa",
+          "tema": "seguranca"
+        },
+        {
+          "texto": "A aposentadoria, minha ou da família",
+          "tema": "aposentadoria"
+        }
+      ]
+    },
+    {
+      "id": "plano",
+      "texto": "Você já sabe onde vota e a que horas vai no dia 25?",
+      "opcoes": [
+        {
+          "texto": "Sei tudo: local, horário e com quem vou",
+          "plano": true
+        },
+        {
+          "texto": "Sei onde voto, mas não planejei o resto",
+          "plano": false
+        },
+        {
+          "texto": "Não sei onde voto, nem se meu título está em dia",
+          "plano": false
+        }
+      ]
+    }
+  ],
+  "temas": {
+    "dinheiro": {
+      "fatos": [
+        "isencao-ir-5-mil",
+        "bolsa-familia-adicional-crianca",
+        "gas-do-povo"
+      ],
+      "contraste": "flavio-tesouraco"
+    },
+    "trabalho": {
+      "fatos": [
+        "fim-escala-6x1-camara",
+        "desemprego-recorde"
+      ],
+      "contraste": "flavio-escala-6x1"
+    },
+    "saude": {
+      "fatos": [
+        "farmacia-popular-gratis",
+        "agora-tem-especialistas"
+      ],
+      "contraste": "flavio-pisos-saude-educacao"
+    },
+    "moradia": {
+      "fatos": [
+        "minha-casa-minha-vida-faixas",
+        "reforma-casa-brasil"
+      ],
+      "contraste": "flavio-tesouraco"
+    },
+    "seguranca": {
+      "fatos": [
+        "pec-seguranca-susp"
+      ],
+      "contraste": "flavio-mudar-constituicao"
+    },
+    "aposentadoria": {
+      "fatos": [
+        "salario-minimo-valorizacao"
+      ],
+      "contraste": "flavio-aposentadoria-bpc-correcao"
+    }
+  },
+  "perfis": {
+    "A": {
+      "titulo": "Coração decidido, pé no sofá",
+      "texto": "Os astros já sabem o seu voto. O perigo é o domingo: preguiça, fila, chuva, almoço de família. Voto decidido só conta se chegar até a urna.",
+      "mostrar_contraste": false,
+      "chamada": "Monte seu plano de voto agora e mande pra mais alguém que vai votar no 13."
+    },
+    "B": {
+      "titulo": "Nem cá, nem lá",
+      "texto": "Cansaço de polarização é legítimo, e os astros entendem. Mas o 2º turno não pergunta quem você ama: pergunta quem você quer evitar. Vale olhar o que cada lado fez e o que propõe.",
+      "mostrar_contraste": true,
+      "chamada": "Compare com calma e converse com alguém de confiança antes do dia 25."
+    },
+    "C": {
+      "titulo": "Bolso em primeiro lugar",
+      "texto": "Você é prático: vota no que muda a vida. Ótimo, os astros também. Então olhe o que já mudou e o que cada lado promete para o assunto que mais pesa pra você.",
+      "mostrar_contraste": true,
+      "chamada": "Leia a fonte, faça a conta e decida com a cabeça fria."
+    },
+    "F": {
+      "titulo": "Mente aberta",
+      "texto": "Os astros respeitam quem já decidiu. Eles só pedem uma coisa: que a decisão aguente uma pergunta honesta. Uma só.",
+      "mostrar_contraste": false,
+      "chamada": "Se a pergunta ficou na cabeça, abra a fonte e leia com calma. Os astros não pedem mais que isso."
+    }
+  },
+  "elementos": {
+    "fogo": "Como bom signo de fogo, você decide rápido.",
+    "terra": "Como bom signo de terra, você quer prova antes de acreditar.",
+    "ar": "Como bom signo de ar, você pensa em tudo antes de escolher.",
+    "água": "Como bom signo de água, você sente antes de explicar."
+  }
+}

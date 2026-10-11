@@ -1,0 +1,190 @@
+{
+  "itens": [
+    {
+      "id": "faltou-no-1o-turno-pode-votar-no-2o",
+      "pergunta": "Não votei no 1º turno. Posso votar no 2º?",
+      "resposta": "Sim. Para a Justiça Eleitoral, cada turno é uma eleição independente, e faltar ao 1º turno não impede o voto no 2º. Basta que o título não esteja cancelado nem suspenso. A falta do 1º turno precisa ser justificada à parte, até 3 de dezembro de 2026, pelo app e-Título, pelo Autoatendimento Eleitoral (Título Net) ou em qualquer cartório eleitoral.",
+      "fonte": {
+        "nome": "TSE, 07/10/2026",
+        "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/faltam-18-dias-ausencia-no-1o-turno-nao-impede-voto-no-2o"
+      },
+      "trecho_da_fonte": "O não comparecimento à primeira etapa da votação, portanto, não impede a participação na segunda."
+    },
+    {
+      "id": "voto-vale-como-prova-de-vida-inss",
+      "pergunta": "Votar conta como prova de vida no INSS?",
+      "resposta": "Pode contar. Segundo o TSE, o INSS pode usar o registro de comparecimento às urnas nas Eleições 2026 para a prova de vida de aposentados e pensionistas, sem que eles precisem ir ao banco ou a uma agência. Quem não vota não tem o benefício bloqueado: o INSS procura outros dados do governo pelo sistema SIRIS e só chama o segurado quando nenhuma fonte confirma que ele está vivo.",
+      "fonte": {
+        "nome": "TSE, 22/09/2026",
+        "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Setembro/comparecimento-a-votacao-nas-eleicoes-2026-pode-ser-utilizado-como-prova-de-vida-do-inss"
+      },
+      "trecho_da_fonte": "O comparecimento às eleições está entre os eventos considerados válidos pelo INSS para essa finalidade"
+    },
+    {
+      "id": "quantos-votaram-no-1o-turno",
+      "pergunta": "Quantas pessoas votaram no 1º turno de 2026?",
+      "resposta": "Segundo o TSE, 125,2 milhões de pessoas votaram no 1º turno, quase 79% do eleitorado. Mais de 158,7 milhões de eleitores estavam aptos a votar.",
+      "fonte": {
+        "nome": "TSE, 07/10/2026",
+        "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/faltam-18-dias-ausencia-no-1o-turno-nao-impede-voto-no-2o"
+      },
+      "trecho_da_fonte": "No 1º turno, 125,2 milhões de pessoas compareceram às urnas, o equivalente a quase 79% do eleitorado."
+    },
+    {
+      "id": "abstencao-no-1o-turno",
+      "pergunta": "Quantos eleitores faltaram no 1º turno?",
+      "resposta": "Segundo dados do TSE publicados pelo Poder360, a abstenção foi de 21,08%, ou seja, 33.444.876 eleitores não votaram. Havia 158.745.463 eleitores aptos. Os números foram atualizados na noite de 4 de outubro.",
+      "fonte": {
+        "nome": "Poder360, 04/10/2026",
+        "url": "https://www.poder360.com.br/poder-eleicoes-2026/abstencao-no-1o-turno-cresce-e-vai-a-2108-em-2026/"
+      },
+      "trecho_da_fonte": "o que representa 33.444.876 de eleitores faltantes"
+    },
+    {
+      "id": "como-saber-local-de-votacao",
+      "pergunta": "Como descubro onde voto (zona e seção)?",
+      "resposta": "Há três jeitos. No app e-Título, use a opção “Onde votar”, que mostra endereço, zona e seção e também a rota até o local. No site do TSE, entre no Autoatendimento Eleitoral (Título Net), menu “Consultas”, opção “Onde votar”. Você também pode perguntar em cartórios eleitorais, centrais de atendimento ao eleitor e postos do TRE do seu estado.",
+      "fonte": {
+        "nome": "TSE, 29/09/2026",
+        "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Setembro/faltam-5-dias-saiba-como-consultar-o-local-de-votacao"
+      },
+      "trecho_da_fonte": "A informação pode ser acessada pelo aplicativo e-Título, pelo portal do Tribunal Superior Eleitoral (TSE) ou presencialmente."
+    },
+    {
+      "id": "que-documento-levar",
+      "pergunta": "Que documento preciso levar para votar?",
+      "resposta": "Leve um documento oficial com foto: RG, CNH, certificado de reservista, carteira de trabalho, passaporte ou carteira profissional reconhecida por lei, mesmo que esteja vencido. Não precisa levar o título de eleitor. O e-Título serve de documento só se mostrar sua foto, o que acontece apenas para quem já fez a biometria. Certidão de nascimento ou de casamento não vale.",
+      "fonte": {
+        "nome": "TSE, 09/04/2026 (atualizado em 08/07/2026)",
+        "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Abril/eleitor-em-dia-saiba-quais-documentos-sao-validos-para-votar-nas-eleicoes-2026"
+      },
+      "trecho_da_fonte": "A apresentação do título de eleitor no dia da eleição não é obrigatória."
+    },
+    {
+      "id": "horario-de-votacao",
+      "pergunta": "Qual o horário de votação no 2º turno?",
+      "resposta": "No domingo, 25 de outubro, as seções funcionam das 8h às 17h pelo horário de Brasília em todo o país. Em estados com outro fuso o horário local muda: em Rondônia, Mato Grosso, Mato Grosso do Sul, Roraima e na maior parte do Amazonas, a votação começa às 7h locais. Quem estiver na fila às 17h ainda vota.",
+      "fonte": {
+        "nome": "TSE, 08/09/2026",
+        "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Setembro/faltam-26-dias-votacao-comeca-e-termina-no-mesmo-horario-em-todo-o-pais"
+      },
+      "trecho_da_fonte": "Nas duas datas, as seções eleitorais funcionarão das 8h às 17h, pelo horário oficial de Brasília, em todo o país."
+    },
+    {
+      "id": "cola-e-celular-na-cabine",
+      "pergunta": "Posso levar cola? E o celular?",
+      "resposta": "Pode e é recomendado levar uma colinha de papel com os números dos candidatos, já que o celular não pode entrar na cabine. O celular é proibido na cabine mesmo desligado e deve ficar guardado no local indicado pelos mesários. Quem se recusar a entregar o aparelho não poderá votar.",
+      "fonte": {
+        "nome": "TSE, 28/08/2026 (atualizado em 31/08/2026)",
+        "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Agosto/colinha-eleitoral-ajuda-a-lembrar-os-numeros-de-candidatos-nas-eleicoes-2026"
+      },
+      "trecho_da_fonte": "evita que o eleitor dependa apenas da memória, já que o celular não poderá ser levado para a cabine de votação."
+    },
+    {
+      "id": "quem-e-obrigado-a-votar",
+      "pergunta": "Quem é obrigado a votar?",
+      "resposta": "O voto é obrigatório para quem sabe ler e escrever e tem de 18 a 70 anos. É facultativo para jovens de 16 e 17 anos, para pessoas analfabetas e para quem tem mais de 70 anos.",
+      "fonte": {
+        "nome": "TSE, 07/10/2026",
+        "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/faltam-18-dias-ausencia-no-1o-turno-nao-impede-voto-no-2o"
+      },
+      "trecho_da_fonte": "Para jovens de 16 e 17 anos, pessoas analfabetas e maiores de 70 anos, o voto é facultativo."
+    },
+    {
+      "id": "como-justificar-ausencia",
+      "pergunta": "Não vou conseguir votar. Como justifico?",
+      "resposta": "No próprio dia, das 8h às 17h, justifique pelo app e-Título ou entregue o Requerimento de Justificativa Eleitoral (RJE) em uma mesa receptora. Nesse caso não precisa provar o motivo, mas o RJE exige documento oficial com foto. Depois do dia, você tem até 60 dias: para o 2º turno, o prazo vai até 8 de janeiro de 2027, e é preciso anexar documentos que comprovem o motivo.",
+      "fonte": {
+        "nome": "TSE, 03/10/2026",
+        "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/falta-1-dia-saiba-como-justificar-a-ausencia-as-urnas-nas-eleicoes-2026"
+      },
+      "trecho_da_fonte": "A justificativa pode ser apresentada no próprio dia da eleição pelo e-Título ou por meio do Requerimento de Justificativa Eleitoral (RJE)."
+    },
+    {
+      "id": "multa-e-consequencias",
+      "pergunta": "O que acontece se eu não votar nem justificar?",
+      "resposta": "Você fica em débito com a Justiça Eleitoral e precisa pagar multa. Enquanto não regularizar, não consegue certidão de quitação eleitoral, não pode fazer concurso público, tomar posse em cargo público nem renovar matrícula em escola pública, e pode ter restrições para tirar passaporte. Faltar a três eleições seguidas (cada turno conta como uma) sem justificar nem pagar pode levar ao cancelamento do título.",
+      "fonte": {
+        "nome": "TSE, 05/10/2026",
+        "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/faltam-20-dias-saiba-como-justificar-a-ausencia-no-1o-turno-das-eleicoes-2026"
+      },
+      "trecho_da_fonte": "Quem não votar e não apresentar justificativa fica em débito com a Justiça Eleitoral e deverá regularizar a situação mediante o pagamento de multa."
+    },
+    {
+      "id": "valor-da-multa",
+      "pergunta": "Quanto é a multa por não votar?",
+      "resposta": "A multa é de R$ 3,51 por turno, para quem não justificou ou teve a justificativa recusada. Cada turno precisa de uma justificativa própria. Por lei, o prazo para justificar é de 60 dias após cada turno.",
+      "fonte": {
+        "nome": "TSE, 08/10/2026",
+        "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/manual-do-eleitor-veja-os-prazos-para-justificar-ausencia-nas-eleicoes-2026"
+      },
+      "trecho_da_fonte": "Caso contrário, será necessário pagar a multa de R$ 3,51 por turno."
+    },
+    {
+      "id": "transporte-publico-gratuito",
+      "pergunta": "O ônibus é de graça no dia da eleição?",
+      "resposta": "Sim. Nas Eleições 2026, inclusive no 2º turno, o poder público deve oferecer de graça o transporte coletivo urbano, intermunicipal e metropolitano, com a mesma frequência de um dia útil. A gratuidade vale para todos os eleitores, sem distinção. Reduzir a oferta habitual sem justificativa pode configurar crime eleitoral.",
+      "fonte": {
+        "nome": "TSE, 01/10/2026",
+        "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/manual-do-eleitor-veja-como-vai-funcionar-o-transporte-no-dia-das-eleicoes"
+      },
+      "trecho_da_fonte": "A regra vale tanto para o 1º quanto para eventual 2º turno."
+    },
+    {
+      "id": "prioridade-e-acessibilidade",
+      "pergunta": "Quem tem prioridade na fila?",
+      "resposta": "Têm atendimento prioritário pessoas com 60 anos ou mais, pessoas com deficiência, gestantes, lactantes e pessoas com criança de colo, entre outros grupos previstos em lei. Quem tem 80 anos ou mais tem prioridade absoluta e passa à frente de todos. A lei também garante prioridade a quem acompanha idosos com 80 anos ou mais.",
+      "fonte": {
+        "nome": "TSE, 06/08/2026 (atualizado em 20/08/2026)",
+        "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Agosto/manual-do-eleitor-conheca-os-direitos-do-eleitorado-idoso-nas-eleicoes-2026"
+      },
+      "trecho_da_fonte": "Para os eleitores com 80 anos ou mais, a legislação estabelece prioridade absoluta, garantindo que sejam sempre os primeiros da fila."
+    },
+    {
+      "id": "ajuda-na-cabine",
+      "pergunta": "Pessoa com deficiência pode ter ajuda para votar?",
+      "resposta": "Sim. Pessoas com deficiência ou mobilidade reduzida podem levar alguém de sua escolha para ajudar na cabine, inclusive para digitar os números. Pessoas com deficiência visual podem usar áudio com fone descartável, orientação pela tecla 5, material em Braille e entrar com cão-guia. Quem não sabe ler pode usar algo que ajude a votar, desde que o sigilo do voto seja preservado.",
+      "fonte": {
+        "nome": "TSE, 11/09/2026",
+        "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Setembro/por-dentro-das-eleicoes-o-que-fazer-no-dia-da-votacao"
+      },
+      "trecho_da_fonte": "Pessoas com deficiência ou mobilidade reduzida poderão contar com o auxílio de alguém de sua escolha na cabine, inclusive para digitar os números na urna."
+    },
+    {
+      "id": "votar-fora-da-cidade",
+      "pergunta": "Posso votar em outra cidade?",
+      "resposta": "Só quem pediu antes o voto em trânsito (transferência temporária). O pedido para as Eleições 2026 podia ser feito de 20 de julho a 20 de agosto de 2026, e esse prazo já acabou. Quem estiver fora da sua cidade no dia e não tiver feito o pedido deve justificar a ausência.",
+      "fonte": {
+        "nome": "TSE, 02/07/2026 (atualizado em 23/07/2026)",
+        "url": "https://www.tse.jus.br/comunicacao/noticias/2026/Julho/manual-do-eleitor-saiba-como-funciona-o-voto-em-transito-nas-eleicoes-2026-1"
+      },
+      "trecho_da_fonte": "Prazo para solicitar, alterar ou cancelar a habilitação: de 20 de julho a 20 de agosto de 2026."
+    },
+    {
+      "id": "titulo-cancelado",
+      "pergunta": "Meu título está cancelado. Posso votar?",
+      "resposta": "Não. Com o título cancelado, você não pode votar. Para ver sua situação, acesse o Autoatendimento Eleitoral (Título Net) no site do TSE, menu “Consultas”, opção “Situação do título”. Se aparecer “regular”, você pode votar.",
+      "fonte": {
+        "nome": "TSE, página Consulta situação eleitoral (acesso em 11/10/2026)",
+        "url": "https://www.tse.jus.br/institucional/corregedoria-geral-eleitoral/sistemas-e-servicos-1/consulta-situacao-eleitoral"
+      },
+      "trecho_da_fonte": "Na situação CANCELADA, a inscrição eleitoral (título) fica indisponível para o exercício do voto (votação nas Eleições)"
+    },
+    {
+      "id": "carona-e-transporte-de-eleitores",
+      "pergunta": "Posso dar carona para votar?",
+      "resposta": "Do dia anterior ao dia seguinte à eleição, nenhum veículo pode transportar eleitores, com exceções. Você pode usar o seu carro para ir votar e levar pessoas da sua família. Também são permitidos ônibus de linha regular não fretados, táxis e aplicativos em serviço normal, sem finalidade eleitoral, e veículos a serviço da Justiça Eleitoral.",
+      "fonte": {
+        "nome": "Planalto, Lei nº 6.091/1974, art. 5º",
+        "url": "https://www.planalto.gov.br/ccivil_03/leis/l6091.htm"
+      },
+      "trecho_da_fonte": "III - de uso individual do proprietário, para o exercício do próprio voto e dos membros da sua família"
+    }
+  ],
+  "nao_verificado": [
+    "Telefone para saber o local de votação: a página do TSE que abri só cita o e-Título, o site do TSE e o atendimento presencial; nenhuma fonte aberta confirmou um número de telefone para 2026.",
+    "Comparecimento em número exato: o TSE dá números arredondados (125,2 milhões, quase 79%); o Poder360 dá 21,08% de abstenção e 33.444.876 ausentes, mas não traz o comparecimento exato. O InfoMoney cita 78,92%, mas não entrou como fonte.",
+    "Decisão do STF sobre transporte gratuito (ADPF 1013, 2023): não abri o acórdão nem uma notícia do STF. O item de transporte usa só a regra de 2026 publicada pelo TSE. A matéria do Poder360 que abri é de 2022 (decisão anterior, provisória) e não serve como regra atual.",
+    "Ponto de 'carona': a lei permite levar a família no próprio carro; dar carona a quem não é da família não aparece expressamente nas fontes abertas, fora das exceções do art. 5º da Lei 6.091/74. A pena (reclusão de 4 a 6 anos e multa) foi confirmada só pela notícia do TSE de 14/09/2026 (https://www.tse.jus.br/comunicacao/noticias/2026/Setembro/transporte-de-eleitores-saiba-o-que-e-permitido-e-o-que-e-proibido), não no texto da lei."
+  ]
+}
