@@ -29,10 +29,19 @@ export function hojeISO() {
 // O dia publicado é o mais recente que não está no futuro.
 // Dias futuros ficam fora do build, então não vazam.
 export function diaAtual() {
-  const hoje = hojeISO();
-  const liberados = dias.filter((d) => d.data <= hoje);
+  const liberados = diasLiberados();
   return liberados[liberados.length - 1] ?? dias[0];
 }
+
+// Dias já revelados (hoje e os anteriores), do mais antigo ao mais recente.
+export function diasLiberados() {
+  const hoje = hojeISO();
+  return dias.filter((d) => d.data <= hoje);
+}
+
+// Caminho do arquivo de um dia: /leao/20261010/
+export const dataNaUrl = (iso) => iso.replaceAll('-', '');
+export const dataDaUrl = (texto) => `${texto.slice(0, 4)}-${texto.slice(4, 6)}-${texto.slice(6, 8)}`;
 
 export function diasAteSegundoTurno() {
   const [y, m, d] = diaAtual().data.split('-').map(Number);
@@ -60,8 +69,7 @@ export function proposta(id) {
   return propostas.itens.find((p) => p.id === id);
 }
 
-export function leituraDoSigno(slug) {
-  const dia = diaAtual();
+export function leituraDoSigno(slug, dia = diaAtual()) {
   const s = signo(slug);
   const texto = dia.signos[slug];
   return {

@@ -1,0 +1,12 @@
+---
+// Arquivo: /leao/20261010/. Só existem páginas de dias já revelados (hoje e anteriores).
+import PaginaDoSigno from '../../components/PaginaDoSigno.astro';
+import { todosSignos, diasLiberados, dataNaUrl } from '../../lib/conteudo.js';
+
+export function getStaticPaths() {
+  return todosSignos().flatMap((s) =>
+    diasLiberados().map((dia) => ({ params: { signo: s.slug, data: dataNaUrl(dia.data) }, props: { dia } })),
+  );
+}
+---
+<PaginaDoSigno slug={Astro.params.signo} dia={Astro.props.dia} />
