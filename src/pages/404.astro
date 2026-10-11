@@ -1,0 +1,12 @@
+---
+import Base from '../layouts/Base.astro';
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+---
+<Base titulo="Página não encontrada" descricao="Essa página não existe, ou os astros ainda não revelaram esse dia.">
+  <div class="mt-12 text-center">
+    <p class="m-0 font-headline text-6xl text-primary">404</p>
+    <h1 class="mt-4 text-2xl">Os astros ainda não revelaram isso</h1>
+    <p class="text-on-surface-variant">A página não existe, ou é de um dia que ainda não chegou. O horóscopo de cada dia sai à meia-noite.</p>
+    <p class="mt-6"><a href={`${base}/`}>Ver o horóscopo de hoje →</a></p>
+  </div>
+</Base>
