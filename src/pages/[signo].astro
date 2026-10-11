@@ -70,13 +70,14 @@ const imagemOg = new URL(`${base}/og/${slug}.png`, Astro.site).href;
         Por que 13? <span class="group-open:hidden">▾</span><span class="hidden group-open:inline">▴</span>
       </summary>
       <Rotulo>{signo.nome} e o 2º turno</Rotulo>
+      <p class="mt-1 mb-0 text-sm text-on-surface-variant">Do lado de <b class="text-on-surface">Lula (PT)</b>:</p>
       <p class="mt-2.5 mb-1 font-headline text-xl text-on-surface">{proposta.fato}</p>
       <p class="text-[0.8rem] text-outline">Fonte: <a href={proposta.fonte.url} rel="noopener" target="_blank">{proposta.fonte.nome}</a></p>
       <p class="my-4 font-headline text-lg text-on-surface italic">“{proposta.pergunta}”</p>
       {contraste && (
         <div class="mt-4 border-t border-dashed border-gold-line-strong pt-3.5">
           <Rotulo>{retrogrado ? `${retrogrado.simbolo} ${retrogrado.titulo}` : 'Os astros avisam'}</Rotulo>
-          <p class="mt-0.5 mb-1.5 text-sm text-on-surface-variant">Retrógrado é quando o planeta parece andar pra trás.</p>
+          <p class="mt-1 mb-2 text-sm text-on-surface-variant">Do outro lado, o adversário, <b class="text-on-surface">Flávio Bolsonaro (PL)</b>:</p>
           <p class="mt-2 mb-1 text-[1.05rem] text-on-surface">{contraste.fato}</p>
           <p class="text-[0.8rem] text-outline">Fonte: <a href={contraste.fonte.url} rel="noopener" target="_blank">{contraste.fonte.nome}</a></p>
           <p class="my-4 font-headline text-lg text-on-surface italic">“{contraste.pergunta}”</p>
