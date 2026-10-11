@@ -29,6 +29,11 @@ O céu de cada dia (Sol, Lua, fase, planetas e retrógrados) é calculado por ef
 
 Só o dia atual (e os anteriores) entram no build. Dias futuros ficam fora até chegar a data; um job diário republica o site à meia-noite de Brasília.
 
+## Publicação
+
+- **Cloudflare Pages** (principal): https://horoscopoeleitoral.pages.dev, pelo workflow `.github/workflows/cloudflare.yml`. Precisa dos segredos `CLOUDFLARE_API_TOKEN` (token com permissão "Cloudflare Pages: Edit") e `CLOUDFLARE_ACCOUNT_ID` no repositório; sem eles, o job só avisa e não publica.
+- **GitHub Pages** (espelho): https://teles.dev.br/horoscopo-eleitoral/, pelo `.github/workflows/deploy.yml`.
+
 ## Fontes
 
 Só vale fato com fonte verificável: planos de governo registrados no [TSE](https://www.tse.jus.br/eleicoes/eleicoes-2026-content/propostas-de-governo-dos-candidatos-ao-cargo-de-presidente-da-republica-eleicoes-2026-segundo-turno), dados oficiais (IBGE, Diário Oficial, Câmara, Senado) e imprensa de grande circulação. Nada de site partidário. Veja `CONTRIBUTING.md`.
