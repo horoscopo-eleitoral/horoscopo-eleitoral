@@ -5,6 +5,7 @@
 @theme {
   --color-surface: #0e1324;
   --color-surface-container-lowest: #080d1e;
+  --color-night-purple: #2a1650;
   --color-surface-container-low: #161b2c;
   --color-surface-container-high: #24293b;
   --color-surface-container-highest: #2f3447;
@@ -39,10 +40,14 @@
     background-image: radial-gradient(#e5c365 0.75px, transparent 0.75px);
     background-size: 24px 24px;
   }
+  /* Céu de madrugada: azul-noite no topo descendo para um púrpura bem escuro,
+     com o brilho dourado do Stitch por cima. Fica atrás das estrelas (-z-20). */
   body::after {
     content: '';
-    @apply pointer-events-none fixed inset-0 -z-10;
-    background: radial-gradient(ellipse at top, rgb(242 202 80 / 0.06), transparent 60%);
+    @apply pointer-events-none fixed inset-0 -z-20;
+    background:
+      radial-gradient(ellipse at top, rgb(242 202 80 / 0.06), transparent 60%),
+      linear-gradient(to bottom, var(--color-surface-container-lowest) 0%, #171338 45%, var(--color-night-purple) 100%);
   }
   h1, h2, h3 { @apply font-headline font-semibold leading-tight text-primary; }
   a { @apply text-secondary; }
