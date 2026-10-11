@@ -1,0 +1,58 @@
+---
+import Base from '../layouts/Base.astro';
+import Rotulo from '../components/Rotulo.astro';
+import faq from '../data/faq.json';
+
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const todas = faq.secoes.flatMap((s) => s.itens);
+// Dados estruturados para o Google mostrar as perguntas na busca.
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'FAQPage',
+  mainEntity: todas.map((i) => ({
+    '@type': 'Question',
+    name: i.pergunta,
+    acceptedAnswer: { '@type': 'Answer', text: i.resposta },
+  })),
+};
+---
+<Base
+  titulo="Como votar no 2º turno: perguntas e respostas"
+  descricao="Onde voto, que documento levar, horário, ônibus de graça, quem faltou no 1º turno pode votar, prova de vida do INSS e mais. Tudo com fonte do TSE."
+>
+  <script type="application/ld+json" set:html={JSON.stringify(jsonLd)} />
+
+  <header class="mt-6 text-center">
+    <Rotulo>25 de outubro · 8h às 17h (horário de Brasília)</Rotulo>
+    <h1 class="mt-2 mb-2 text-[clamp(1.7rem,6vw,2.3rem)]">Como votar no 2º turno</h1>
+    <p class="m-0 text-on-surface-variant">Os astros cuidam do resto. Aqui é o lado prático, com fonte do TSE em cada resposta.</p>
+  </header>
+
+  {faq.secoes.map((secao) => (
+    <section class="mt-10">
+      <h2 class="mb-3 text-xl">{secao.titulo}</h2>
+      <div class="divide-y divide-gold-line border-y border-gold-line">
+        {secao.itens.map((item) => (
+          <details class="group py-1" id={item.id}>
+            <summary class="flex cursor-pointer items-start justify-between gap-3 py-3 font-semibold text-on-surface">
+              <span>{item.pergunta}</span>
+              <span class="text-primary group-open:hidden" aria-hidden="true">+</span>
+              <span class="hidden text-primary group-open:inline" aria-hidden="true">−</span>
+            </summary>
+            <p class="mt-0 mb-1.5 text-on-surface-variant">{item.resposta}</p>
+            <p class="mt-0 mb-3 text-[0.8rem] text-outline">Fonte: <a href={item.fonte.url} rel="noopener" target="_blank">{item.fonte.nome}</a></p>
+          </details>
+        ))}
+      </div>
+    </section>
+  ))}
+
+  <section class="mt-10 text-center">
+    <a
+      href={`https://wa.me/?text=${encodeURIComponent(`Tudo sobre como votar no 2º turno, com fonte do TSE: onde voto, documento, horário, ônibus de graça. ${new URL(`${base}/faq/`, Astro.site).href}`)}`}
+      target="_blank" rel="noopener"
+      class="inline-flex min-h-14 w-full items-center justify-center rounded-2xl bg-whatsapp px-6 font-bold text-white no-underline"
+    >Mandar pra quem vai votar</a>
+    <p class="mt-4 text-sm"><a href={`${base}/`}>← Voltar pro horóscopo</a></p>
+  </section>
+</Base>

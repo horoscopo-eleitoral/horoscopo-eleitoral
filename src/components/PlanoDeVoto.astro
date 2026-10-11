@@ -3,6 +3,7 @@
 import Cartao from './Cartao.astro';
 import Rotulo from './Rotulo.astro';
 const { diaDaEleicao = false } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 ---
 <Cartao destaque>
   <Rotulo>🗳️ {diaDaEleicao ? 'Hoje é dia de votar' : 'Seu plano de voto'}</Rotulo>
@@ -12,9 +13,9 @@ const { diaDaEleicao = false } = Astro.props;
   <ol class="m-0 list-decimal space-y-2.5 pl-6">
     <li><b>Onde?</b> Confira no app <a href="https://www.tse.jus.br/eleitor/titulo-e-local-de-votacao/consulta-por-nome" rel="noopener" target="_blank">e-Título ou no site do TSE</a>.</li>
     <li><b>Que horas?</b> Um horário de verdade, não "mais tarde".</li>
-    <li><b>Como vai?</b> A pé, de ônibus ou com a família. Veja se a sua cidade terá tarifa zero.</li>
+    <li><b>Como vai?</b> A pé, com a família ou de ônibus, que no dia da eleição é de graça por regra do TSE.</li>
     <li><b>Com quem?</b> Ir acompanhado faz diferença, ainda mais pra quem mora só.</li>
     <li><b>Documento?</b> Qualquer um oficial com foto. O título não é obrigatório.</li>
   </ol>
-  <p class="mt-3 mb-0 text-sm text-on-surface-variant">Faltou no 1º turno? Pode votar normalmente no 2º.</p>
+  <p class="mt-3 mb-0 text-sm text-on-surface-variant">Faltou no 1º turno? Pode votar normalmente no 2º. <a href={`${base}/faq/`}>Mais dúvidas sobre como votar →</a></p>
 </Cartao>

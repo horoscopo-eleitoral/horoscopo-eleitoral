@@ -26,6 +26,8 @@ O céu de cada dia (Sol, Lua, fase, planetas e retrógrados) é calculado por ef
 | `src/data/signos.json` | os 12 signos, período e "combina com" |
 | `src/data/propostas.json` | banco de fatos com fonte (cada um com `status`) |
 | `src/data/dias/AAAA-MM-DD.json` | o horóscopo de cada dia, por signo |
+| `src/data/quiz.json` | perguntas, perfis (A, B, C, F do Manual da Virada) e temas do quiz `/<signo>/quiz/` |
+| `src/data/faq.json` | perguntas e respostas de `/faq/`, cada uma com fonte (pesquisa em `docs/pesquisa-faq.json`) |
 
 Cada signo tem a página de hoje (`/leao/`) e o arquivo dos dias já revelados (`/leao/20261010/`), listados no fim da página em "Horóscopos anteriores". Só o dia atual (e os anteriores) entram no build. Dias futuros ficam fora até chegar a data; um job diário republica o site à meia-noite de Brasília.
 
