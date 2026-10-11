@@ -1,0 +1,13 @@
+---
+// Ilustração do signo: xilogravuras de José Arija para a revista Blanco y Negro (1904),
+// domínio público, via Wikimedia Commons. Convertidas para traço dourado em fundo transparente.
+const { slug, nome, class: classe = '', carregar = 'lazy' } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+---
+<img
+  src={`${base}/ilustracoes/${slug}.webp`}
+  alt={`Ilustração do signo de ${nome}`}
+  loading={carregar}
+  decoding="async"
+  class:list={['object-contain', classe]}
+/>
