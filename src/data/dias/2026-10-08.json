@@ -1,0 +1,121 @@
+{
+  "data": "2026-10-08",
+  "frase_do_dia": "Quinta com Lua em Virgem e Mercúrio em Escorpião: repare no detalhe que a pessoa conta, não no argumento que você ensaiou. Quem presta atenção escuta melhor.",
+  "cor_do_dia": "azul-marinho",
+  "ceu": {
+    "sol": "Libra",
+    "lua": "Virgem",
+    "fase_da_lua": "Lua minguante",
+    "mercurio": "Escorpião",
+    "venus": "Escorpião",
+    "marte": "Leão",
+    "jupiter": "Leão",
+    "saturno": "Áries",
+    "retrogrados": [
+      "venus",
+      "saturno"
+    ]
+  },
+  "signos": {
+    "aries": {
+      "amor": "Sol em Libra, seu signo oposto, coloca o outro no centro. Ouça o que a pessoa quer mudar na casa: a reforma pode caber no crédito de juros baixos do Reforma Casa Brasil.",
+      "trabalho": "Marte, seu regente, em Leão te deixa cheio de iniciativa. Puxe a fila, mas avise a equipe.",
+      "dinheiro": "Saturno retrógrado no seu signo pede prudência com o que é de longo prazo. Repare em quem propõe retomar as privatizações avaliando 'caso a caso' e pergunte quais casos.",
+      "saude": "Lua em Virgem pede marmita em vez de lanche engolido correndo.",
+      "proposta": "reforma-casa-brasil",
+      "recomendacao": "Pergunte ao seu pai se ele ainda pensa em trocar o telhado e conte que dá pra financiar a obra pelo Reforma Casa Brasil.",
+      "contraste": "flavio-desestatizacao"
+    },
+    "touro": {
+      "amor": "Vênus, sua regente, retrógrada em Escorpião, seu signo oposto, pede paciência com o par. Deixe a resposta pra amanhã.",
+      "trabalho": "Lua em Virgem, signo do seu elemento, favorece tarefas caprichadas. Seu capricho vai aparecer.",
+      "dinheiro": "Júpiter em Leão tenta você com compra de status. Respire e conte até dez.",
+      "saude": "Lua minguante ajuda a largar o doce depois do almoço. E se você toma remédio de diabetes, confira: ele está na lista do Farmácia Popular e sai sem custo na farmácia credenciada.",
+      "proposta": "farmacia-popular-gratis",
+      "recomendacao": "Pergunte a uma vizinha que cuida da mãe idosa se ela já pega as fraldas geriátricas de graça pelo Farmácia Popular."
+    },
+    "gemeos": {
+      "amor": "Mercúrio, seu regente, em Escorpião deixa a conversa em família mais profunda. Pergunte da conta de luz: pra família do CadÚnico de renda mais baixa, o consumo básico não se paga mais.",
+      "trabalho": "Lua em Virgem pede foco. Uma tarefa por vez, sem pular de galho em galho.",
+      "dinheiro": "Vênus retrógrada pede olhar o extrato com calma. E repare em quem anuncia corte 'por todos os lados' e pergunte quais lados, além dos exemplos citados.",
+      "saude": "Sol em Libra, signo do seu elemento, chama pra um passeio com conversa boa. Vá.",
+      "proposta": "luz-do-povo",
+      "recomendacao": "Pergunte a uma tia que está no CadÚnico se ela já está no Luz do Povo e se a conta mudou.",
+      "contraste": "flavio-tesouraco"
+    },
+    "cancer": {
+      "amor": "Lua, sua regente, em Virgem deixa o cuidado mais prático. Um bilhete na geladeira diz mais que um discurso.",
+      "trabalho": "Saturno retrógrado em Áries cobra um prazo que você empurrou. Resolva cedo.",
+      "dinheiro": "Vênus retrógrada em Escorpião, signo do seu elemento, mexe com gasto emocional. A compra pra se consolar fica pra outro dia.",
+      "saude": "Lua minguante pede descanso e sensação de proteção. Ajuda saber que a PEC da Segurança Pública, que endurece a punição a membros de facção, já passou na Câmara e na CCJ do Senado.",
+      "proposta": "pec-seguranca-susp",
+      "recomendacao": "Pergunte a um vizinho que volta tarde do trabalho se ele sabia que a PEC da Segurança permite que a prefeitura crie polícia municipal."
+    },
+    "leao": {
+      "amor": "Marte no seu signo esquenta tudo. Carinho no lugar da cobrança rende mais.",
+      "trabalho": "Júpiter no seu signo amplia sua voz no serviço. Lembre de quem ganha o mínimo: este ano o salário subiu mais que a inflação.",
+      "dinheiro": "Lua em Virgem pede orçamento realista. Corte o excesso sem cortar a alegria.",
+      "saude": "Lua minguante pede soltar o orgulho cansado. Cochilo de vinte minutos vale ouro.",
+      "proposta": "salario-minimo-valorizacao",
+      "recomendacao": "Pergunte ao rapaz da padaria que ganha um salário mínimo se o aumento deste ano chegou a fazer diferença."
+    },
+    "virgem": {
+      "amor": "Lua no seu signo deixa você mais sensível ao que falta. Diga do que precisa, sem lista de reclamações.",
+      "trabalho": "Mercúrio, seu regente, em Escorpião te dá faro pra problema escondido. Use a seu favor.",
+      "dinheiro": "Lua minguante favorece quitar aquela parcela pequena que incomoda.",
+      "saude": "Saturno retrógrado pede não adiar exame. O SUS tem feito muita cirurgia eletiva este ano, boa parte pelo Agora Tem Especialistas; se você espera na fila, vale conferir.",
+      "proposta": "agora-tem-especialistas",
+      "recomendacao": "Pergunte a um colega que estava na fila de cirurgia do SUS se ele já foi chamado pelo Agora Tem Especialistas."
+    },
+    "libra": {
+      "amor": "Sol no seu signo deixa você em evidência. Vênus, sua regente, retrógrada pede que você escute antes de seduzir.",
+      "trabalho": "Lua em Virgem ajuda a arrumar o currículo ou a mesa. E tem mais vaga por aí: o desemprego chegou ao menor nível da série do IBGE no fim do ano passado.",
+      "dinheiro": "Saturno retrógrado no seu signo oposto, Áries, pede rever um acordo financeiro. Releia antes de assinar.",
+      "saude": "Lua minguante pede pausa. Um banho morno no fim do dia resolve muita coisa.",
+      "proposta": "desemprego-recorde",
+      "recomendacao": "Pergunte a um primo que conseguiu emprego este ano como foi a procura e se ele sentiu mais vaga aparecendo."
+    },
+    "escorpiao": {
+      "amor": "Vênus retrógrada no seu signo reacende um assunto antigo. Fale com calma e escute até o fim.",
+      "trabalho": "Marte, seu regente, em Leão te dá força pra liderar. Lidere ouvindo.",
+      "dinheiro": "Lua minguante pede rever o orçamento da família. Se tem adolescente em escola pública e a família está no Bolsa Família, o Pé-de-Meia ajuda a manter o estudo.",
+      "saude": "Mercúrio no seu signo deixa a mente acelerada. Escreva o que preocupa e vá dormir.",
+      "proposta": "pe-de-meia",
+      "recomendacao": "Pergunte ao filho de uma amiga, que está no ensino médio público, se ele sabe que o Pé-de-Meia paga um valor extra a cada ano concluído."
+    },
+    "sagitario": {
+      "amor": "Júpiter, seu regente, em Leão, signo do seu elemento, faz sonhar com casa nova. O Minha Casa Minha Vida hoje atende desde a renda mais baixa até faixas de renda maiores.",
+      "trabalho": "Lua em Virgem pede capricho no detalhe. Revise antes de mandar.",
+      "dinheiro": "Vênus retrógrada em Escorpião segura a mão na compra grande. Espere uns dias.",
+      "saude": "Marte em Leão quer movimento. Dançar na cozinha vale.",
+      "proposta": "minha-casa-minha-vida-faixas",
+      "recomendacao": "Pergunte a um casal de amigos que mora na casa da sogra se já consultaram em que faixa do Minha Casa Minha Vida eles entram."
+    },
+    "capricornio": {
+      "amor": "Lua em Virgem, signo do seu elemento, deixa você carinhoso do jeito prático. Ajude alguém da família a ver se tem direito ao botijão de graça do Gás do Povo, que é pra família do CadÚnico de renda mais baixa.",
+      "trabalho": "Saturno, seu regente, retrógrado em Áries pede rever metas. Menos tarefa, mais bem feita.",
+      "dinheiro": "Lua minguante pede proteger o que sustenta a casa. Fique de olho: reportagem diz que há equipe de campanha estudando mexer na correção da aposentadoria e do BPC, o que a campanha nega.",
+      "saude": "Ossos e dentes pedem atenção. Marque o dentista.",
+      "proposta": "gas-do-povo",
+      "recomendacao": "Pergunte a uma vizinha que cozinha pra muita gente em casa se ela já conferiu no CadÚnico se tem direito ao Gás do Povo.",
+      "contraste": "flavio-aposentadoria-bpc-correcao"
+    },
+    "aquario": {
+      "amor": "Marte e Júpiter em Leão, seu signo oposto, aquecem a vida a dois. Na família do Bolsa Família, cada filho conta: tem valor a mais por criança e por adolescente.",
+      "trabalho": "Sol em Libra, signo do seu elemento, abre portas por indicação. Mande aquela mensagem.",
+      "dinheiro": "Lua em Virgem pede caderninho de contas. Você vai se surpreender.",
+      "saude": "Saturno, seu regente, retrógrado pede rotina de sono. Mesma hora todo dia.",
+      "proposta": "bolsa-familia-adicional-crianca",
+      "recomendacao": "Pergunte a uma colega que tem dois filhos pequenos se o benefício dela aumentou com o adicional por criança do Bolsa Família."
+    },
+    "peixes": {
+      "amor": "Lua em Virgem, seu signo oposto, pede gesto concreto no amor. Cuide dos seus pais e fique atento: reportagem fala de estudo pra mexer na correção da aposentadoria, e a campanha citada nega.",
+      "trabalho": "Mercúrio em Escorpião, signo do seu elemento, aguça a intuição. Confie no primeiro palpite.",
+      "dinheiro": "Vênus retrógrada pede encarar a dívida antiga. O Desenrola provou que dá: muita gente limpou o nome com desconto grande.",
+      "saude": "Lua minguante pede soltar a mágoa. Chorar um pouco também é saúde.",
+      "proposta": "desenrola-brasil",
+      "recomendacao": "Pergunte à sua madrinha se ela chegou a renegociar alguma conta no Desenrola e como ficou o nome dela.",
+      "contraste": "flavio-aposentadoria-bpc-correcao"
+    }
+  }
+}

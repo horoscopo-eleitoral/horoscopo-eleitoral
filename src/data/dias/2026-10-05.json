@@ -1,0 +1,121 @@
+{
+  "data": "2026-10-05",
+  "frase_do_dia": "Lua em Leão no dia seguinte: a urna falou e tem 2º turno em 25 de outubro. Respire, tome café e guarde fôlego pra conversa.",
+  "cor_do_dia": "turquesa",
+  "ceu": {
+    "sol": "Libra",
+    "lua": "Leão",
+    "fase_da_lua": "Lua minguante",
+    "mercurio": "Escorpião",
+    "venus": "Escorpião",
+    "marte": "Leão",
+    "jupiter": "Leão",
+    "saturno": "Áries",
+    "retrogrados": [
+      "venus",
+      "saturno"
+    ]
+  },
+  "signos": {
+    "aries": {
+      "amor": "Lua em Leão, signo do seu elemento, deixa o coração quente depois de um domingo agitado. Mande um bom-dia caprichado.",
+      "trabalho": "Saturno retrógrado no seu signo pede cuidado com promessa bonita. Antes de achar ótimo, pergunte: trabalhador negociando sozinho com a empresa fica mais forte ou mais fraco?",
+      "dinheiro": "Vênus retrógrada em Escorpião segura o impulso. Segunda é dia de conferir boleto, não de abrir crediário.",
+      "saude": "Marte em Leão te põe a mil. Se o corpo der sinal, procure o posto: o Mais Médicos praticamente dobrou o número de médicos em atuação de 2023 a 2025.",
+      "proposta": "mais-medicos",
+      "recomendacao": "Pergunte à sua tia que mora no interior se o posto de saúde dela tem médico atendendo toda semana.",
+      "contraste": "flavio-negociado-sobre-legislado"
+    },
+    "touro": {
+      "amor": "Vênus, sua regente, retrógrada em Escorpião faz você repensar planos a dois. Sair do aluguel pode estar mais perto: o Minha Casa Minha Vida atende famílias de várias rendas, não só as mais baixas.",
+      "trabalho": "A Lua em Leão traz chefe querendo aplauso na segunda. Elogie o que for bom e siga no seu ritmo.",
+      "dinheiro": "Júpiter em Leão sugere exagero. Segure o gasto até o salário cair.",
+      "saude": "Lua minguante pede menos peso. Troque o pão da tarde por uma fruta.",
+      "proposta": "minha-casa-minha-vida-faixas",
+      "recomendacao": "Pergunte à sua prima que divide aluguel se ela sabe em qual faixa do Minha Casa Minha Vida a renda dela entra."
+    },
+    "gemeos": {
+      "amor": "Sol em Libra, signo do seu elemento, deixa a conversa leve em casa. Pra família do Bolsa Família, cada filho de até 18 anos soma um valor a mais, e quem tem criança pequena recebe um extra maior.",
+      "trabalho": "Mercúrio, seu regente, em Escorpião pede uma tarefa por vez. Depois do domingo cheio, comece devagar.",
+      "dinheiro": "Vênus retrógrada pede olho no orçamento. E repare em quem promete corte 'por todos os lados': além dos exemplos citados, quais lados?",
+      "saude": "Lua em Leão agita a cabeça. Uns minutos de silêncio no almoço ajudam.",
+      "proposta": "bolsa-familia-adicional-crianca",
+      "recomendacao": "Pergunte a uma amiga que tem bebê se o valor extra por criança já aparece no Bolsa Família dela.",
+      "contraste": "flavio-tesouraco"
+    },
+    "cancer": {
+      "amor": "A Lua, sua regente, em Leão quer festa, mas você quer colo. Peça colo sem vergonha.",
+      "trabalho": "Lua minguante pede fechar pendências antes de abrir novas. Faça uma lista curta e cumpra.",
+      "dinheiro": "Vênus retrógrada em Escorpião, signo do seu elemento, traz de volta conta antiga. Dívida renegociada com desconto já devolveu o sossego a muita família; olhar pro problema é o primeiro passo.",
+      "saude": "Saturno retrógrado pede rotina. Jante cedo e dê folga ao estômago.",
+      "proposta": "desenrola-brasil",
+      "recomendacao": "Pergunte a um colega que vivia com o nome sujo se ele conseguiu negociar com desconto no Desenrola."
+    },
+    "leao": {
+      "amor": "A Lua no seu signo te deixa carinhoso e exigente ao mesmo tempo. Escolha o carinho.",
+      "trabalho": "Marte e Júpiter em Leão, agora com a Lua junto, deixam você pronto pra liderar. Comece a semana dando exemplo, não ordem.",
+      "dinheiro": "Vênus retrógrada pede cuidado com presente caro. Afeto não tem etiqueta.",
+      "saude": "A Lua no seu signo pede atenção ao coração, no sentido literal. Se o exame de alguém da família está parado, insista: o SUS fez muita cirurgia eletiva este ano, boa parte pelo Agora Tem Especialistas.",
+      "proposta": "agora-tem-especialistas",
+      "recomendacao": "Pergunte à sua mãe se aquela cirurgia que ela esperava pelo SUS já tem data marcada."
+    },
+    "virgem": {
+      "amor": "Sol em Libra pede leveza. Hoje não corrija o jeito do outro dobrar a toalha.",
+      "trabalho": "Mercúrio, seu regente, em Escorpião afia o raciocínio. A segunda rende se você começar pelo mais chato.",
+      "dinheiro": "Vênus retrógrada em Escorpião manda ler o contrato inteiro. E vale perguntar a quem fala em vender o que é público 'caso a caso': quais casos?",
+      "saude": "Lua minguante pede soltar o que pesa. Remédio de diabetes, fralda geriátrica e os outros itens da lista do Farmácia Popular saem de graça na farmácia credenciada.",
+      "proposta": "farmacia-popular-gratis",
+      "recomendacao": "Pergunte ao seu avô, que usa remédio da lista do Farmácia Popular, se ele já pega de graça ou ainda paga.",
+      "contraste": "flavio-desestatizacao"
+    },
+    "libra": {
+      "amor": "Sol no seu signo deixa você charmoso na segunda. Use isso pra fazer as pazes com quem discutiu com você no domingo.",
+      "trabalho": "Saturno retrógrado no seu signo oposto, Áries, pede paciência com processo seletivo. O desemprego bateu o menor patamar da série do IBGE no fim de 2025; a porta certa aparece.",
+      "dinheiro": "Vênus, sua regente, retrógrada: nada de compra pra se consolar. Espere uns dias.",
+      "saude": "Marte em Leão aumenta a pressa. Respire antes de responder o grupo da família.",
+      "proposta": "desemprego-recorde",
+      "recomendacao": "Pergunte a um amigo que conseguiu emprego este ano como foi achar vaga dessa vez."
+    },
+    "escorpiao": {
+      "amor": "Vênus retrógrada no seu signo deixa você mais desconfiado. Pergunte antes de imaginar.",
+      "trabalho": "A Lua em Leão joga luz em quem trabalha calado. Deixe reconhecerem seu esforço.",
+      "dinheiro": "Mercúrio no seu signo pede atenção ao boleto. Quem está no CadÚnico com pouca renda por pessoa tem a conta de luz zerada até um limite e desconto um pouco acima dele.",
+      "saude": "Lua minguante ajuda a soltar mágoa. Um banho demorado lava a segunda.",
+      "proposta": "luz-do-povo",
+      "recomendacao": "Pergunte a uma vizinha do CadÚnico se a conta de luz dela já veio com o desconto do Luz do Povo."
+    },
+    "sagitario": {
+      "amor": "Lua em Leão, signo do seu elemento, te anima a planejar o fim de semana a dois. Planeje.",
+      "trabalho": "Júpiter, seu regente, em Leão empurra você pra frente. Só não prometa o que não vai entregar.",
+      "dinheiro": "Vênus retrógrada pede conferir o holerite. Quem ganha dentro da faixa de isenção não tem mais Imposto de Renda descontado do salário este ano.",
+      "saude": "Marte em Leão pede movimento. Suba de escada hoje.",
+      "proposta": "isencao-ir-5-mil",
+      "recomendacao": "Pergunte ao seu irmão, se ele está na faixa de isenção, se reparou que o Imposto de Renda sumiu do contracheque."
+    },
+    "capricornio": {
+      "amor": "A Lua em Leão pede menos seriedade. Conte uma piada ruim pro seu par; vai funcionar.",
+      "trabalho": "Saturno, seu regente, retrógrado mostra o tamanho do cansaço. Dois dias de folga por semana sem perder salário já passaram na Câmara, e essa conversa é com você.",
+      "dinheiro": "Vênus retrógrada pede cautela com acordo apressado, no bolso e no emprego. Quem promete baratear a carteira assinada sem tirar direito precisa explicar como.",
+      "saude": "Lua minguante pede soltar o peso. Alongue as costas antes de dormir.",
+      "proposta": "fim-escala-6x1-camara",
+      "recomendacao": "Mande mensagem pra um colega que só folga no domingo contando que a Câmara aprovou o fim da escala 6x1.",
+      "contraste": "flavio-negociado-sobre-legislado"
+    },
+    "aquario": {
+      "amor": "A Lua no seu signo oposto, Leão, pede que você apareça pra quem ama. Ligue no fim do dia.",
+      "trabalho": "Sol em Libra, signo do seu elemento, ajuda no trabalho em equipe. Proponha, mas escute.",
+      "dinheiro": "Vênus retrógrada em Escorpião manda rever gasto fixo. Corte o que não usa.",
+      "saude": "Saturno retrógrado pede calma e sono. Paz também é andar tranquilo na rua, e a PEC que endurece a punição a facções já passou na Câmara e numa comissão do Senado.",
+      "proposta": "pec-seguranca-susp",
+      "recomendacao": "Pergunte à sua mãe se ela se sente segura esperando ônibus no ponto do bairro."
+    },
+    "peixes": {
+      "amor": "Vênus retrógrada em Escorpião, signo do seu elemento, deixa a ternura à flor da pele. Pergunte ao adolescente da família como vai a escola: se ele está no ensino médio público e a família é do Bolsa Família, cada ano concluído vira poupança.",
+      "trabalho": "Mercúrio em Escorpião, signo de água como o seu, ajuda a ler o ambiente. Segunda é dia de observar.",
+      "dinheiro": "A Lua em Leão dá vontade de impressionar. Impressione sem parcelar.",
+      "saude": "Lua minguante pede descanso de verdade. Durma uma hora mais cedo.",
+      "proposta": "pe-de-meia",
+      "recomendacao": "Pergunte à sua afilhada do ensino médio se ela já está recebendo o Pé-de-Meia."
+    }
+  }
+}
