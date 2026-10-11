@@ -44,8 +44,8 @@ const curta = (iso) => new Intl.DateTimeFormat('pt-BR', { weekday: 'short', day:
     <Ilustracao slug={slug} nome={signo.nome} carregar="eager" class="mx-auto h-56 w-full" />
     <h1 class="mt-4 mb-1 text-[clamp(1.8rem,6vw,2.4rem)]">{signo.nome}</h1>
     <p class="m-0 text-sm text-on-surface-variant first-letter:uppercase">
-      {dataExtenso} · {signo.periodo}
-      {ehHoje && !ultimoDia && <span class="ml-1 text-outline" title="Os astros só revelam amanhã">· 🔒 amanhã</span>}
+      <span class="whitespace-nowrap">{dataExtenso}</span> · <span class="whitespace-nowrap">{signo.periodo}</span>
+      {ehHoje && !ultimoDia && <span class="whitespace-nowrap text-outline" title="Os astros só revelam amanhã"> · 🔒 amanhã</span>}
     </p>
     <CeuDoDia ceu={dia.ceu} class="mt-3" />
   </header>
