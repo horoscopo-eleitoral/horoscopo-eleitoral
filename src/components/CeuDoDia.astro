@@ -8,7 +8,7 @@ const retro = ceu.retrogrados.map((r) => nomes[r]);
 <details class:list={['glifo group text-sm text-on-surface-variant', classe]}>
   <summary class="cursor-pointer">
     ☉ Sol em {ceu.sol} · ☾ Lua em {ceu.lua.replace(' → ', ' e depois ')}, {ceu.fase_da_lua.toLowerCase()}
-    <span class="ml-1 text-xs text-outline underline underline-offset-2 group-open:hidden">ver planetas</span>
+    <span class="ml-1 whitespace-nowrap text-xs text-outline underline underline-offset-2 group-open:hidden">ver planetas</span>
   </summary>
   <p class="mt-1.5 mb-0 text-[0.82rem]">
     ☿ Mercúrio em {ceu.mercurio} · ♀ Vênus em {ceu.venus} · ♂ Marte em {ceu.marte} · ♃ Júpiter em {ceu.jupiter} · ♄ Saturno em {ceu.saturno}

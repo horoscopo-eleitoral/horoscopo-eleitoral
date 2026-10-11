@@ -35,17 +35,17 @@ const og = imagem ?? new URL(`${base}/og.png`, Astro.site).href;
 
     {signoAtual && (
       <nav class="mx-auto max-w-[540px]" aria-label="Outros signos">
-        <ul class="scrollbar-none m-0 flex list-none justify-between gap-1 overflow-x-auto px-5 py-2">
+        <ul class="m-0 grid list-none grid-cols-6 justify-items-center gap-1 px-5 py-2 min-[480px]:grid-cols-12">
           {todosSignos().map((s) => {
             const atual = s.slug === signoAtual;
             return (
-              <li class="flex-none">
+              <li>
                 <a
                   href={`${base}/${s.slug}/`}
                   aria-current={atual ? 'page' : undefined}
                   title={s.nome}
                   class:list={[
-                    'glifo grid size-9 place-items-center rounded-full text-lg no-underline',
+                    'glifo relative grid size-9 place-items-center rounded-full text-lg no-underline',
                     atual ? 'bg-primary-container text-on-primary' : 'text-outline hover:text-secondary',
                   ]}
                 >
@@ -59,7 +59,7 @@ const og = imagem ?? new URL(`${base}/og.png`, Astro.site).href;
       </nav>
     )}
 
-    <main class="mx-auto max-w-[540px] px-5">
+    <main class="mx-auto max-w-[540px] px-5 wrap-anywhere">
       <slot />
     </main>
 
