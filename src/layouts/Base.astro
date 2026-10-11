@@ -2,9 +2,9 @@
 import '../styles/global.css';
 import { todosSignos } from '../lib/conteudo.js';
 
-const { titulo, descricao, signoAtual, imagem } = Astro.props;
+const { titulo, descricao, signoAtual, imagem, canonico } = Astro.props;
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
-const url = new URL(Astro.url.pathname, Astro.site).href;
+const url = canonico ?? new URL(Astro.url.pathname, Astro.site).href;
 const og = imagem ?? new URL(`${base}/og.png`, Astro.site).href;
 ---
 <!doctype html>

@@ -27,7 +27,7 @@ O céu de cada dia (Sol, Lua, fase, planetas e retrógrados) é calculado por ef
 | `src/data/propostas.json` | banco de fatos com fonte (cada um com `status`) |
 | `src/data/dias/AAAA-MM-DD.json` | o horóscopo de cada dia, por signo |
 
-Só o dia atual (e os anteriores) entram no build. Dias futuros ficam fora até chegar a data; um job diário republica o site à meia-noite de Brasília.
+Cada signo tem a página de hoje (`/leao/`) e o arquivo dos dias já revelados (`/leao/20261010/`), listados no fim da página em "Horóscopos anteriores". Só o dia atual (e os anteriores) entram no build. Dias futuros ficam fora até chegar a data; um job diário republica o site à meia-noite de Brasília.
 
 ## Fontes
 
