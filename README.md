@@ -35,7 +35,7 @@ Só vale fato com fonte verificável: planos de governo registrados no [TSE](htt
 
 ## Créditos
 
-Desenhos das constelações (`src/assets/constelacoes/`): série "Constellation of …" de [Firkin](https://openclipart.org/artist/Firkin) no [OpenClipart](https://openclipart.org/detail/302431), em domínio público. Recoloridos para usar a cor do tema.
+Ilustrações dos signos (`public/ilustracoes/`): xilogravuras de **José Arija** para a revista *Blanco y Negro* (Madri, 1904), em domínio público, vetorizadas e publicadas no [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Leo,_Arija,_Blanco_y_Negro,_02-07-1904.svg). Convertidas para traço dourado em fundo transparente. A lista com a página de cada arquivo está em `docs/ilustracoes-creditos.json`.
 
 ## Licença
 

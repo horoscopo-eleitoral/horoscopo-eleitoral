@@ -1,16 +1,17 @@
 ---
 // Posições reais calculadas por scripts/calcular-ceu.mjs (efemérides, meio-dia de Brasília).
-import Rotulo from './Rotulo.astro';
-const { ceu } = Astro.props;
+// Mostra só Sol e Lua; os planetas ficam em "ver mais" para não pesar a página.
+const { ceu, class: classe = '' } = Astro.props;
 const nomes = { mercurio: 'Mercúrio', venus: 'Vênus', marte: 'Marte', jupiter: 'Júpiter', saturno: 'Saturno' };
 const retro = ceu.retrogrados.map((r) => nomes[r]);
 ---
-<p class="glifo mt-2.5 mb-1 flex flex-wrap items-center gap-x-3.5 gap-y-1.5 text-[0.82rem] text-on-surface-variant">
-  <Rotulo class="w-full">O céu hoje</Rotulo>
-  <span>☉ Sol em {ceu.sol}</span>
-  <span>☾ Lua em {ceu.lua} · {ceu.fase_da_lua}</span>
-  <span>☿ Mercúrio em {ceu.mercurio}</span>
-  <span>♀ Vênus em {ceu.venus}</span>
-  <span>♂ Marte em {ceu.marte}</span>
-  {retro.length > 0 && <span>℞ Retrógrados: {retro.join(', ')}</span>}
-</p>
+<details class:list={['glifo group text-sm text-on-surface-variant', classe]}>
+  <summary class="cursor-pointer">
+    ☉ Sol em {ceu.sol} · ☾ Lua em {ceu.lua.replace(' → ', ' e depois ')}, {ceu.fase_da_lua.toLowerCase()}
+    <span class="ml-1 text-xs text-outline underline underline-offset-2 group-open:hidden">ver planetas</span>
+  </summary>
+  <p class="mt-1.5 mb-0 text-[0.82rem]">
+    ☿ Mercúrio em {ceu.mercurio} · ♀ Vênus em {ceu.venus} · ♂ Marte em {ceu.marte} · ♃ Júpiter em {ceu.jupiter} · ♄ Saturno em {ceu.saturno}
+    {retro.length > 0 && <><br />℞ Retrógrados: {retro.join(', ')}</>}
+  </p>
+</details>
