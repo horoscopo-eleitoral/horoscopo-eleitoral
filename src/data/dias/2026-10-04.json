@@ -1,0 +1,117 @@
+{
+  "data": "2026-10-04",
+  "frase_do_dia": "A Lua sai de Câncer e entra em Leão: café com a família de manhã, coragem pra ir à urna depois. Hoje a seção abre, e a conversa também.",
+  "cor_do_dia": "amarelo",
+  "ceu": {
+    "sol": "Libra",
+    "lua": "Câncer → Leão",
+    "fase_da_lua": "Lua minguante",
+    "mercurio": "Escorpião",
+    "venus": "Escorpião",
+    "marte": "Leão",
+    "jupiter": "Leão",
+    "saturno": "Áries",
+    "retrogrados": [
+      "venus",
+      "saturno"
+    ]
+  },
+  "signos": {
+    "aries": {
+      "amor": "A Lua passa de Câncer pra Leão, signo do seu elemento, e o coração esquenta. Em casa, todo mundo quer sair e voltar em paz, e a proposta que dá mais força à segurança pública e endurece com facção já passou na Câmara.",
+      "trabalho": "Saturno retrógrado no seu signo pede paciência com fila e com gente lenta. Domingo de eleição é dia de esperar a vez sem bufar.",
+      "dinheiro": "Vênus retrógrada em Escorpião não combina com gasto por impulso. Leve água de casa e poupe o lanche.",
+      "saude": "Marte em Leão te dá pressa. Se der, vá votar a pé: a caminhada gasta a energia que sobra.",
+      "proposta": "pec-seguranca-susp",
+      "recomendacao": "Combine com sua vizinha de irem votar juntos e voltarem juntos, e aproveite pra perguntar como ela se sente andando na rua à noite."
+    },
+    "touro": {
+      "amor": "Vênus, sua regente, retrógrada no seu signo oposto, Escorpião, pede menos cobrança e mais companhia. Chamar alguém pra sair junto hoje já é carinho.",
+      "trabalho": "Domingo sem serviço, mas com tarefa importante. A Lua minguante pede terminar o que começou: o compromisso de hoje é com a urna, não com a planilha.",
+      "dinheiro": "Júpiter em Leão tenta você com um almoço caro depois da votação. Comer em casa também é festa.",
+      "saude": "Marte em Leão acelera, e Touro gosta de ritmo lento. Se a pressão subir, procure o posto: o Mais Médicos leva atenção básica a 4.500 municípios.",
+      "proposta": "mais-medicos",
+      "recomendacao": "Ligue pra sua avó, confira se ela sabe onde vota e ofereça ir junto; no caminho, pergunte como anda o atendimento no posto dela."
+    },
+    "gemeos": {
+      "amor": "Mercúrio, seu regente, em Escorpião deixa a conversa mais funda. No caminho da votação, fale da casa: pra família dentro do limite de renda do programa, aquela reforma sonhada pode caber num crédito de juros baixos.",
+      "trabalho": "Sol em Libra, signo do seu elemento, deixa você bom de papo. Use pra lembrar a turma do horário da votação, sem sermão.",
+      "dinheiro": "Vênus retrógrada pede revisão das contas antes da semana começar. Nada de parcelar no impulso.",
+      "saude": "A Lua entra em Leão e a cabeça agita. Respire fundo na fila e deixe o celular no bolso.",
+      "proposta": "reforma-casa-brasil",
+      "recomendacao": "Chame seu irmão pra votar junto hoje e, na volta, conversem sobre aquela reforma da casa que vocês vivem adiando."
+    },
+    "cancer": {
+      "amor": "A Lua, sua regente, começa o dia no seu signo: domingo de colo, café e família reunida. Chame quem mora com você pra votar junto.",
+      "trabalho": "Quem só tem o domingo de folga sabe o quanto ele vale. O fim da escala 6x1, com dois dias de descanso sem perder salário, já passou na Câmara.",
+      "dinheiro": "Vênus retrógrada em Escorpião, signo do seu elemento, mexe com o que você guarda. Segure o cartão hoje.",
+      "saude": "Quando a Lua passa pra Leão, a energia sai de casa e vai pra rua. Aproveite e caminhe até o local de votação.",
+      "proposta": "fim-escala-6x1-camara",
+      "recomendacao": "Mande mensagem pra uma amiga que trabalha seis dias por semana lembrando que hoje é dia de votar e oferecendo companhia até a seção."
+    },
+    "leao": {
+      "amor": "A Lua chega ao seu signo e você quer brilhar. Brilhe ouvindo: tem gente na família com receio de dar opinião.",
+      "trabalho": "Marte e Júpiter em Leão te deixam com fôlego de líder. Organize a carona da família até a votação.",
+      "dinheiro": "Vênus retrógrada traz de volta assunto antigo de dinheiro. Muita gente de renda baixa renegociou dívida com desconto grande no Desenrola, e nome limpo dá outro sono.",
+      "saude": "Lua minguante pede soltar o que pesa. Depois da apuração, durma cedo, sem maratona de notícia.",
+      "proposta": "desenrola-brasil",
+      "recomendacao": "Ofereça carona pra um primo ir votar e, no carro, pergunte se ele conseguiu resolver aquela dívida antiga."
+    },
+    "virgem": {
+      "amor": "Lua em Câncer de manhã pede carinho sem correção. Abrace antes de dar conselho.",
+      "trabalho": "Mercúrio, seu regente, em Escorpião faz você reparar em tudo. Repare também nisto: o desemprego chegou ao menor nível da série do IBGE, iniciada em 2012.",
+      "dinheiro": "Vênus retrógrada pede conta feita no papel. Seu jeito organizado é vantagem hoje.",
+      "saude": "Saturno retrógrado pede calma com o corpo. Separe documento e água e vá votar sem pressa.",
+      "proposta": "desemprego-recorde",
+      "recomendacao": "Lembre um amigo que arrumou emprego há pouco que hoje tem eleição e combine de irem juntos à seção."
+    },
+    "libra": {
+      "amor": "Sol no seu signo deixa você ainda mais conciliador. No almoço, deixe cada um falar e chame todo mundo pra votar.",
+      "trabalho": "Saturno retrógrado no seu signo oposto, Áries, cobra decisão. A de hoje é simples: tirar um tempo e ir à urna.",
+      "dinheiro": "Vênus, sua regente, retrógrada em Escorpião pede olhar a conta de luz com calma. Família do CadÚnico de renda bem baixa já não paga a energia de um consumo pequeno.",
+      "saude": "A Lua entra em Leão, signo de fogo, e anima a tarde. Caminhe, mas beba água.",
+      "proposta": "luz-do-povo",
+      "recomendacao": "Convide sua mãe pra ir votar com você e, na volta, olhem juntos a conta de luz pra ver se ela tem direito ao Luz do Povo."
+    },
+    "escorpiao": {
+      "amor": "Vênus retrógrada no seu signo deixa tudo à flor da pele. Converse com o jovem da casa: pra aluno do ensino médio público de família do Bolsa Família, terminar a escola rende uma poupança.",
+      "trabalho": "Mercúrio no seu signo enxerga longe. Use esse faro pra lembrar quem anda sumido de que hoje é dia de votar.",
+      "dinheiro": "Lua em Câncer, signo do seu elemento, pela manhã pede gasto com afeto, não com impulso. Um bolo feito em casa vale mais que delivery.",
+      "saude": "Lua minguante ajuda a largar mágoa velha. Deixe a desconfiança em casa ao sair pra votar.",
+      "proposta": "pe-de-meia",
+      "recomendacao": "Lembre seu sobrinho do ensino médio que já tirou o título de que hoje é dia de votar, e ofereça ir junto com ele."
+    },
+    "sagitario": {
+      "amor": "A Lua entra em Leão, signo do seu elemento, e acende a vontade de reunir a turma. Chame os amigos pra votar e depois tomar um café.",
+      "trabalho": "Júpiter, seu regente, em Leão traz otimismo. Quem vive do salário mínimo sentiu: ele subiu acima da inflação este ano.",
+      "dinheiro": "Vênus retrógrada pede pé no chão. Planeje a viagem dos sonhos, mas compre só depois.",
+      "saude": "Marte em Leão te deixa inquieto. Sol de domingo e caminhada até a escola de votação resolvem.",
+      "proposta": "salario-minimo-valorizacao",
+      "recomendacao": "Chame um colega que ganha salário mínimo pra irem votar juntos e depois tomarem um café na padaria."
+    },
+    "capricornio": {
+      "amor": "A Lua começa o dia no seu signo oposto, Câncer, e puxa você pra perto da família. Fale da casa própria: o Minha Casa Minha Vida agora atende desde quem ganha pouco até quem ganha um pouco mais.",
+      "trabalho": "Saturno, seu regente, retrógrado em Áries pede revisão. Hoje a tarefa é uma só: votar com calma.",
+      "dinheiro": "Vênus retrógrada não gosta de compra no susto. Deixe a decisão grande pra outra semana.",
+      "saude": "Lua minguante pede soltar o peso dos ombros. Um cochilo depois do almoço está liberado.",
+      "proposta": "minha-casa-minha-vida-faixas",
+      "recomendacao": "Combine com seu irmão que paga aluguel de irem juntos votar e, no caminho, falem do sonho da casa própria."
+    },
+    "aquario": {
+      "amor": "A Lua entra em Leão, seu signo oposto, e a família pede presença. Pra quem recebe Bolsa Família, cada filho de até 18 anos conta um valor a mais no benefício, e criança pequena conta mais.",
+      "trabalho": "Sol em Libra, signo do seu elemento, favorece conversa em grupo. Puxe papo com o vizinho sobre o horário da votação.",
+      "dinheiro": "Vênus retrógrada em Escorpião pede rever assinatura esquecida. Cancele o que você nem usa.",
+      "saude": "Saturno retrógrado pede pausa da tela. Domingo de eleição tem notícia demais; dose a sua.",
+      "proposta": "bolsa-familia-adicional-crianca",
+      "recomendacao": "Ofereça ficar meia hora com as crianças de uma amiga pra ela poder ir votar com calma."
+    },
+    "peixes": {
+      "amor": "Vênus retrógrada em Escorpião, signo do seu elemento, deixa a saudade forte. Ligue pra quem está longe antes de sair pra votar.",
+      "trabalho": "Mercúrio em Escorpião, signo de água como o seu, afina a intuição. Confie nela pra resolver a semana amanhã, não hoje.",
+      "dinheiro": "A Lua sai de Câncer e entra em Leão: bate vontade de agradar todo mundo. Agrade sem gastar.",
+      "saude": "Lua minguante pede descanso. Se alguém da casa usa remédio da lista do Farmácia Popular, ele sai de graça na farmácia credenciada.",
+      "proposta": "farmacia-popular-gratis",
+      "recomendacao": "Ligue pro seu tio que toma remédio todo dia, pergunte se ele precisa de ajuda pra chegar à seção e ofereça ir junto."
+    }
+  }
+}
