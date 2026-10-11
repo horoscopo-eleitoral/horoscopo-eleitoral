@@ -19,7 +19,7 @@ O visual usa **Tailwind CSS v4**, com os tokens do design system do Google Stitc
 2. **Sem exagero.** Use o número exato. Um dado inflado vira munição contra o projeto.
 3. **Nada de atacar quem votou em outro candidato.** O leitor pode ter votado em qualquer um. Reconheça que a vida está difícil, dê um fato, faça uma pergunta.
 4. **Nenhuma fake news, nem contra o Flávio.**
-5. **Texto gerado por IA** precisa ser dito no PR.
+5. **Texto gerado por IA** precisa ser dito no PR. O site avisa no rodapé, na página Sobre e nos cards que os textos têm apoio de IA; não remova esses avisos.
 
 ## Fluxo
 

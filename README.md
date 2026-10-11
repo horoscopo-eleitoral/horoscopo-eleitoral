@@ -12,7 +12,8 @@ Inspirado no método do *Manual da Virada*: escutar, reconhecer que a vida está
 npm install
 npm run dev        # http://localhost:4321
 npm run checar     # confere o conteúdo
-npm run build      # gera dist/
+npm run build      # gera dist/ (antes roda npm run og e npm run cards)
+npm run cards      # cards 1080×1920 de cada signo em public/cards/AAAAMMDD/, só dos dias já revelados
 ```
 
 Para ver o site como se fosse outro dia: `DIA_FIXO=2026-10-12 npm run dev`.

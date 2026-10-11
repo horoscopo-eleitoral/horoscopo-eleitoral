@@ -116,6 +116,8 @@ const curta = (iso) => new Intl.DateTimeFormat('pt-BR', { weekday: 'short', day:
       <a href={urlZap} target="_blank" rel="noopener">Compartilhar meu horóscopo</a>
       <span class="mx-2 text-outline">·</span>
       <button type="button" class="cursor-pointer text-secondary underline" data-copiar={urlPagina}>copiar link</button>
+      <span class="mx-2 text-outline">·</span>
+      <a href={`${base}/cards/${dataNaUrl(dia.data)}/${slug}.png`} download={`horoscopo-${slug}-${dataNaUrl(dia.data)}.png`}>baixar card pro Status</a>
     </p>
   </section>
 

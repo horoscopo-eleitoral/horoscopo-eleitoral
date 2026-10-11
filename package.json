@@ -6,10 +6,11 @@
   "scripts": {
     "dev": "astro dev",
     "og": "node scripts/gerar-og.mjs",
-    "prebuild": "npm run og",
+    "prebuild": "npm run og && npm run cards",
     "build": "astro build",
     "preview": "astro preview",
-    "checar": "node scripts/checar-conteudo.mjs"
+    "checar": "node scripts/checar-conteudo.mjs",
+    "cards": "node scripts/gerar-cards.mjs"
   },
   "dependencies": {
     "@tailwindcss/vite": "^4.3.3",
