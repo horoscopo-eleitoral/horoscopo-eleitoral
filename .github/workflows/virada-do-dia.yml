@@ -1,0 +1,25 @@
+name: Virada do dia no Cloudflare
+
+# O Cloudflare Pages builda sozinho a cada push (integração com o GitHub).
+# Este job só dispara um build à meia-noite para liberar o horóscopo do dia.
+on:
+  schedule:
+    # 03:05 UTC = 00:05 em Brasília.
+    - cron: '5 3 * * *'
+  workflow_dispatch:
+
+permissions: {}
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Chamar o Deploy Hook do Cloudflare Pages
+        env:
+          HOOK: ${{ secrets.CLOUDFLARE_DEPLOY_HOOK }}
+        run: |
+          if [ -z "$HOOK" ]; then
+            echo "::warning::Falta o segredo CLOUDFLARE_DEPLOY_HOOK. Nada a fazer."
+            exit 0
+          fi
+          curl -fsS -X POST "$HOOK" > /dev/null && echo "Build disparado."
