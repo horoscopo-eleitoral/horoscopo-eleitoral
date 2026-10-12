@@ -1,25 +1,53 @@
 name: Virada do dia no Cloudflare
 
 # O Cloudflare Pages builda sozinho a cada push (integração com o GitHub).
-# Este job só dispara um build à meia-noite para liberar o horóscopo do dia.
+# Este job dispara um build depois da meia-noite para liberar o horóscopo do dia.
+#
+# O GitHub não garante o horário do agendamento e às vezes atrasa horas. Por isso
+# há várias tentativas entre 00:05 e 03:00 de Brasília, em minutos "quebrados"
+# (que atrasam menos). Cada tentativa confere o site antes: se ele já está no dia
+# de hoje, não faz nada. Assim sai um build só por noite.
 on:
   schedule:
-    # 03:05 UTC = 00:05 em Brasília.
-    - cron: '5 3 * * *'
+    - cron: '7 3 * * *'   # 00:07 em Brasília
+    - cron: '23 3 * * *'  # 00:23
+    - cron: '41 3 * * *'  # 00:41
+    - cron: '17 4 * * *'  # 01:17
+    - cron: '53 4 * * *'  # 01:53
+    - cron: '37 5 * * *'  # 02:37
+    - cron: '13 9 * * *'  # 06:13, última garantia antes do dia começar
   workflow_dispatch:
+    inputs:
+      forcar:
+        description: 'Disparar o build mesmo se o site já estiver no dia de hoje'
+        type: boolean
+        default: false
 
 permissions: {}
+
+concurrency:
+  group: virada-do-dia
+  cancel-in-progress: false
 
 jobs:
   rebuild:
     runs-on: ubuntu-latest
     steps:
-      - name: Chamar o Deploy Hook do Cloudflare Pages
+      - name: Conferir o dia publicado e chamar o Deploy Hook
         env:
           HOOK: ${{ secrets.CLOUDFLARE_DEPLOY_HOOK }}
+          SITE: https://horoscopo-eleitoral.pages.dev/
+          FORCAR: ${{ inputs.forcar || 'false' }}
         run: |
           if [ -z "$HOOK" ]; then
             echo "::warning::Falta o segredo CLOUDFLARE_DEPLOY_HOOK. Nada a fazer."
+            exit 0
+          fi
+          hoje=$(TZ=America/Sao_Paulo date +%F)
+          publicado=$(curl -fsS "$SITE" | grep -oE 'name="dia-publicado" content="[0-9-]+"' | grep -oE '[0-9]{4}-[0-9]{2}-[0-9]{2}' || true)
+          echo "Hoje em Brasília: $hoje · No ar: ${publicado:-desconhecido}"
+          if [ "$publicado" = "$hoje" ] && [ "$FORCAR" != "true" ]; then
+            echo "O site já está no dia de hoje. Nada a fazer."
             exit 0
           fi
           curl -fsS -X POST "$HOOK" > /dev/null && echo "Build disparado."
